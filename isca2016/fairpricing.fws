@@ -150,7 +150,7 @@ p0
 .I7
 .S'Overview'
 p0
-.S"$p:\nIn this section, we propose \\textbf{P}ricing \\textbf{R}untime \\textbf{E}ngine (SnapCharge), an online runtime engine for enabling fair pricing in public clouds. SnapCharge is based on \\textit{snapshot} technique on top of the phase triggered mechanism. \\textit{Snapshot} is an efficient and scalable technique to precisely detect, quantify, and account for performance degradation in public clouds. SnapCharge performs a snapshot of the system during whenever an application's phase changes. \n\nTo enable \\textit{snapshot}, we propose a phase triggered mechanism based on Performance Monitoring Units (PMUs). We provide a robust solution towards detecting runtime phase changes at co-located environments using PMUs. "
+.S"$p:\nIn this section, we propose \\textbf{SnapCharge}, an online runtime engine for enabling fair pricing in public clouds. SnapCharge is based on \\textit{snapshot} technique on top of the phase triggered mechanism. \\textit{Snapshot} is an efficient and scalable technique to precisely detect, quantify, and account for performance degradation in public clouds. SnapCharge performs a snapshot of the system during whenever an application's phase changes. \n\nTo enable \\textit{snapshot}, we propose a phase triggered mechanism based on Performance Monitoring Units (PMUs). We provide a robust solution towards detecting runtime phase changes at co-located environments using PMUs. "
 p0
 .I0
 .S'Snapshot'
@@ -205,7 +205,7 @@ p0
 .I0
 .S'co-runner interference'
 p0
-.S'$s: Exogenous phase changes - Scenarios'
+.S'$s: Exogenous phase changes'
 p0
 .I2
 .S'Note'
@@ -235,7 +235,7 @@ p0
 .I0
 .S'Finding Representative Types of PMU for Phase Detection'
 p0
-.S'$s:Finding Representative Types of PMU for Phase Detection'
+.S'$s:Finding representative PMU types'
 p0
 .I5
 .S'$omit!:Table explanation 2'
@@ -245,10 +245,10 @@ p0
 .I0
 .S'Brief intro'
 p0
-.S'$p: In order to trigger snapshots during endogenous phase changes, we need a technique that could simultaneously distinguish phase changes across a variety of applications and discard fluctuations and co-phase interference. We investigated the runtime information provided by PMUs to achieve this goal. The key challenge here is to identify the right PMU type to perform phase detection across a wide variety of applications. This is because our experiments show that some PMU types are much more effective in discarding unnecessary phase changes at co-located environments. Hence, we investigate each and every available PMU type for gauging its effectiveness towards achieving the above-mentioned goal.\n\nTo utilize PMUs for capturing phase changes across a wide variety of applications, we initially take a training set of applications. We try to tune our parameters based on which phase changes are clearly identified for the training set. Later in section 5, we use the same parameters to cross validate our experiments on a set of different benchmarks under different co-running applications. We carefully choose our training set of applications to cover a wide range of contentiousness, sensitivity and phase changing attributes \\cite{Tang:2011:CVS:2000417.2000419}. The list of training applications is shown in Table ~\\ref{table:pmctype}. We use \\texttt{astar} as our training co-runner. \\texttt{Astar} is known to be both contentious as well as phasy. This can train our model to be resistant against both fluctuations as well as co-phase interference. \n\n\\begin{itemize}\n\\item \\textbf{1 - Solo profiling} We first profile the solo execution of the training set of applications to obtain its CPI over the number of retired instruction (time). From this, we identify the endogenous phase changes present in the application. We obtain a vector of timestamps where each entry denotes the timestamp at which a phase change occurs in an application. \n\n\\item \\textbf{2 - Colo profiling} As a first step towards identifying useful PMU types, we profile the training application to obtain PMU measurements with a training co-runner. We then observe this profile to identify if phases are being detected appropriately at the timestamps which are obtained from solo profiling. \n\n\\item \\textbf{3 - Quantifying the effectiveness of PMU type} The end goal of this process is to obtain the best PMU type to detect endogenous phase changes across a varied class of applications. To enable that we should quantify the effectiveness of individual PMU types for every single application. This is done by the PMU scoring technique as described in the Section \\ref{subsubsec:FindingRepresentativeTypesofPMUforPhaseDetection}. \n\n\\item \\textbf{4 - Ranking PMU types} Lastly, we rank the PMU types  for each application from the quantity obtained from the previous step. From observing the best PMU type for every single application, we try to obtain a single PMU type that can be utilized to detect phase changes across a varied class of application. \n\\end{itemize} \n'
+.S'$p: In order to trigger snapshots during endogenous phase changes, we need a technique that could simultaneously distinguish phase changes across a variety of applications and discard fluctuations and co-phase interference. We investigated the runtime information provided by PMUs to achieve this goal. The key challenge here is to identify the right PMU type to perform phase detection across a wide variety of applications. This is because our experiments show that some PMU types are much more effective in discarding unnecessary phase changes at co-located environments. Hence, we investigate each and every available PMU type for gauging its effectiveness towards achieving the above-mentioned goal.\n\nTo utilize PMUs for capturing phase changes across a wide variety of applications, we initially take a training set of applications. We try to tune our parameters based on which phase changes are clearly identified for the training set. Later in section 5, we use the same parameters to cross validate our experiments on a set of different benchmarks under different co-running applications. We carefully choose our training set of applications to cover a wide range of contentiousness, sensitivity and phase changing attributes \\cite{Tang:2011:CVS:2000417.2000419}. The list of training applications is shown in Table ~\\ref{table:pmctype}. We use \\texttt{astar} as our training co-runner. \\texttt{Astar} is known to be both contentious as well as phasy. This can train our model to be resistant against both fluctuations as well as co-phase interference. \n\n\\begin{itemize}\n\\item \\textbf{1 - Solo profiling} We first profile the solo execution of the training set of applications to obtain its CPI over the number of retired instruction (time). From this, we identify the endogenous phase changes present in the application. We obtain a vector of timestamps where each entry denotes the timestamp at which a phase change occurs in an application. \n\n\\item \\textbf{2 - Colo profiling} As a first step towards identifying useful PMU types, we profile the training application to obtain PMU measurements with a training co-runner. We then observe this profile to identify if phases are being detected appropriately at the timestamps which are obtained from solo profiling. \n\n\\item \\textbf{3 - Scoring PMU types} The end goal of this process is to obtain the best PMU type to detect endogenous phase changes across a varied class of applications. To enable that we should quantify the effectiveness of individual PMU types for every single application. This is done by the PMU scoring technique as described in the Section 3.2.3. \n\n\\item \\textbf{4 - Ranking PMU types} Lastly, we rank the PMU types  for each application from the quantity obtained from the previous step. From observing the best PMU type for every single application, we try to obtain a single PMU type that can be utilized to detect phase changes across a varied class of application. \n\\end{itemize} \n'
 p0
 .I0
-.S'$pdf_fig:fluctuations:Resistance to fluctuations by PMU types \\vspace{-0.2in}:1:!'
+.S'$pdf_fig:fluctuations:Resistance to fluctuations by PMU types:1:!'
 p0
 .S''
 p0
@@ -258,7 +258,7 @@ p0
 .S''
 p0
 .I0
-.S'$pdf_fig:type3:Resistance to co-phase interference by PMU types \\vspace{-0.3in}:1:t!'
+.S'$pdf_fig:type3:Resistance to co-phase interference by PMU types:1:t!'
 p0
 .S''
 p0
@@ -310,7 +310,7 @@ p0
 .I0
 .S'Trigger Scoring Technique'
 p0
-.S'$s: PMU scoring technique '
+.S'$s: Scoring PMU types '
 p0
 .I2
 .S'Note'
@@ -350,7 +350,7 @@ p0
 .I0
 .S'Spike elimination'
 p0
-.S'$s:Eliminating Spikes '
+.S'$s:Eliminating spikes '
 p0
 .I4
 .S'$omit!:$pdf_fig:detect_phases: Process of detecting phase changes:1'
@@ -380,7 +380,7 @@ p0
 .I0
 .S'Selective Pausing'
 p0
-.S'$s:Selective Pausing'
+.S'$s:Selective pausing'
 p0
 .I1
 .S'Note'
