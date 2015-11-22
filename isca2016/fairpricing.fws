@@ -15,7 +15,7 @@ p0
 .I2
 .S'Problem'
 p0
-.S'$absp: Infrastructure-as-a-service (IaaS) clouds primarily use a pricing model that charges users a flat hourly fee for running their applications on shared servers. This pricing model leads to the unfortunate scenario whereby users incur higher fees when their application happens to be scheduled to co-run with an application that contends for microarchitectural resources.  However, this problem remains unsolved for IaaS cloulds due to the lack of a \\emph{scalable}, \\emph{accurate} and \\emph{lightweight} technique for live, continuous estimation of the performance degradation caused by co-running virtual machines (VMs) on cloud servers.\n\n% Moreover, the users of heavily contentious applications pay nothing for the disutility they cause to other users.'
+.S'$absp: Infrastructure-as-a-service (IaaS) clouds primarily use a pricing model that charges users a flat hourly fee for running their applications on shared servers. This pricing model leads to the unfortunate scenario whereby users incur higher fees when their application happens to be scheduled to co-run with an application that contends for microarchitectural resources.  However, this problem remains unsolved for IaaS clouds due to the lack of a \\emph{scalable}, \\emph{accurate} and \\emph{lightweight} technique for live, continuous estimation of the performance degradation caused by co-running virtual machines (VMs) on cloud servers.\n\n% Moreover, the users of heavily contentious applications pay nothing for the disutility they cause to other users.'
 p0
 .I0
 .S'Solution'
