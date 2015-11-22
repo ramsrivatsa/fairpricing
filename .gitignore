@@ -1,1 +1,3 @@
-out/*
+# Out directory
+isca2016/out/*
+isca2016/*.bak
