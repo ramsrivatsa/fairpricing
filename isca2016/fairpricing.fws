@@ -990,7 +990,7 @@ p0
 .I0
 .S'Your stuff'
 p0
-.S'$head: \n\\linespread{.925}\n\\fancypagestyle{firstpage}{\n  \\fancyhf{}\n\\setlength{\\headheight}{50pt}\n\\renewcommand{\\headrulewidth}{0pt}\n  \\fancyhead[C]{\\normalsize{ISCA 2016 Submission\n      \\textbf{\\#\\hpcasubmissionnumber} \\\\ Confidential Draft: DO NOT DISTRIBUTE}} \n  \\pagenumbering{arabic}\n} \n\\title{SnapCharge: Enabling Fair Pricing in Infrastructure-as-a-Service Clouds} \n\n\\author{}'
+.S'$head: \n\\linespread{.92}\n\\fancypagestyle{firstpage}{\n  \\fancyhf{}\n\\setlength{\\headheight}{50pt}\n\\renewcommand{\\headrulewidth}{0pt}\n  \\fancyhead[C]{\\normalsize{ISCA 2016 Submission\n      \\textbf{\\#\\hpcasubmissionnumber} \\\\ Confidential Draft: DO NOT DISTRIBUTE}} \n  \\pagenumbering{arabic}\n} \n\\title{SnapCharge: Enabling Fair Pricing in Infrastructure-as-a-Service Clouds} \n\n\\author{}'
 p0
 .I0
 .S'Start doc'
