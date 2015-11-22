@@ -1,3 +1,4 @@
-# Out directory
-isca2016/out/*
-isca2016/*.bak
+.DS_STORE
+*.fws.bak
+**/out
+*.pyc
