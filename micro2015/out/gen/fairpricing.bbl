@@ -1,0 +1,203 @@
+\begin{thebibliography}{10}
+
+\bibitem{Nathuji:2010:QMP:1755913.1755938}
+R.~Nathuji, A.~Kansal, and A.~Ghaffarkhah, ``Q-clouds: Managing performance
+  interference effects for qos-aware clouds,'' in {\em Proceedings of the 5th
+  European Conference on Computer Systems}, EuroSys '10, (New York, NY, USA),
+  pp.~237--250, ACM, 2010.
+
+\bibitem{Govindan:2011:CQE:2038916.2038938}
+S.~Govindan, J.~Liu, A.~Kansal, and A.~Sivasubramaniam, ``Cuanta: Quantifying
+  effects of shared on-chip resource interference for consolidated virtual
+  machines,'' in {\em Proceedings of the 2Nd ACM Symposium on Cloud Computing},
+  SOCC '11, (New York, NY, USA), pp.~22:1--22:14, ACM, 2011.
+
+\bibitem{Ahn:2012:DVM:2342763.2342782}
+J.~Ahn, C.~Kim, J.~Han, Y.-R. Choi, and J.~Huh, ``Dynamic virtual machine
+  scheduling in clouds for architectural shared resources,'' in {\em
+  Proceedings of the 4th USENIX Conference on Hot Topics in Cloud Ccomputing},
+  HotCloud'12, (Berkeley, CA, USA), pp.~19--19, USENIX Association, 2012.
+
+\bibitem{Varadarajan:2012:RAI:2382196.2382228}
+V.~Varadarajan, T.~Kooburat, B.~Farley, T.~Ristenpart, and M.~M. Swift,
+  ``Resource-freeing attacks: Improve your cloud performance (at your
+  neighbor's expense),'' in {\em Proceedings of the 2012 ACM Conference on
+  Computer and Communications Security}, CCS '12, (New York, NY, USA),
+  pp.~281--292, ACM, 2012.
+
+\bibitem{Vasic:2012:DAR:2248487.2151021}
+N.~Vasi\'{c}, D.~Novakovi\'{c}, S.~Miu\v{c}in, D.~Kosti\'{c}, and R.~Bianchini,
+  ``Dejavu: Accelerating resource allocation in virtualized environments,''
+  {\em SIGPLAN Not.}, vol.~47, pp.~423--436, Mar. 2012.
+
+\bibitem{Novakovic:2013:DTI:2535461.2535489}
+D.~Novakovi\'{c}, N.~Vasi\'{c}, S.~Novakovi\'{c}, D.~Kosti\'{c}, and
+  R.~Bianchini, ``Deepdive: Transparently identifying and managing performance
+  interference in virtualized environments,'' in {\em Proceedings of the 2013
+  USENIX Conference on Annual Technical Conference}, USENIX ATC'13, (Berkeley,
+  CA, USA), pp.~219--230, USENIX Association, 2013.
+
+\bibitem{Ma:2015:SDS:2694344.2694382}
+J.~Ma, X.~Sui, N.~Sun, Y.~Li, Z.~Yu, B.~Huang, T.~Xu, Z.~Yao, Y.~Chen, H.~Wang,
+  L.~Zhang, and Y.~Bao, ``Supporting differentiated services in computers via
+  programmable architecture for resourcing-on-demand (pard),'' in {\em
+  Proceedings of the Twentieth International Conference on Architectural
+  Support for Programming Languages and Operating Systems}, ASPLOS '15, (New
+  York, NY, USA), pp.~131--143, ACM, 2015.
+
+\bibitem{Liu:2014:OVM:2665671.2665720}
+M.~Liu and T.~Li, ``Optimizing virtual machine consolidation performance on
+  numa server architecture for cloud workloads,'' in {\em Proceeding of the
+  41st Annual International Symposium on Computer Architecuture}, ISCA '14,
+  (Piscataway, NJ, USA), pp.~325--336, IEEE Press, 2014.
+
+\bibitem{6522328}
+J.~Rao, K.~Wang, X.~Zhou, and C.~zhong Xu, ``Optimizing virtual machine
+  scheduling in numa multicore systems,'' in {\em High Performance Computer
+  Architecture (HPCA2013), 2013 IEEE 19th International Symposium on},
+  pp.~306--317, Feb 2013.
+
+\bibitem{fairpricing}
+A.~D. Breslow, A.~Tiwari, M.~Schulz, L.~Carrington, L.~Tang, and J.~Mars,
+  ``Enabling fair pricing on high performance computer systems with node
+  sharing,'' {\em Scientific Programming}, vol.~22, no.~2, pp.~59--74, 2014.
+
+\bibitem{6844481}
+A.~Gupta, J.~Sampson, and M.~Taylor, ``Quality time: A simple online technique
+  for quantifying multicore execution efficiency,'' in {\em Performance
+  Analysis of Systems and Software (ISPASS), 2014 IEEE International Symposium
+  on}, pp.~169--179, March 2014.
+
+\bibitem{Qumranet2007}
+Qumranet, ``Kvm: Kernel-based virtualization machine,'' tech. rep., Qumranet,
+  2007.
+
+\bibitem{denew}
+A.~C. de~Melo, ``The new linux perf tools,''
+
+\bibitem{bubbleup}
+J.~Mars, L.~Tang, R.~Hundt, K.~Skadron, and M.~L. Soffa, ``Bubble-up:
+  Increasing utilization in modern warehouse scale computers via sensible
+  co-locations,'' in {\em Proceedings of the 44th Annual IEEE/ACM International
+  Symposium on Microarchitecture (MICRO)}, MICRO-44, (New York, NY, USA),
+  pp.~248--259, ACM, 2011.
+\newblock Acceptance Rate: 21% - Selected for IEEE MICRO TOP PICKS.
+
+\bibitem{Yang:2013:BPO:2485922.2485974}
+H.~Yang, A.~Breslow, J.~Mars, and L.~Tang, ``Bubble-flux: Precise online qos
+  management for increased utilization in warehouse scale computers,'' in {\em
+  Proceedings of the 40th Annual International Symposium on Computer
+  Architecture}, ISCA '13, (New York, NY, USA), pp.~607--618, ACM, 2013.
+
+\bibitem{Tang:2013:RRS:2451116.2451126}
+L.~Tang, J.~Mars, W.~Wang, T.~Dey, and M.~L. Soffa, ``Reqos: Reactive
+  static/dynamic compilation for qos in warehouse scale computers,'' in {\em
+  Proceedings of the Eighteenth International Conference on Architectural
+  Support for Programming Languages and Operating Systems}, ASPLOS '13, (New
+  York, NY, USA), pp.~89--100, ACM, 2013.
+
+\bibitem{Park:2013:RCH:2451116.2451137}
+H.~Park, S.~Baek, J.~Choi, D.~Lee, and S.~H. Noh, ``Regularities considered
+  harmful: Forcing randomness to memory accesses to reduce row buffer conflicts
+  for multi-core, multi-bank systems,'' in {\em Proceedings of the Eighteenth
+  International Conference on Architectural Support for Programming Languages
+  and Operating Systems}, ASPLOS '13, (New York, NY, USA), pp.~181--192, ACM,
+  2013.
+
+\bibitem{Liu:2014:GVM:2665671.2665698}
+L.~Liu, Y.~Li, Z.~Cui, Y.~Bao, M.~Chen, and C.~Wu, ``Going vertical in memory
+  management: Handling multiplicity by multi-policy,'' in {\em Proceeding of
+  the 41st Annual International Symposium on Computer Architecuture}, ISCA '14,
+  (Piscataway, NJ, USA), pp.~169--180, IEEE Press, 2014.
+
+\bibitem{Soares:2008:RHE:1521747.1521800}
+L.~Soares, D.~Tam, and M.~Stumm, ``Reducing the harmful effects of last-level
+  cache polluters with an os-level, software-only pollute buffer,'' in {\em
+  Proceedings of the 41st Annual IEEE/ACM International Symposium on
+  Microarchitecture}, MICRO 41, (Washington, DC, USA), pp.~258--269, IEEE
+  Computer Society, 2008.
+
+\bibitem{Zhuravlev:2010:ASR:1736020.1736036}
+S.~Zhuravlev, S.~Blagodurov, and A.~Fedorova, ``Addressing shared resource
+  contention in multicore processors via scheduling,'' in {\em Proceedings of
+  the Fifteenth Edition of ASPLOS on Architectural Support for Programming
+  Languages and Operating Systems}, ASPLOS XV, (New York, NY, USA),
+  pp.~129--142, ACM, 2010.
+
+\bibitem{Blagodurov:2011:CNC:2002181.2002182}
+S.~Blagodurov, S.~Zhuravlev, M.~Dashti, and A.~Fedorova, ``A case for
+  numa-aware contention management on multicore systems,'' in {\em Proceedings
+  of the 2011 USENIX Conference on USENIX Annual Technical Conference},
+  USENIXATC'11, (Berkeley, CA, USA), pp.~1--1, USENIX Association, 2011.
+
+\bibitem{Nesbit:2006:FQM}
+K.~J. Nesbit, N.~Aggarwal, J.~Laudon, and J.~E. Smith, ``Fair queuing memory
+  systems,'' in {\em Proceedings of the 39th Annual IEEE/ACM International
+  Symposium on Microarchitecture}, MICRO 39, (Washington, DC, USA),
+  pp.~208--222, IEEE Computer Society, 2006.
+
+\bibitem{stfm}
+O.~Mutlu and T.~Moscibroda, ``Stall-time fair memory access scheduling for chip
+  multiprocessors,'' in {\em Proceedings of the 40th Annual IEEE/ACM
+  International Symposium on Microarchitecture}, MICRO 40, (Washington, DC,
+  USA), pp.~146--160, IEEE Computer Society, 2007.
+
+\bibitem{fst}
+E.~Ebrahimi, C.~J. Lee, O.~Mutlu, and Y.~N. Patt, ``Fairness via source
+  throttling: A configurable and high-performance fairness substrate for
+  multi-core memory systems,'' in {\em Proceedings of the Fifteenth Edition of
+  ASPLOS on Architectural Support for Programming Languages and Operating
+  Systems}, ASPLOS XV, (New York, NY, USA), pp.~335--346, ACM, 2010.
+
+\bibitem{Suh:2002:NMM:874076.876484}
+G.~E. Suh, S.~Devadas, and L.~Rudolph, ``A new memory monitoring scheme for
+  memory-aware scheduling and partitioning,'' in {\em Proceedings of the 8th
+  International Symposium on High-Performance Computer Architecture}, HPCA '02,
+  (Washington, DC, USA), pp.~117--, IEEE Computer Society, 2002.
+
+\bibitem{Qureshi:2006:UCP:1194816.1194855}
+M.~K. Qureshi and Y.~N. Patt, ``Utility-based cache partitioning: A
+  low-overhead, high-performance, runtime mechanism to partition shared
+  caches,'' in {\em Proceedings of the 39th Annual IEEE/ACM International
+  Symposium on Microarchitecture}, MICRO 39, (Washington, DC, USA),
+  pp.~423--432, IEEE Computer Society, 2006.
+
+\bibitem{Rafique:2006:ASO:1152154.1152160}
+N.~Rafique, W.-T. Lim, and M.~Thottethodi, ``Architectural support for
+  operating system-driven cmp cache management,'' in {\em Proceedings of the
+  15th International Conference on Parallel Architectures and Compilation
+  Techniques}, PACT '06, (New York, NY, USA), pp.~2--12, ACM, 2006.
+
+\bibitem{Rafique:2007:EMD:1299042.1299052}
+N.~Rafique, W.-T. Lim, and M.~Thottethodi, ``Effective management of dram
+  bandwidth in multicore processors,'' in {\em Proceedings of the 16th
+  International Conference on Parallel Architecture and Compilation
+  Techniques}, PACT '07, (Washington, DC, USA), pp.~245--258, IEEE Computer
+  Society, 2007.
+
+\bibitem{Srikantaiah:2008:ASP:1346281.1346299}
+S.~Srikantaiah, M.~Kandemir, and M.~J. Irwin, ``Adaptive set pinning: Managing
+  shared caches in chip multiprocessors,'' in {\em Proceedings of the 13th
+  International Conference on Architectural Support for Programming Languages
+  and Operating Systems}, ASPLOS XIII, (New York, NY, USA), pp.~135--144, ACM,
+  2008.
+
+\bibitem{Daly}
+D.~Daly and H.~Cain, ``Cache restoration for highly partitioned virtualized
+  systems,'' in {\em Proceedings of the 18th International Symposium on High
+  Performance Computer Architecture (HPCA)}, 2012.
+
+\bibitem{ReCap}
+J.~Zebchuk, H.~Cain, X.~Tong, V.~Srinivasan, and A.~Moshovos, ``{RECAP}: A
+  region-based cure for the common cold (cache),'' in {\em Proceedings of the
+  19th International Symposium on High Performance Computer Architecture
+  (HPCA)}, 2013.
+
+\bibitem{Ahn:2014:MVP:2742155.2742195}
+J.~Ahn, C.~H. Park, and J.~Huh, ``Micro-sliced virtual processors to hide the
+  effect of discontinuous cpu availability for consolidated systems,'' in {\em
+  Proceedings of the 47th Annual IEEE/ACM International Symposium on
+  Microarchitecture}, MICRO-47, (Washington, DC, USA), pp.~394--405, IEEE
+  Computer Society, 2014.
+
+\end{thebibliography}

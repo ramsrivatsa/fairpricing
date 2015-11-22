@@ -1,0 +1,5066 @@
+gmm
+********* Setting up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+245.79user 0.24system 5:37.91elapsed 72%CPU (0avgtext+0avgdata 171664maxresident)k
+0inputs+256outputs (0major+10805minor)pagefaults 0swaps
+---------------------------------------------------------
+gmm
+********* Setting up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+246.76user 0.22system 5:38.48elapsed 72%CPU (0avgtext+0avgdata 171648maxresident)k
+0inputs+256outputs (0major+10804minor)pagefaults 0swaps
+---------------------------------------------------------
+gmm
+********* Setting up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+245.73user 0.18system 5:37.61elapsed 72%CPU (0avgtext+0avgdata 171648maxresident)k
+0inputs+256outputs (0major+10804minor)pagefaults 0swaps
+---------------------------------------------------------
+gmm
+********* Setting up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+245.88user 0.22system 5:37.45elapsed 72%CPU (0avgtext+0avgdata 171648maxresident)k
+0inputs+256outputs (0major+10805minor)pagefaults 0swaps
+---------------------------------------------------------
+gmm
+********* Setting up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+247.59user 0.14system 5:39.31elapsed 73%CPU (0avgtext+0avgdata 171664maxresident)k
+0inputs+256outputs (0major+10805minor)pagefaults 0swaps
+---------------------------------------------------------
+dnn_asr
+********* Setting up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+549.43user 1.55system 11:50.27elapsed 77%CPU (0avgtext+0avgdata 1738944maxresident)k
+0inputs+8outputs (0major+174802minor)pagefaults 0swaps
+---------------------------------------------------------
+dnn_asr
+********* Setting up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+549.61user 1.14system 11:51.85elapsed 77%CPU (0avgtext+0avgdata 1738912maxresident)k
+0inputs+8outputs (0major+174801minor)pagefaults 0swaps
+---------------------------------------------------------
+dnn_asr
+********* Setting up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+549.74user 1.32system 11:50.59elapsed 77%CPU (0avgtext+0avgdata 1738928maxresident)k
+0inputs+8outputs (0major+174801minor)pagefaults 0swaps
+---------------------------------------------------------
+dnn_asr
+********* Setting up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+549.87user 1.13system 11:49.53elapsed 77%CPU (0avgtext+0avgdata 1738928maxresident)k
+0inputs+8outputs (0major+174801minor)pagefaults 0swaps
+---------------------------------------------------------
+dnn_asr
+********* Setting up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+549.19user 1.12system 11:48.30elapsed 77%CPU (0avgtext+0avgdata 1738912maxresident)k
+0inputs+8outputs (0major+174800minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fe
+********* Setting up benchmark fe
+********* Running benchmark as ./surf-fe
+285.30user 0.24system 5:58.47elapsed 79%CPU (0avgtext+0avgdata 52976maxresident)k
+42888inputs+8outputs (151major+3339minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fe
+********* Setting up benchmark fe
+********* Running benchmark as ./surf-fe
+285.72user 0.24system 5:58.65elapsed 79%CPU (0avgtext+0avgdata 52992maxresident)k
+0inputs+8outputs (0major+3490minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fe
+********* Setting up benchmark fe
+********* Running benchmark as ./surf-fe
+286.13user 0.29system 5:59.25elapsed 79%CPU (0avgtext+0avgdata 52976maxresident)k
+0inputs+8outputs (0major+3489minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fe
+********* Setting up benchmark fe
+********* Running benchmark as ./surf-fe
+285.15user 0.28system 5:58.44elapsed 79%CPU (0avgtext+0avgdata 52976maxresident)k
+0inputs+8outputs (0major+3489minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fe
+********* Setting up benchmark fe
+********* Running benchmark as ./surf-fe
+283.68user 0.24system 5:55.75elapsed 79%CPU (0avgtext+0avgdata 52992maxresident)k
+0inputs+8outputs (0major+3490minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fd
+********* Setting up benchmark fd
+********* Running benchmark as ./surf-fd
+323.85user 0.35system 6:44.76elapsed 80%CPU (0avgtext+0avgdata 52960maxresident)k
+2736inputs+8outputs (1major+3493minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fd
+********* Setting up benchmark fd
+********* Running benchmark as ./surf-fd
+325.04user 0.21system 6:45.74elapsed 80%CPU (0avgtext+0avgdata 52960maxresident)k
+0inputs+8outputs (0major+3494minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fd
+********* Setting up benchmark fd
+********* Running benchmark as ./surf-fd
+325.07user 0.23system 6:46.22elapsed 80%CPU (0avgtext+0avgdata 52976maxresident)k
+0inputs+8outputs (0major+3495minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fd
+********* Setting up benchmark fd
+********* Running benchmark as ./surf-fd
+323.60user 0.22system 6:44.95elapsed 79%CPU (0avgtext+0avgdata 52960maxresident)k
+0inputs+8outputs (0major+3494minor)pagefaults 0swaps
+---------------------------------------------------------
+surf-fd
+********* Setting up benchmark fd
+********* Running benchmark as ./surf-fd
+324.28user 0.16system 6:46.92elapsed 79%CPU (0avgtext+0avgdata 52960maxresident)k
+0inputs+8outputs (0major+3494minor)pagefaults 0swaps
+---------------------------------------------------------
+stem
+********* Setting up benchmark stemmer
+********* Running benchmark as ./stem_porter
+279.08user 0.04system 6:16.59elapsed 74%CPU (0avgtext+0avgdata 21648maxresident)k
+552inputs+8outputs (1major+1390minor)pagefaults 0swaps
+---------------------------------------------------------
+stem
+********* Setting up benchmark stemmer
+********* Running benchmark as ./stem_porter
+277.92user 0.04system 6:16.99elapsed 73%CPU (0avgtext+0avgdata 21648maxresident)k
+0inputs+8outputs (0major+1391minor)pagefaults 0swaps
+---------------------------------------------------------
+stem
+********* Setting up benchmark stemmer
+********* Running benchmark as ./stem_porter
+278.02user 0.03system 6:15.67elapsed 74%CPU (0avgtext+0avgdata 21632maxresident)k
+0inputs+8outputs (0major+1389minor)pagefaults 0swaps
+---------------------------------------------------------
+stem
+********* Setting up benchmark stemmer
+********* Running benchmark as ./stem_porter
+278.18user 0.05system 6:17.39elapsed 73%CPU (0avgtext+0avgdata 21632maxresident)k
+0inputs+8outputs (0major+1389minor)pagefaults 0swaps
+---------------------------------------------------------
+stem
+********* Setting up benchmark stemmer
+********* Running benchmark as ./stem_porter
+276.60user 0.02system 6:11.79elapsed 74%CPU (0avgtext+0avgdata 21648maxresident)k
+0inputs+8outputs (0major+1390minor)pagefaults 0swaps
+---------------------------------------------------------
+regex
+********* Setting up benchmark regex
+********* Running benchmark as ./regex_slre
+345.95user 0.22system 7:13.85elapsed 79%CPU (0avgtext+0avgdata 14096maxresident)k
+88inputs+8outputs (1major+926minor)pagefaults 0swaps
+---------------------------------------------------------
+regex
+********* Setting up benchmark regex
+********* Running benchmark as ./regex_slre
+346.09user 0.21system 7:13.44elapsed 79%CPU (0avgtext+0avgdata 14112maxresident)k
+0inputs+8outputs (0major+928minor)pagefaults 0swaps
+---------------------------------------------------------
+regex
+********* Setting up benchmark regex
+********* Running benchmark as ./regex_slre
+345.37user 0.37system 7:12.19elapsed 79%CPU (0avgtext+0avgdata 14112maxresident)k
+0inputs+8outputs (0major+928minor)pagefaults 0swaps
+---------------------------------------------------------
+regex
+********* Setting up benchmark regex
+********* Running benchmark as ./regex_slre
+345.18user 0.46system 7:11.36elapsed 80%CPU (0avgtext+0avgdata 14112maxresident)k
+0inputs+8outputs (0major+929minor)pagefaults 0swaps
+---------------------------------------------------------
+regex
+********* Setting up benchmark regex
+********* Running benchmark as ./regex_slre
+345.31user 0.42system 7:11.21elapsed 80%CPU (0avgtext+0avgdata 14096maxresident)k
+0inputs+8outputs (0major+927minor)pagefaults 0swaps
+---------------------------------------------------------
+crf
+********* Setting up benchmark crf
+********* Running benchmark as ./crf_tag
+324.85user 0.28system 6:53.63elapsed 78%CPU (0avgtext+0avgdata 387504maxresident)k
+40416inputs+8outputs (1major+28830minor)pagefaults 0swaps
+---------------------------------------------------------
+crf
+********* Setting up benchmark crf
+********* Running benchmark as ./crf_tag
+327.30user 0.14system 6:56.22elapsed 78%CPU (0avgtext+0avgdata 387520maxresident)k
+0inputs+8outputs (0major+28830minor)pagefaults 0swaps
+---------------------------------------------------------
+crf
+********* Setting up benchmark crf
+********* Running benchmark as ./crf_tag
+330.59user 0.19system 7:02.32elapsed 78%CPU (0avgtext+0avgdata 387536maxresident)k
+0inputs+8outputs (0major+28831minor)pagefaults 0swaps
+---------------------------------------------------------
+crf
+********* Setting up benchmark crf
+********* Running benchmark as ./crf_tag
+324.35user 0.16system 6:51.58elapsed 78%CPU (0avgtext+0avgdata 387520maxresident)k
+0inputs+8outputs (0major+28830minor)pagefaults 0swaps
+---------------------------------------------------------
+crf
+********* Setting up benchmark crf
+********* Running benchmark as ./crf_tag
+---------------------------------------------------------
+img-imc
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-imc
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 14:32:47.771378 16387 net.cpp:39] Initializing net from parameters: 
+name: "imc"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I0730 14:32:47.771813 16387 net.cpp:358] Input 0 -> data
+I0730 14:32:47.771967 16387 net.cpp:67] Creating Layer conv1
+I0730 14:32:47.772053 16387 net.cpp:394] conv1 <- data
+I0730 14:32:47.772104 16387 net.cpp:356] conv1 -> conv1
+I0730 14:32:47.772183 16387 net.cpp:96] Setting up conv1
+I0730 14:32:47.774760 16387 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:32:47.775049 16387 net.cpp:67] Creating Layer relu1
+I0730 14:32:47.775125 16387 net.cpp:394] relu1 <- conv1
+I0730 14:32:47.775244 16387 net.cpp:345] relu1 -> conv1 (in-place)
+I0730 14:32:47.775301 16387 net.cpp:96] Setting up relu1
+I0730 14:32:47.775365 16387 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:32:47.775413 16387 net.cpp:67] Creating Layer pool1
+I0730 14:32:47.775466 16387 net.cpp:394] pool1 <- conv1
+I0730 14:32:47.775507 16387 net.cpp:356] pool1 -> pool1
+I0730 14:32:47.775571 16387 net.cpp:96] Setting up pool1
+I0730 14:32:47.780056 16387 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:32:47.780115 16387 net.cpp:67] Creating Layer norm1
+I0730 14:32:47.780155 16387 net.cpp:394] norm1 <- pool1
+I0730 14:32:47.780217 16387 net.cpp:356] norm1 -> norm1
+I0730 14:32:47.780266 16387 net.cpp:96] Setting up norm1
+I0730 14:32:47.780340 16387 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:32:47.780385 16387 net.cpp:67] Creating Layer conv2
+I0730 14:32:47.780436 16387 net.cpp:394] conv2 <- norm1
+I0730 14:32:47.780478 16387 net.cpp:356] conv2 -> conv2
+I0730 14:32:47.780534 16387 net.cpp:96] Setting up conv2
+I0730 14:32:47.783726 16387 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:32:47.784376 16387 net.cpp:67] Creating Layer relu2
+I0730 14:32:47.784423 16387 net.cpp:394] relu2 <- conv2
+I0730 14:32:47.784481 16387 net.cpp:345] relu2 -> conv2 (in-place)
+I0730 14:32:47.789322 16387 net.cpp:96] Setting up relu2
+I0730 14:32:47.789386 16387 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:32:47.789427 16387 net.cpp:67] Creating Layer pool2
+I0730 14:32:47.789505 16387 net.cpp:394] pool2 <- conv2
+I0730 14:32:47.789547 16387 net.cpp:356] pool2 -> pool2
+I0730 14:32:47.789609 16387 net.cpp:96] Setting up pool2
+I0730 14:32:47.789652 16387 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:32:47.789710 16387 net.cpp:67] Creating Layer norm2
+I0730 14:32:47.789749 16387 net.cpp:394] norm2 <- pool2
+I0730 14:32:47.789821 16387 net.cpp:356] norm2 -> norm2
+I0730 14:32:47.789870 16387 net.cpp:96] Setting up norm2
+I0730 14:32:47.789918 16387 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:32:47.789963 16387 net.cpp:67] Creating Layer conv3
+I0730 14:32:47.790009 16387 net.cpp:394] conv3 <- norm2
+I0730 14:32:47.790050 16387 net.cpp:356] conv3 -> conv3
+I0730 14:32:47.790101 16387 net.cpp:96] Setting up conv3
+I0730 14:32:47.811631 16387 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:32:47.815001 16387 net.cpp:67] Creating Layer relu3
+I0730 14:32:47.815052 16387 net.cpp:394] relu3 <- conv3
+I0730 14:32:47.815127 16387 net.cpp:345] relu3 -> conv3 (in-place)
+I0730 14:32:47.815181 16387 net.cpp:96] Setting up relu3
+I0730 14:32:47.815232 16387 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:32:47.815274 16387 net.cpp:67] Creating Layer conv4
+I0730 14:32:47.815320 16387 net.cpp:394] conv4 <- conv3
+I0730 14:32:47.815394 16387 net.cpp:356] conv4 -> conv4
+I0730 14:32:47.815445 16387 net.cpp:96] Setting up conv4
+I0730 14:32:47.830633 16387 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:32:47.830698 16387 net.cpp:67] Creating Layer relu4
+I0730 14:32:47.830746 16387 net.cpp:394] relu4 <- conv4
+I0730 14:32:47.830821 16387 net.cpp:345] relu4 -> conv4 (in-place)
+I0730 14:32:47.830868 16387 net.cpp:96] Setting up relu4
+I0730 14:32:47.830916 16387 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:32:47.830957 16387 net.cpp:67] Creating Layer conv5
+I0730 14:32:47.831003 16387 net.cpp:394] conv5 <- conv4
+I0730 14:32:47.831071 16387 net.cpp:356] conv5 -> conv5
+I0730 14:32:47.831120 16387 net.cpp:96] Setting up conv5
+I0730 14:32:47.835489 16387 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:32:47.840028 16387 net.cpp:67] Creating Layer relu5
+I0730 14:32:47.840077 16387 net.cpp:394] relu5 <- conv5
+I0730 14:32:47.840147 16387 net.cpp:345] relu5 -> conv5 (in-place)
+I0730 14:32:47.840198 16387 net.cpp:96] Setting up relu5
+I0730 14:32:47.840235 16387 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:32:47.840291 16387 net.cpp:67] Creating Layer pool5
+I0730 14:32:47.840333 16387 net.cpp:394] pool5 <- conv5
+I0730 14:32:47.840389 16387 net.cpp:356] pool5 -> pool5
+I0730 14:32:47.840433 16387 net.cpp:96] Setting up pool5
+I0730 14:32:47.840489 16387 net.cpp:103] Top shape: 1 256 6 6 (9216)
+I0730 14:32:47.840533 16387 net.cpp:67] Creating Layer fc6
+I0730 14:32:47.840584 16387 net.cpp:394] fc6 <- pool5
+I0730 14:32:47.840626 16387 net.cpp:356] fc6 -> fc6
+I0730 14:32:47.840690 16387 net.cpp:96] Setting up fc6
+I0730 14:32:48.870319 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:48.871572 16387 net.cpp:67] Creating Layer relu6
+I0730 14:32:48.871737 16387 net.cpp:394] relu6 <- fc6
+I0730 14:32:48.871820 16387 net.cpp:345] relu6 -> fc6 (in-place)
+I0730 14:32:48.871870 16387 net.cpp:96] Setting up relu6
+I0730 14:32:48.872019 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:48.872068 16387 net.cpp:67] Creating Layer drop6
+I0730 14:32:48.872118 16387 net.cpp:394] drop6 <- fc6
+I0730 14:32:48.873472 16387 net.cpp:345] drop6 -> fc6 (in-place)
+I0730 14:32:48.873528 16387 net.cpp:96] Setting up drop6
+I0730 14:32:48.873605 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:48.873663 16387 net.cpp:67] Creating Layer fc7
+I0730 14:32:48.873700 16387 net.cpp:394] fc7 <- fc6
+I0730 14:32:48.873756 16387 net.cpp:356] fc7 -> fc7
+I0730 14:32:48.873806 16387 net.cpp:96] Setting up fc7
+I0730 14:32:49.313259 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:49.321506 16387 net.cpp:67] Creating Layer relu7
+I0730 14:32:49.321554 16387 net.cpp:394] relu7 <- fc7
+I0730 14:32:49.321625 16387 net.cpp:345] relu7 -> fc7 (in-place)
+I0730 14:32:49.321694 16387 net.cpp:96] Setting up relu7
+I0730 14:32:49.321737 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:49.321787 16387 net.cpp:67] Creating Layer drop7
+I0730 14:32:49.321835 16387 net.cpp:394] drop7 <- fc7
+I0730 14:32:49.321895 16387 net.cpp:345] drop7 -> fc7 (in-place)
+I0730 14:32:49.321940 16387 net.cpp:96] Setting up drop7
+I0730 14:32:49.321990 16387 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:32:49.322039 16387 net.cpp:67] Creating Layer fc8
+I0730 14:32:49.322085 16387 net.cpp:394] fc8 <- fc7
+I0730 14:32:49.322136 16387 net.cpp:356] fc8 -> fc8
+I0730 14:32:49.322198 16387 net.cpp:96] Setting up fc8
+I0730 14:32:49.364848 16387 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:32:49.365020 16387 net.cpp:67] Creating Layer prob
+I0730 14:32:49.365064 16387 net.cpp:394] prob <- fc8
+I0730 14:32:49.365135 16387 net.cpp:356] prob -> prob
+I0730 14:32:49.365193 16387 net.cpp:96] Setting up prob
+I0730 14:32:49.365274 16387 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:32:49.365355 16387 net.cpp:67] Creating Layer argmax
+I0730 14:32:49.365398 16387 net.cpp:394] argmax <- prob
+I0730 14:32:49.365453 16387 net.cpp:356] argmax -> argmax
+I0730 14:32:49.365506 16387 net.cpp:96] Setting up argmax
+I0730 14:32:49.366003 16387 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 14:32:49.366014 16387 net.cpp:172] argmax does not need backward computation.
+I0730 14:32:49.366029 16387 net.cpp:172] prob does not need backward computation.
+I0730 14:32:49.366032 16387 net.cpp:172] fc8 does not need backward computation.
+I0730 14:32:49.366035 16387 net.cpp:172] drop7 does not need backward computation.
+I0730 14:32:49.366039 16387 net.cpp:172] relu7 does not need backward computation.
+I0730 14:32:49.366042 16387 net.cpp:172] fc7 does not need backward computation.
+I0730 14:32:49.366046 16387 net.cpp:172] drop6 does not need backward computation.
+I0730 14:32:49.366050 16387 net.cpp:172] relu6 does not need backward computation.
+I0730 14:32:49.366052 16387 net.cpp:172] fc6 does not need backward computation.
+I0730 14:32:49.366056 16387 net.cpp:172] pool5 does not need backward computation.
+I0730 14:32:49.366060 16387 net.cpp:172] relu5 does not need backward computation.
+I0730 14:32:49.366063 16387 net.cpp:172] conv5 does not need backward computation.
+I0730 14:32:49.366066 16387 net.cpp:172] relu4 does not need backward computation.
+I0730 14:32:49.366070 16387 net.cpp:172] conv4 does not need backward computation.
+I0730 14:32:49.366073 16387 net.cpp:172] relu3 does not need backward computation.
+I0730 14:32:49.366076 16387 net.cpp:172] conv3 does not need backward computation.
+I0730 14:32:49.366080 16387 net.cpp:172] norm2 does not need backward computation.
+I0730 14:32:49.366082 16387 net.cpp:172] pool2 does not need backward computation.
+I0730 14:32:49.366086 16387 net.cpp:172] relu2 does not need backward computation.
+I0730 14:32:49.366089 16387 net.cpp:172] conv2 does not need backward computation.
+I0730 14:32:49.366092 16387 net.cpp:172] norm1 does not need backward computation.
+I0730 14:32:49.366096 16387 net.cpp:172] pool1 does not need backward computation.
+I0730 14:32:49.366099 16387 net.cpp:172] relu1 does not need backward computation.
+I0730 14:32:49.366102 16387 net.cpp:172] conv1 does not need backward computation.
+I0730 14:32:49.366106 16387 net.cpp:208] This network produces output argmax
+I0730 14:32:49.366134 16387 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 14:32:49.366489 16387 net.cpp:219] Network initialization done.
+I0730 14:32:49.366502 16387 net.cpp:220] Memory required for data: 6249796
+E0730 14:32:52.584960 16387 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+I0730 14:32:52.586606 16387 upgrade_proto.cpp:618] Successfully upgraded file specified using deprecated data transformation parameters.
+E0730 14:32:52.586649 16387 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I0730 14:32:52.808533 16387 img-client.cpp:139] Reading input/imc/dog-208-227.jpg
+I0730 14:32:52.817358 16387 img-client.cpp:139] Reading input/imc/cat-281-227.jpg
+I0730 14:32:52.827649 16387 img-client.cpp:139] Reading input/imc/tp-999-227.jpg
+I0730 14:32:52.838279 16387 tonic.cpp:31] Reshaping input to dims: 3 3 227 227
+I0730 14:32:52.838361 16387 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+347.58user 0.32system 15:18.95elapsed 37%CPU (0avgtext+0avgdata 387504maxresident)k
+0inputs+8outputs (0major+28830minor)pagefaults 0swaps
+I0730 14:49:05.146734 16387 img-client.cpp:222] Image: input/imc/dog-208-227.jpg class: 208
+I0730 14:49:05.147392 16387 img-client.cpp:222] Image: input/imc/cat-281-227.jpg class: 281
+I0730 14:49:05.147440 16387 img-client.cpp:222] Image: input/imc/tp-999-227.jpg class: 999
+390.83user 1.40system 16:17.54elapsed 40%CPU (0avgtext+0avgdata 2216480maxresident)k
+484832inputs+8outputs (27major+217344minor)pagefaults 0swaps
+---------------------------------------------------------
+img-imc
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-imc
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 14:49:06.382951 22022 net.cpp:39] Initializing net from parameters: 
+name: "imc"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I0730 14:49:06.383363 22022 net.cpp:358] Input 0 -> data
+I0730 14:49:06.383523 22022 net.cpp:67] Creating Layer conv1
+I0730 14:49:06.383586 22022 net.cpp:394] conv1 <- data
+I0730 14:49:06.383636 22022 net.cpp:356] conv1 -> conv1
+I0730 14:49:06.383713 22022 net.cpp:96] Setting up conv1
+I0730 14:49:06.384052 22022 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:49:06.384155 22022 net.cpp:67] Creating Layer relu1
+I0730 14:49:06.384198 22022 net.cpp:394] relu1 <- conv1
+I0730 14:49:06.384270 22022 net.cpp:345] relu1 -> conv1 (in-place)
+I0730 14:49:06.384315 22022 net.cpp:96] Setting up relu1
+I0730 14:49:06.384369 22022 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:49:06.384416 22022 net.cpp:67] Creating Layer pool1
+I0730 14:49:06.384464 22022 net.cpp:394] pool1 <- conv1
+I0730 14:49:06.384505 22022 net.cpp:356] pool1 -> pool1
+I0730 14:49:06.384560 22022 net.cpp:96] Setting up pool1
+I0730 14:49:06.384632 22022 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:49:06.384680 22022 net.cpp:67] Creating Layer norm1
+I0730 14:49:06.384717 22022 net.cpp:394] norm1 <- pool1
+I0730 14:49:06.384768 22022 net.cpp:356] norm1 -> norm1
+I0730 14:49:06.384814 22022 net.cpp:96] Setting up norm1
+I0730 14:49:06.384876 22022 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:49:06.384920 22022 net.cpp:67] Creating Layer conv2
+I0730 14:49:06.384968 22022 net.cpp:394] conv2 <- norm1
+I0730 14:49:06.385010 22022 net.cpp:356] conv2 -> conv2
+I0730 14:49:06.385062 22022 net.cpp:96] Setting up conv2
+I0730 14:49:06.386728 22022 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:49:06.389528 22022 net.cpp:67] Creating Layer relu2
+I0730 14:49:06.389580 22022 net.cpp:394] relu2 <- conv2
+I0730 14:49:06.389628 22022 net.cpp:345] relu2 -> conv2 (in-place)
+I0730 14:49:06.389693 22022 net.cpp:96] Setting up relu2
+I0730 14:49:06.389731 22022 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:49:06.389788 22022 net.cpp:67] Creating Layer pool2
+I0730 14:49:06.389828 22022 net.cpp:394] pool2 <- conv2
+I0730 14:49:06.389880 22022 net.cpp:356] pool2 -> pool2
+I0730 14:49:06.389924 22022 net.cpp:96] Setting up pool2
+I0730 14:49:06.389973 22022 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:49:06.390033 22022 net.cpp:67] Creating Layer norm2
+I0730 14:49:06.390075 22022 net.cpp:394] norm2 <- pool2
+I0730 14:49:06.390116 22022 net.cpp:356] norm2 -> norm2
+I0730 14:49:06.390185 22022 net.cpp:96] Setting up norm2
+I0730 14:49:06.390225 22022 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:49:06.390277 22022 net.cpp:67] Creating Layer conv3
+I0730 14:49:06.390316 22022 net.cpp:394] conv3 <- norm2
+I0730 14:49:06.390367 22022 net.cpp:356] conv3 -> conv3
+I0730 14:49:06.390410 22022 net.cpp:96] Setting up conv3
+I0730 14:49:06.394934 22022 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:49:06.397914 22022 net.cpp:67] Creating Layer relu3
+I0730 14:49:06.397965 22022 net.cpp:394] relu3 <- conv3
+I0730 14:49:06.398015 22022 net.cpp:345] relu3 -> conv3 (in-place)
+I0730 14:49:06.402122 22022 net.cpp:96] Setting up relu3
+I0730 14:49:06.402171 22022 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:49:06.402215 22022 net.cpp:67] Creating Layer conv4
+I0730 14:49:06.402272 22022 net.cpp:394] conv4 <- conv3
+I0730 14:49:06.402329 22022 net.cpp:356] conv4 -> conv4
+I0730 14:49:06.402379 22022 net.cpp:96] Setting up conv4
+I0730 14:49:06.405753 22022 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:49:06.406067 22022 net.cpp:67] Creating Layer relu4
+I0730 14:49:06.407151 22022 net.cpp:394] relu4 <- conv4
+I0730 14:49:06.407214 22022 net.cpp:345] relu4 -> conv4 (in-place)
+I0730 14:49:06.407271 22022 net.cpp:96] Setting up relu4
+I0730 14:49:06.407315 22022 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:49:06.407366 22022 net.cpp:67] Creating Layer conv5
+I0730 14:49:06.407404 22022 net.cpp:394] conv5 <- conv4
+I0730 14:49:06.407460 22022 net.cpp:356] conv5 -> conv5
+I0730 14:49:06.407506 22022 net.cpp:96] Setting up conv5
+I0730 14:49:06.408741 22022 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:49:06.408817 22022 net.cpp:67] Creating Layer relu5
+I0730 14:49:06.408859 22022 net.cpp:394] relu5 <- conv5
+I0730 14:49:06.408905 22022 net.cpp:345] relu5 -> conv5 (in-place)
+I0730 14:49:06.408960 22022 net.cpp:96] Setting up relu5
+I0730 14:49:06.408998 22022 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:49:06.409050 22022 net.cpp:67] Creating Layer pool5
+I0730 14:49:06.409087 22022 net.cpp:394] pool5 <- conv5
+I0730 14:49:06.409137 22022 net.cpp:356] pool5 -> pool5
+I0730 14:49:06.409179 22022 net.cpp:96] Setting up pool5
+I0730 14:49:06.409230 22022 net.cpp:103] Top shape: 1 256 6 6 (9216)
+I0730 14:49:06.409286 22022 net.cpp:67] Creating Layer fc6
+I0730 14:49:06.409318 22022 net.cpp:394] fc6 <- pool5
+I0730 14:49:06.409369 22022 net.cpp:356] fc6 -> fc6
+I0730 14:49:06.409427 22022 net.cpp:96] Setting up fc6
+I0730 14:49:06.624457 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.624629 22022 net.cpp:67] Creating Layer relu6
+I0730 14:49:06.624675 22022 net.cpp:394] relu6 <- fc6
+I0730 14:49:06.624752 22022 net.cpp:345] relu6 -> fc6 (in-place)
+I0730 14:49:06.624817 22022 net.cpp:96] Setting up relu6
+I0730 14:49:06.624860 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.624909 22022 net.cpp:67] Creating Layer drop6
+I0730 14:49:06.624956 22022 net.cpp:394] drop6 <- fc6
+I0730 14:49:06.625006 22022 net.cpp:345] drop6 -> fc6 (in-place)
+I0730 14:49:06.625074 22022 net.cpp:96] Setting up drop6
+I0730 14:49:06.625139 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.625186 22022 net.cpp:67] Creating Layer fc7
+I0730 14:49:06.625233 22022 net.cpp:394] fc7 <- fc6
+I0730 14:49:06.625314 22022 net.cpp:356] fc7 -> fc7
+I0730 14:49:06.625371 22022 net.cpp:96] Setting up fc7
+I0730 14:49:06.710825 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.711006 22022 net.cpp:67] Creating Layer relu7
+I0730 14:49:06.711051 22022 net.cpp:394] relu7 <- fc7
+I0730 14:49:06.711122 22022 net.cpp:345] relu7 -> fc7 (in-place)
+I0730 14:49:06.711184 22022 net.cpp:96] Setting up relu7
+I0730 14:49:06.711231 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.711318 22022 net.cpp:67] Creating Layer drop7
+I0730 14:49:06.711359 22022 net.cpp:394] drop7 <- fc7
+I0730 14:49:06.711417 22022 net.cpp:345] drop7 -> fc7 (in-place)
+I0730 14:49:06.711463 22022 net.cpp:96] Setting up drop7
+I0730 14:49:06.711513 22022 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:49:06.711590 22022 net.cpp:67] Creating Layer fc8
+I0730 14:49:06.711637 22022 net.cpp:394] fc8 <- fc7
+I0730 14:49:06.711688 22022 net.cpp:356] fc8 -> fc8
+I0730 14:49:06.711743 22022 net.cpp:96] Setting up fc8
+I0730 14:49:06.727110 22022 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:49:06.727320 22022 net.cpp:67] Creating Layer prob
+I0730 14:49:06.727365 22022 net.cpp:394] prob <- fc8
+I0730 14:49:06.727440 22022 net.cpp:356] prob -> prob
+I0730 14:49:06.727499 22022 net.cpp:96] Setting up prob
+I0730 14:49:06.727576 22022 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:49:06.727648 22022 net.cpp:67] Creating Layer argmax
+I0730 14:49:06.727689 22022 net.cpp:394] argmax <- prob
+I0730 14:49:06.727743 22022 net.cpp:356] argmax -> argmax
+I0730 14:49:06.727797 22022 net.cpp:96] Setting up argmax
+I0730 14:49:06.727849 22022 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 14:49:06.727896 22022 net.cpp:172] argmax does not need backward computation.
+I0730 14:49:06.727953 22022 net.cpp:172] prob does not need backward computation.
+I0730 14:49:06.728025 22022 net.cpp:172] fc8 does not need backward computation.
+I0730 14:49:06.728065 22022 net.cpp:172] drop7 does not need backward computation.
+I0730 14:49:06.728109 22022 net.cpp:172] relu7 does not need backward computation.
+I0730 14:49:06.728153 22022 net.cpp:172] fc7 does not need backward computation.
+I0730 14:49:06.728198 22022 net.cpp:172] drop6 does not need backward computation.
+I0730 14:49:06.728241 22022 net.cpp:172] relu6 does not need backward computation.
+I0730 14:49:06.728286 22022 net.cpp:172] fc6 does not need backward computation.
+I0730 14:49:06.728330 22022 net.cpp:172] pool5 does not need backward computation.
+I0730 14:49:06.728374 22022 net.cpp:172] relu5 does not need backward computation.
+I0730 14:49:06.728418 22022 net.cpp:172] conv5 does not need backward computation.
+I0730 14:49:06.728463 22022 net.cpp:172] relu4 does not need backward computation.
+I0730 14:49:06.728507 22022 net.cpp:172] conv4 does not need backward computation.
+I0730 14:49:06.728551 22022 net.cpp:172] relu3 does not need backward computation.
+I0730 14:49:06.728596 22022 net.cpp:172] conv3 does not need backward computation.
+I0730 14:49:06.728639 22022 net.cpp:172] norm2 does not need backward computation.
+I0730 14:49:06.728684 22022 net.cpp:172] pool2 does not need backward computation.
+I0730 14:49:06.728729 22022 net.cpp:172] relu2 does not need backward computation.
+I0730 14:49:06.728772 22022 net.cpp:172] conv2 does not need backward computation.
+I0730 14:49:06.728816 22022 net.cpp:172] norm1 does not need backward computation.
+I0730 14:49:06.728860 22022 net.cpp:172] pool1 does not need backward computation.
+I0730 14:49:06.728907 22022 net.cpp:172] relu1 does not need backward computation.
+I0730 14:49:06.728952 22022 net.cpp:172] conv1 does not need backward computation.
+I0730 14:49:06.728997 22022 net.cpp:208] This network produces output argmax
+I0730 14:49:06.729079 22022 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 14:49:06.729151 22022 net.cpp:219] Network initialization done.
+I0730 14:49:06.729192 22022 net.cpp:220] Memory required for data: 6249796
+E0730 14:49:07.718022 22022 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+I0730 14:49:07.722640 22022 upgrade_proto.cpp:618] Successfully upgraded file specified using deprecated data transformation parameters.
+E0730 14:49:07.722682 22022 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I0730 14:49:07.836426 22022 img-client.cpp:139] Reading input/imc/dog-208-227.jpg
+I0730 14:49:07.839437 22022 img-client.cpp:139] Reading input/imc/cat-281-227.jpg
+I0730 14:49:07.842203 22022 img-client.cpp:139] Reading input/imc/tp-999-227.jpg
+I0730 14:49:07.845882 22022 tonic.cpp:31] Reshaping input to dims: 3 3 227 227
+I0730 14:49:07.845962 22022 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 14:57:40.740265 22022 img-client.cpp:222] Image: input/imc/dog-208-227.jpg class: 208
+I0730 14:57:40.740910 22022 img-client.cpp:222] Image: input/imc/cat-281-227.jpg class: 281
+I0730 14:57:40.740985 22022 img-client.cpp:222] Image: input/imc/tp-999-227.jpg class: 999
+391.54user 0.73system 8:34.45elapsed 76%CPU (0avgtext+0avgdata 2216496maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+img-imc
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-imc
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 14:57:41.974047 27530 net.cpp:39] Initializing net from parameters: 
+name: "imc"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I0730 14:57:41.977653 27530 net.cpp:358] Input 0 -> data
+I0730 14:57:41.977814 27530 net.cpp:67] Creating Layer conv1
+I0730 14:57:41.977875 27530 net.cpp:394] conv1 <- data
+I0730 14:57:41.977926 27530 net.cpp:356] conv1 -> conv1
+I0730 14:57:41.977999 27530 net.cpp:96] Setting up conv1
+I0730 14:57:41.978215 27530 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:57:41.978314 27530 net.cpp:67] Creating Layer relu1
+I0730 14:57:41.978355 27530 net.cpp:394] relu1 <- conv1
+I0730 14:57:41.978407 27530 net.cpp:345] relu1 -> conv1 (in-place)
+I0730 14:57:41.978451 27530 net.cpp:96] Setting up relu1
+I0730 14:57:41.978503 27530 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 14:57:41.978549 27530 net.cpp:67] Creating Layer pool1
+I0730 14:57:41.978595 27530 net.cpp:394] pool1 <- conv1
+I0730 14:57:41.978634 27530 net.cpp:356] pool1 -> pool1
+I0730 14:57:41.978689 27530 net.cpp:96] Setting up pool1
+I0730 14:57:41.978874 27530 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:57:41.978927 27530 net.cpp:67] Creating Layer norm1
+I0730 14:57:41.978963 27530 net.cpp:394] norm1 <- pool1
+I0730 14:57:41.979094 27530 net.cpp:356] norm1 -> norm1
+I0730 14:57:41.979146 27530 net.cpp:96] Setting up norm1
+I0730 14:57:41.979208 27530 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 14:57:41.979815 27530 net.cpp:67] Creating Layer conv2
+I0730 14:57:41.979863 27530 net.cpp:394] conv2 <- norm1
+I0730 14:57:41.979907 27530 net.cpp:356] conv2 -> conv2
+I0730 14:57:41.979964 27530 net.cpp:96] Setting up conv2
+I0730 14:57:41.980875 27530 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:57:41.982208 27530 net.cpp:67] Creating Layer relu2
+I0730 14:57:41.982254 27530 net.cpp:394] relu2 <- conv2
+I0730 14:57:41.982316 27530 net.cpp:345] relu2 -> conv2 (in-place)
+I0730 14:57:41.982365 27530 net.cpp:96] Setting up relu2
+I0730 14:57:41.982416 27530 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 14:57:41.982456 27530 net.cpp:67] Creating Layer pool2
+I0730 14:57:41.982503 27530 net.cpp:394] pool2 <- conv2
+I0730 14:57:41.982543 27530 net.cpp:356] pool2 -> pool2
+I0730 14:57:41.982594 27530 net.cpp:96] Setting up pool2
+I0730 14:57:41.982635 27530 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:57:41.982689 27530 net.cpp:67] Creating Layer norm2
+I0730 14:57:41.982728 27530 net.cpp:394] norm2 <- pool2
+I0730 14:57:41.982776 27530 net.cpp:356] norm2 -> norm2
+I0730 14:57:41.982825 27530 net.cpp:96] Setting up norm2
+I0730 14:57:41.982872 27530 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:57:41.982914 27530 net.cpp:67] Creating Layer conv3
+I0730 14:57:41.982961 27530 net.cpp:394] conv3 <- norm2
+I0730 14:57:41.983001 27530 net.cpp:356] conv3 -> conv3
+I0730 14:57:41.983052 27530 net.cpp:96] Setting up conv3
+I0730 14:57:41.987617 27530 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:57:41.992213 27530 net.cpp:67] Creating Layer relu3
+I0730 14:57:41.993298 27530 net.cpp:394] relu3 <- conv3
+I0730 14:57:41.993360 27530 net.cpp:345] relu3 -> conv3 (in-place)
+I0730 14:57:41.993409 27530 net.cpp:96] Setting up relu3
+I0730 14:57:41.993460 27530 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:57:41.993502 27530 net.cpp:67] Creating Layer conv4
+I0730 14:57:41.993547 27530 net.cpp:394] conv4 <- conv3
+I0730 14:57:41.993593 27530 net.cpp:356] conv4 -> conv4
+I0730 14:57:41.993649 27530 net.cpp:96] Setting up conv4
+I0730 14:57:41.995823 27530 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:57:41.995882 27530 net.cpp:67] Creating Layer relu4
+I0730 14:57:41.995919 27530 net.cpp:394] relu4 <- conv4
+I0730 14:57:41.995973 27530 net.cpp:345] relu4 -> conv4 (in-place)
+I0730 14:57:41.996062 27530 net.cpp:96] Setting up relu4
+I0730 14:57:41.996114 27530 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 14:57:41.996161 27530 net.cpp:67] Creating Layer conv5
+I0730 14:57:41.996209 27530 net.cpp:394] conv5 <- conv4
+I0730 14:57:41.996255 27530 net.cpp:356] conv5 -> conv5
+I0730 14:57:41.996309 27530 net.cpp:96] Setting up conv5
+I0730 14:57:42.002563 27530 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:57:42.002638 27530 net.cpp:67] Creating Layer relu5
+I0730 14:57:42.002671 27530 net.cpp:394] relu5 <- conv5
+I0730 14:57:42.002717 27530 net.cpp:345] relu5 -> conv5 (in-place)
+I0730 14:57:42.002775 27530 net.cpp:96] Setting up relu5
+I0730 14:57:42.002825 27530 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 14:57:42.002866 27530 net.cpp:67] Creating Layer pool5
+I0730 14:57:42.002912 27530 net.cpp:394] pool5 <- conv5
+I0730 14:57:42.002954 27530 net.cpp:356] pool5 -> pool5
+I0730 14:57:42.003005 27530 net.cpp:96] Setting up pool5
+I0730 14:57:42.003046 27530 net.cpp:103] Top shape: 1 256 6 6 (9216)
+I0730 14:57:42.003096 27530 net.cpp:67] Creating Layer fc6
+I0730 14:57:42.003132 27530 net.cpp:394] fc6 <- pool5
+I0730 14:57:42.003183 27530 net.cpp:356] fc6 -> fc6
+I0730 14:57:42.003233 27530 net.cpp:96] Setting up fc6
+I0730 14:57:42.163671 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.165385 27530 net.cpp:67] Creating Layer relu6
+I0730 14:57:42.165436 27530 net.cpp:394] relu6 <- fc6
+I0730 14:57:42.169708 27530 net.cpp:345] relu6 -> fc6 (in-place)
+I0730 14:57:42.169772 27530 net.cpp:96] Setting up relu6
+I0730 14:57:42.169811 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.169874 27530 net.cpp:67] Creating Layer drop6
+I0730 14:57:42.169927 27530 net.cpp:394] drop6 <- fc6
+I0730 14:57:42.169976 27530 net.cpp:345] drop6 -> fc6 (in-place)
+I0730 14:57:42.170037 27530 net.cpp:96] Setting up drop6
+I0730 14:57:42.170109 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.170156 27530 net.cpp:67] Creating Layer fc7
+I0730 14:57:42.170202 27530 net.cpp:394] fc7 <- fc6
+I0730 14:57:42.170258 27530 net.cpp:356] fc7 -> fc7
+I0730 14:57:42.170312 27530 net.cpp:96] Setting up fc7
+I0730 14:57:42.234064 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.234230 27530 net.cpp:67] Creating Layer relu7
+I0730 14:57:42.234269 27530 net.cpp:394] relu7 <- fc7
+I0730 14:57:42.234313 27530 net.cpp:345] relu7 -> fc7 (in-place)
+I0730 14:57:42.234385 27530 net.cpp:96] Setting up relu7
+I0730 14:57:42.234433 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.234483 27530 net.cpp:67] Creating Layer drop7
+I0730 14:57:42.234529 27530 net.cpp:394] drop7 <- fc7
+I0730 14:57:42.234585 27530 net.cpp:345] drop7 -> fc7 (in-place)
+I0730 14:57:42.234637 27530 net.cpp:96] Setting up drop7
+I0730 14:57:42.234684 27530 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 14:57:42.234733 27530 net.cpp:67] Creating Layer fc8
+I0730 14:57:42.234777 27530 net.cpp:394] fc8 <- fc7
+I0730 14:57:42.234828 27530 net.cpp:356] fc8 -> fc8
+I0730 14:57:42.234880 27530 net.cpp:96] Setting up fc8
+I0730 14:57:42.248381 27530 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:57:42.248555 27530 net.cpp:67] Creating Layer prob
+I0730 14:57:42.248596 27530 net.cpp:394] prob <- fc8
+I0730 14:57:42.248639 27530 net.cpp:356] prob -> prob
+I0730 14:57:42.248718 27530 net.cpp:96] Setting up prob
+I0730 14:57:42.248791 27530 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 14:57:42.248862 27530 net.cpp:67] Creating Layer argmax
+I0730 14:57:42.248904 27530 net.cpp:394] argmax <- prob
+I0730 14:57:42.248957 27530 net.cpp:356] argmax -> argmax
+I0730 14:57:42.249009 27530 net.cpp:96] Setting up argmax
+I0730 14:57:42.249061 27530 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 14:57:42.249109 27530 net.cpp:172] argmax does not need backward computation.
+I0730 14:57:42.249171 27530 net.cpp:172] prob does not need backward computation.
+I0730 14:57:42.249217 27530 net.cpp:172] fc8 does not need backward computation.
+I0730 14:57:42.249282 27530 net.cpp:172] drop7 does not need backward computation.
+I0730 14:57:42.249326 27530 net.cpp:172] relu7 does not need backward computation.
+I0730 14:57:42.249369 27530 net.cpp:172] fc7 does not need backward computation.
+I0730 14:57:42.249413 27530 net.cpp:172] drop6 does not need backward computation.
+I0730 14:57:42.249457 27530 net.cpp:172] relu6 does not need backward computation.
+I0730 14:57:42.249500 27530 net.cpp:172] fc6 does not need backward computation.
+I0730 14:57:42.249544 27530 net.cpp:172] pool5 does not need backward computation.
+I0730 14:57:42.249586 27530 net.cpp:172] relu5 does not need backward computation.
+I0730 14:57:42.249630 27530 net.cpp:172] conv5 does not need backward computation.
+I0730 14:57:42.249673 27530 net.cpp:172] relu4 does not need backward computation.
+I0730 14:57:42.249716 27530 net.cpp:172] conv4 does not need backward computation.
+I0730 14:57:42.249759 27530 net.cpp:172] relu3 does not need backward computation.
+I0730 14:57:42.249804 27530 net.cpp:172] conv3 does not need backward computation.
+I0730 14:57:42.249846 27530 net.cpp:172] norm2 does not need backward computation.
+I0730 14:57:42.249888 27530 net.cpp:172] pool2 does not need backward computation.
+I0730 14:57:42.249932 27530 net.cpp:172] relu2 does not need backward computation.
+I0730 14:57:42.249975 27530 net.cpp:172] conv2 does not need backward computation.
+I0730 14:57:42.250017 27530 net.cpp:172] norm1 does not need backward computation.
+I0730 14:57:42.250061 27530 net.cpp:172] pool1 does not need backward computation.
+I0730 14:57:42.250104 27530 net.cpp:172] relu1 does not need backward computation.
+I0730 14:57:42.250149 27530 net.cpp:172] conv1 does not need backward computation.
+I0730 14:57:42.250192 27530 net.cpp:208] This network produces output argmax
+I0730 14:57:42.250278 27530 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 14:57:42.250349 27530 net.cpp:219] Network initialization done.
+I0730 14:57:42.250390 27530 net.cpp:220] Memory required for data: 6249796
+E0730 14:57:43.343556 27530 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+I0730 14:57:43.343662 27530 upgrade_proto.cpp:618] Successfully upgraded file specified using deprecated data transformation parameters.
+E0730 14:57:43.343695 27530 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I0730 14:57:43.459573 27530 img-client.cpp:139] Reading input/imc/dog-208-227.jpg
+I0730 14:57:43.467727 27530 img-client.cpp:139] Reading input/imc/cat-281-227.jpg
+I0730 14:57:43.475332 27530 img-client.cpp:139] Reading input/imc/tp-999-227.jpg
+I0730 14:57:43.479744 27530 tonic.cpp:31] Reshaping input to dims: 3 3 227 227
+I0730 14:57:43.480909 27530 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 15:06:13.284118 27530 img-client.cpp:222] Image: input/imc/dog-208-227.jpg class: 208
+I0730 15:06:13.284767 27530 img-client.cpp:222] Image: input/imc/cat-281-227.jpg class: 281
+I0730 15:06:13.284817 27530 img-client.cpp:222] Image: input/imc/tp-999-227.jpg class: 999
+387.82user 0.72system 8:31.40elapsed 75%CPU (0avgtext+0avgdata 2216496maxresident)k
+0inputs+8outputs (0major+217371minor)pagefaults 0swaps
+---------------------------------------------------------
+img-imc
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-imc
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:06:14.533850   900 net.cpp:39] Initializing net from parameters: 
+name: "imc"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I0730 15:06:14.537469   900 net.cpp:358] Input 0 -> data
+I0730 15:06:14.537639   900 net.cpp:67] Creating Layer conv1
+I0730 15:06:14.537700   900 net.cpp:394] conv1 <- data
+I0730 15:06:14.537750   900 net.cpp:356] conv1 -> conv1
+I0730 15:06:14.537825   900 net.cpp:96] Setting up conv1
+I0730 15:06:14.538038   900 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 15:06:14.538141   900 net.cpp:67] Creating Layer relu1
+I0730 15:06:14.538182   900 net.cpp:394] relu1 <- conv1
+I0730 15:06:14.538233   900 net.cpp:345] relu1 -> conv1 (in-place)
+I0730 15:06:14.538275   900 net.cpp:96] Setting up relu1
+I0730 15:06:14.538328   900 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 15:06:14.538373   900 net.cpp:67] Creating Layer pool1
+I0730 15:06:14.538421   900 net.cpp:394] pool1 <- conv1
+I0730 15:06:14.538460   900 net.cpp:356] pool1 -> pool1
+I0730 15:06:14.538514   900 net.cpp:96] Setting up pool1
+I0730 15:06:14.538588   900 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 15:06:14.538635   900 net.cpp:67] Creating Layer norm1
+I0730 15:06:14.538671   900 net.cpp:394] norm1 <- pool1
+I0730 15:06:14.538718   900 net.cpp:356] norm1 -> norm1
+I0730 15:06:14.538764   900 net.cpp:96] Setting up norm1
+I0730 15:06:14.538900   900 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 15:06:14.538950   900 net.cpp:67] Creating Layer conv2
+I0730 15:06:14.539000   900 net.cpp:394] conv2 <- norm1
+I0730 15:06:14.539041   900 net.cpp:356] conv2 -> conv2
+I0730 15:06:14.539172   900 net.cpp:96] Setting up conv2
+I0730 15:06:14.540237   900 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 15:06:14.542297   900 net.cpp:67] Creating Layer relu2
+I0730 15:06:14.542346   900 net.cpp:394] relu2 <- conv2
+I0730 15:06:14.542392   900 net.cpp:345] relu2 -> conv2 (in-place)
+I0730 15:06:14.542456   900 net.cpp:96] Setting up relu2
+I0730 15:06:14.542505   900 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 15:06:14.542544   900 net.cpp:67] Creating Layer pool2
+I0730 15:06:14.542590   900 net.cpp:394] pool2 <- conv2
+I0730 15:06:14.542631   900 net.cpp:356] pool2 -> pool2
+I0730 15:06:14.542681   900 net.cpp:96] Setting up pool2
+I0730 15:06:14.542721   900 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:06:14.542774   900 net.cpp:67] Creating Layer norm2
+I0730 15:06:14.542812   900 net.cpp:394] norm2 <- pool2
+I0730 15:06:14.542861   900 net.cpp:356] norm2 -> norm2
+I0730 15:06:14.542912   900 net.cpp:96] Setting up norm2
+I0730 15:06:14.542960   900 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:06:14.543001   900 net.cpp:67] Creating Layer conv3
+I0730 15:06:14.543047   900 net.cpp:394] conv3 <- norm2
+I0730 15:06:14.543087   900 net.cpp:356] conv3 -> conv3
+I0730 15:06:14.543138   900 net.cpp:96] Setting up conv3
+I0730 15:06:14.546216   900 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:06:14.550523   900 net.cpp:67] Creating Layer relu3
+I0730 15:06:14.550573   900 net.cpp:394] relu3 <- conv3
+I0730 15:06:14.550637   900 net.cpp:345] relu3 -> conv3 (in-place)
+I0730 15:06:14.551754   900 net.cpp:96] Setting up relu3
+I0730 15:06:14.551805   900 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:06:14.551848   900 net.cpp:67] Creating Layer conv4
+I0730 15:06:14.551892   900 net.cpp:394] conv4 <- conv3
+I0730 15:06:14.551941   900 net.cpp:356] conv4 -> conv4
+I0730 15:06:14.552021   900 net.cpp:96] Setting up conv4
+I0730 15:06:14.554236   900 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:06:14.554296   900 net.cpp:67] Creating Layer relu4
+I0730 15:06:14.554332   900 net.cpp:394] relu4 <- conv4
+I0730 15:06:14.554381   900 net.cpp:345] relu4 -> conv4 (in-place)
+I0730 15:06:14.554426   900 net.cpp:96] Setting up relu4
+I0730 15:06:14.554472   900 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:06:14.554512   900 net.cpp:67] Creating Layer conv5
+I0730 15:06:14.554558   900 net.cpp:394] conv5 <- conv4
+I0730 15:06:14.554604   900 net.cpp:356] conv5 -> conv5
+I0730 15:06:14.554656   900 net.cpp:96] Setting up conv5
+I0730 15:06:14.560719   900 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:06:14.560797   900 net.cpp:67] Creating Layer relu5
+I0730 15:06:14.560839   900 net.cpp:394] relu5 <- conv5
+I0730 15:06:14.560901   900 net.cpp:345] relu5 -> conv5 (in-place)
+I0730 15:06:14.560948   900 net.cpp:96] Setting up relu5
+I0730 15:06:14.560997   900 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:06:14.561039   900 net.cpp:67] Creating Layer pool5
+I0730 15:06:14.561085   900 net.cpp:394] pool5 <- conv5
+I0730 15:06:14.561125   900 net.cpp:356] pool5 -> pool5
+I0730 15:06:14.561177   900 net.cpp:96] Setting up pool5
+I0730 15:06:14.561242   900 net.cpp:103] Top shape: 1 256 6 6 (9216)
+I0730 15:06:14.561295   900 net.cpp:67] Creating Layer fc6
+I0730 15:06:14.561331   900 net.cpp:394] fc6 <- pool5
+I0730 15:06:14.561380   900 net.cpp:356] fc6 -> fc6
+I0730 15:06:14.561440   900 net.cpp:96] Setting up fc6
+I0730 15:06:14.712896   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.713085   900 net.cpp:67] Creating Layer relu6
+I0730 15:06:14.713122   900 net.cpp:394] relu6 <- fc6
+I0730 15:06:14.713182   900 net.cpp:345] relu6 -> fc6 (in-place)
+I0730 15:06:14.713270   900 net.cpp:96] Setting up relu6
+I0730 15:06:14.713326   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.713376   900 net.cpp:67] Creating Layer drop6
+I0730 15:06:14.713423   900 net.cpp:394] drop6 <- fc6
+I0730 15:06:14.713472   900 net.cpp:345] drop6 -> fc6 (in-place)
+I0730 15:06:14.713538   900 net.cpp:96] Setting up drop6
+I0730 15:06:14.713604   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.713654   900 net.cpp:67] Creating Layer fc7
+I0730 15:06:14.713698   900 net.cpp:394] fc7 <- fc6
+I0730 15:06:14.713759   900 net.cpp:356] fc7 -> fc7
+I0730 15:06:14.713809   900 net.cpp:96] Setting up fc7
+I0730 15:06:14.795351   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.795538   900 net.cpp:67] Creating Layer relu7
+I0730 15:06:14.795573   900 net.cpp:394] relu7 <- fc7
+I0730 15:06:14.795624   900 net.cpp:345] relu7 -> fc7 (in-place)
+I0730 15:06:14.795698   900 net.cpp:96] Setting up relu7
+I0730 15:06:14.795753   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.795799   900 net.cpp:67] Creating Layer drop7
+I0730 15:06:14.795845   900 net.cpp:394] drop7 <- fc7
+I0730 15:06:14.795933   900 net.cpp:345] drop7 -> fc7 (in-place)
+I0730 15:06:14.796036   900 net.cpp:96] Setting up drop7
+I0730 15:06:14.796085   900 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:06:14.796136   900 net.cpp:67] Creating Layer fc8
+I0730 15:06:14.796182   900 net.cpp:394] fc8 <- fc7
+I0730 15:06:14.796232   900 net.cpp:356] fc8 -> fc8
+I0730 15:06:14.796288   900 net.cpp:96] Setting up fc8
+I0730 15:06:14.811764   900 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 15:06:14.811987   900 net.cpp:67] Creating Layer prob
+I0730 15:06:14.812070   900 net.cpp:394] prob <- fc8
+I0730 15:06:14.812144   900 net.cpp:356] prob -> prob
+I0730 15:06:14.812194   900 net.cpp:96] Setting up prob
+I0730 15:06:14.812266   900 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 15:06:14.812338   900 net.cpp:67] Creating Layer argmax
+I0730 15:06:14.812381   900 net.cpp:394] argmax <- prob
+I0730 15:06:14.812435   900 net.cpp:356] argmax -> argmax
+I0730 15:06:14.812489   900 net.cpp:96] Setting up argmax
+I0730 15:06:14.812539   900 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:06:14.812585   900 net.cpp:172] argmax does not need backward computation.
+I0730 15:06:14.812651   900 net.cpp:172] prob does not need backward computation.
+I0730 15:06:14.812695   900 net.cpp:172] fc8 does not need backward computation.
+I0730 15:06:14.812741   900 net.cpp:172] drop7 does not need backward computation.
+I0730 15:06:14.812784   900 net.cpp:172] relu7 does not need backward computation.
+I0730 15:06:14.812829   900 net.cpp:172] fc7 does not need backward computation.
+I0730 15:06:14.812872   900 net.cpp:172] drop6 does not need backward computation.
+I0730 15:06:14.812916   900 net.cpp:172] relu6 does not need backward computation.
+I0730 15:06:14.812958   900 net.cpp:172] fc6 does not need backward computation.
+I0730 15:06:14.813004   900 net.cpp:172] pool5 does not need backward computation.
+I0730 15:06:14.813046   900 net.cpp:172] relu5 does not need backward computation.
+I0730 15:06:14.813091   900 net.cpp:172] conv5 does not need backward computation.
+I0730 15:06:14.813134   900 net.cpp:172] relu4 does not need backward computation.
+I0730 15:06:14.813179   900 net.cpp:172] conv4 does not need backward computation.
+I0730 15:06:14.813237   900 net.cpp:172] relu3 does not need backward computation.
+I0730 15:06:14.813282   900 net.cpp:172] conv3 does not need backward computation.
+I0730 15:06:14.813326   900 net.cpp:172] norm2 does not need backward computation.
+I0730 15:06:14.813372   900 net.cpp:172] pool2 does not need backward computation.
+I0730 15:06:14.813416   900 net.cpp:172] relu2 does not need backward computation.
+I0730 15:06:14.813460   900 net.cpp:172] conv2 does not need backward computation.
+I0730 15:06:14.813504   900 net.cpp:172] norm1 does not need backward computation.
+I0730 15:06:14.813549   900 net.cpp:172] pool1 does not need backward computation.
+I0730 15:06:14.813598   900 net.cpp:172] relu1 does not need backward computation.
+I0730 15:06:14.813649   900 net.cpp:172] conv1 does not need backward computation.
+I0730 15:06:14.813693   900 net.cpp:208] This network produces output argmax
+I0730 15:06:14.813779   900 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:06:14.813850   900 net.cpp:219] Network initialization done.
+I0730 15:06:14.813890   900 net.cpp:220] Memory required for data: 6249796
+E0730 15:06:15.965003   900 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+I0730 15:06:15.965122   900 upgrade_proto.cpp:618] Successfully upgraded file specified using deprecated data transformation parameters.
+E0730 15:06:15.965168   900 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I0730 15:06:16.071173   900 img-client.cpp:139] Reading input/imc/dog-208-227.jpg
+I0730 15:06:16.074275   900 img-client.cpp:139] Reading input/imc/cat-281-227.jpg
+I0730 15:06:16.077082   900 img-client.cpp:139] Reading input/imc/tp-999-227.jpg
+I0730 15:06:16.080775   900 tonic.cpp:31] Reshaping input to dims: 3 3 227 227
+I0730 15:06:16.080853   900 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 15:14:50.727205   900 img-client.cpp:222] Image: input/imc/dog-208-227.jpg class: 208
+I0730 15:14:50.727795   900 img-client.cpp:222] Image: input/imc/cat-281-227.jpg class: 281
+I0730 15:14:50.727908   900 img-client.cpp:222] Image: input/imc/tp-999-227.jpg class: 999
+390.55user 0.70system 8:36.31elapsed 75%CPU (0avgtext+0avgdata 2216496maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+img-imc
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-imc
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:14:52.032368  7739 net.cpp:39] Initializing net from parameters: 
+name: "imc"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I0730 15:14:52.035130  7739 net.cpp:358] Input 0 -> data
+I0730 15:14:52.035290  7739 net.cpp:67] Creating Layer conv1
+I0730 15:14:52.035348  7739 net.cpp:394] conv1 <- data
+I0730 15:14:52.035397  7739 net.cpp:356] conv1 -> conv1
+I0730 15:14:52.035470  7739 net.cpp:96] Setting up conv1
+I0730 15:14:52.035694  7739 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 15:14:52.035795  7739 net.cpp:67] Creating Layer relu1
+I0730 15:14:52.035838  7739 net.cpp:394] relu1 <- conv1
+I0730 15:14:52.035889  7739 net.cpp:345] relu1 -> conv1 (in-place)
+I0730 15:14:52.035931  7739 net.cpp:96] Setting up relu1
+I0730 15:14:52.035984  7739 net.cpp:103] Top shape: 1 96 55 55 (290400)
+I0730 15:14:52.036048  7739 net.cpp:67] Creating Layer pool1
+I0730 15:14:52.036098  7739 net.cpp:394] pool1 <- conv1
+I0730 15:14:52.036137  7739 net.cpp:356] pool1 -> pool1
+I0730 15:14:52.036190  7739 net.cpp:96] Setting up pool1
+I0730 15:14:52.036262  7739 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 15:14:52.036310  7739 net.cpp:67] Creating Layer norm1
+I0730 15:14:52.036346  7739 net.cpp:394] norm1 <- pool1
+I0730 15:14:52.036396  7739 net.cpp:356] norm1 -> norm1
+I0730 15:14:52.036442  7739 net.cpp:96] Setting up norm1
+I0730 15:14:52.036500  7739 net.cpp:103] Top shape: 1 96 27 27 (69984)
+I0730 15:14:52.036545  7739 net.cpp:67] Creating Layer conv2
+I0730 15:14:52.036592  7739 net.cpp:394] conv2 <- norm1
+I0730 15:14:52.036633  7739 net.cpp:356] conv2 -> conv2
+I0730 15:14:52.036684  7739 net.cpp:96] Setting up conv2
+I0730 15:14:52.037765  7739 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 15:14:52.042237  7739 net.cpp:67] Creating Layer relu2
+I0730 15:14:52.042291  7739 net.cpp:394] relu2 <- conv2
+I0730 15:14:52.042332  7739 net.cpp:345] relu2 -> conv2 (in-place)
+I0730 15:14:52.042392  7739 net.cpp:96] Setting up relu2
+I0730 15:14:52.042441  7739 net.cpp:103] Top shape: 1 256 27 27 (186624)
+I0730 15:14:52.042482  7739 net.cpp:67] Creating Layer pool2
+I0730 15:14:52.042528  7739 net.cpp:394] pool2 <- conv2
+I0730 15:14:52.042569  7739 net.cpp:356] pool2 -> pool2
+I0730 15:14:52.042619  7739 net.cpp:96] Setting up pool2
+I0730 15:14:52.042659  7739 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:14:52.042712  7739 net.cpp:67] Creating Layer norm2
+I0730 15:14:52.042750  7739 net.cpp:394] norm2 <- pool2
+I0730 15:14:52.042800  7739 net.cpp:356] norm2 -> norm2
+I0730 15:14:52.042848  7739 net.cpp:96] Setting up norm2
+I0730 15:14:52.042894  7739 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:14:52.042935  7739 net.cpp:67] Creating Layer conv3
+I0730 15:14:52.042980  7739 net.cpp:394] conv3 <- norm2
+I0730 15:14:52.043020  7739 net.cpp:356] conv3 -> conv3
+I0730 15:14:52.043071  7739 net.cpp:96] Setting up conv3
+I0730 15:14:52.046377  7739 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:14:52.049597  7739 net.cpp:67] Creating Layer relu3
+I0730 15:14:52.049649  7739 net.cpp:394] relu3 <- conv3
+I0730 15:14:52.049690  7739 net.cpp:345] relu3 -> conv3 (in-place)
+I0730 15:14:52.049741  7739 net.cpp:96] Setting up relu3
+I0730 15:14:52.049782  7739 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:14:52.049834  7739 net.cpp:67] Creating Layer conv4
+I0730 15:14:52.049872  7739 net.cpp:394] conv4 <- conv3
+I0730 15:14:52.049926  7739 net.cpp:356] conv4 -> conv4
+I0730 15:14:52.049970  7739 net.cpp:96] Setting up conv4
+I0730 15:14:52.052342  7739 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:14:52.054582  7739 net.cpp:67] Creating Layer relu4
+I0730 15:14:52.054628  7739 net.cpp:394] relu4 <- conv4
+I0730 15:14:52.054689  7739 net.cpp:345] relu4 -> conv4 (in-place)
+I0730 15:14:52.054744  7739 net.cpp:96] Setting up relu4
+I0730 15:14:52.054782  7739 net.cpp:103] Top shape: 1 384 13 13 (64896)
+I0730 15:14:52.054831  7739 net.cpp:67] Creating Layer conv5
+I0730 15:14:52.054868  7739 net.cpp:394] conv5 <- conv4
+I0730 15:14:52.054920  7739 net.cpp:356] conv5 -> conv5
+I0730 15:14:52.054965  7739 net.cpp:96] Setting up conv5
+I0730 15:14:52.056188  7739 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:14:52.060518  7739 net.cpp:67] Creating Layer relu5
+I0730 15:14:52.060566  7739 net.cpp:394] relu5 <- conv5
+I0730 15:14:52.060628  7739 net.cpp:345] relu5 -> conv5 (in-place)
+I0730 15:14:52.061600  7739 net.cpp:96] Setting up relu5
+I0730 15:14:52.061650  7739 net.cpp:103] Top shape: 1 256 13 13 (43264)
+I0730 15:14:52.061692  7739 net.cpp:67] Creating Layer pool5
+I0730 15:14:52.061743  7739 net.cpp:394] pool5 <- conv5
+I0730 15:14:52.061877  7739 net.cpp:356] pool5 -> pool5
+I0730 15:14:52.061924  7739 net.cpp:96] Setting up pool5
+I0730 15:14:52.061978  7739 net.cpp:103] Top shape: 1 256 6 6 (9216)
+I0730 15:14:52.062021  7739 net.cpp:67] Creating Layer fc6
+I0730 15:14:52.062065  7739 net.cpp:394] fc6 <- pool5
+I0730 15:14:52.062108  7739 net.cpp:356] fc6 -> fc6
+I0730 15:14:52.062167  7739 net.cpp:96] Setting up fc6
+I0730 15:14:52.231292  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.234671  7739 net.cpp:67] Creating Layer relu6
+I0730 15:14:52.234721  7739 net.cpp:394] relu6 <- fc6
+I0730 15:14:52.234803  7739 net.cpp:345] relu6 -> fc6 (in-place)
+I0730 15:14:52.235841  7739 net.cpp:96] Setting up relu6
+I0730 15:14:52.235889  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.235931  7739 net.cpp:67] Creating Layer drop6
+I0730 15:14:52.235980  7739 net.cpp:394] drop6 <- fc6
+I0730 15:14:52.236047  7739 net.cpp:345] drop6 -> fc6 (in-place)
+I0730 15:14:52.236106  7739 net.cpp:96] Setting up drop6
+I0730 15:14:52.236170  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.236217  7739 net.cpp:67] Creating Layer fc7
+I0730 15:14:52.236251  7739 net.cpp:394] fc7 <- fc6
+I0730 15:14:52.236304  7739 net.cpp:356] fc7 -> fc7
+I0730 15:14:52.236349  7739 net.cpp:96] Setting up fc7
+I0730 15:14:52.301090  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.301272  7739 net.cpp:67] Creating Layer relu7
+I0730 15:14:52.301316  7739 net.cpp:394] relu7 <- fc7
+I0730 15:14:52.301393  7739 net.cpp:345] relu7 -> fc7 (in-place)
+I0730 15:14:52.301451  7739 net.cpp:96] Setting up relu7
+I0730 15:14:52.301498  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.301548  7739 net.cpp:67] Creating Layer drop7
+I0730 15:14:52.301615  7739 net.cpp:394] drop7 <- fc7
+I0730 15:14:52.301669  7739 net.cpp:345] drop7 -> fc7 (in-place)
+I0730 15:14:52.306268  7739 net.cpp:96] Setting up drop7
+I0730 15:14:52.306326  7739 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 15:14:52.306383  7739 net.cpp:67] Creating Layer fc8
+I0730 15:14:52.306433  7739 net.cpp:394] fc8 <- fc7
+I0730 15:14:52.306486  7739 net.cpp:356] fc8 -> fc8
+I0730 15:14:52.306542  7739 net.cpp:96] Setting up fc8
+I0730 15:14:52.335053  7739 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 15:14:52.335222  7739 net.cpp:67] Creating Layer prob
+I0730 15:14:52.335260  7739 net.cpp:394] prob <- fc8
+I0730 15:14:52.335309  7739 net.cpp:356] prob -> prob
+I0730 15:14:52.335391  7739 net.cpp:96] Setting up prob
+I0730 15:14:52.335458  7739 net.cpp:103] Top shape: 1 1000 1 1 (1000)
+I0730 15:14:52.335515  7739 net.cpp:67] Creating Layer argmax
+I0730 15:14:52.336418  7739 net.cpp:394] argmax <- prob
+I0730 15:14:52.336477  7739 net.cpp:356] argmax -> argmax
+I0730 15:14:52.336544  7739 net.cpp:96] Setting up argmax
+I0730 15:14:52.336598  7739 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:14:52.336644  7739 net.cpp:172] argmax does not need backward computation.
+I0730 15:14:52.336706  7739 net.cpp:172] prob does not need backward computation.
+I0730 15:14:52.336751  7739 net.cpp:172] fc8 does not need backward computation.
+I0730 15:14:52.336796  7739 net.cpp:172] drop7 does not need backward computation.
+I0730 15:14:52.336838  7739 net.cpp:172] relu7 does not need backward computation.
+I0730 15:14:52.336882  7739 net.cpp:172] fc7 does not need backward computation.
+I0730 15:14:52.336927  7739 net.cpp:172] drop6 does not need backward computation.
+I0730 15:14:52.336971  7739 net.cpp:172] relu6 does not need backward computation.
+I0730 15:14:52.337014  7739 net.cpp:172] fc6 does not need backward computation.
+I0730 15:14:52.337059  7739 net.cpp:172] pool5 does not need backward computation.
+I0730 15:14:52.337101  7739 net.cpp:172] relu5 does not need backward computation.
+I0730 15:14:52.337144  7739 net.cpp:172] conv5 does not need backward computation.
+I0730 15:14:52.337204  7739 net.cpp:172] relu4 does not need backward computation.
+I0730 15:14:52.337249  7739 net.cpp:172] conv4 does not need backward computation.
+I0730 15:14:52.337292  7739 net.cpp:172] relu3 does not need backward computation.
+I0730 15:14:52.337335  7739 net.cpp:172] conv3 does not need backward computation.
+I0730 15:14:52.337379  7739 net.cpp:172] norm2 does not need backward computation.
+I0730 15:14:52.337422  7739 net.cpp:172] pool2 does not need backward computation.
+I0730 15:14:52.337466  7739 net.cpp:172] relu2 does not need backward computation.
+I0730 15:14:52.337512  7739 net.cpp:172] conv2 does not need backward computation.
+I0730 15:14:52.337554  7739 net.cpp:172] norm1 does not need backward computation.
+I0730 15:14:52.337597  7739 net.cpp:172] pool1 does not need backward computation.
+I0730 15:14:52.337642  7739 net.cpp:172] relu1 does not need backward computation.
+I0730 15:14:52.337687  7739 net.cpp:172] conv1 does not need backward computation.
+I0730 15:14:52.337729  7739 net.cpp:208] This network produces output argmax
+I0730 15:14:52.337812  7739 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:14:52.337883  7739 net.cpp:219] Network initialization done.
+I0730 15:14:52.337924  7739 net.cpp:220] Memory required for data: 6249796
+E0730 15:14:53.367252  7739 upgrade_proto.cpp:615] Attempting to upgrade input file specified using deprecated transformation parameters: ../../common/weights/imc.caffemodel
+I0730 15:14:53.368144  7739 upgrade_proto.cpp:618] Successfully upgraded file specified using deprecated data transformation parameters.
+E0730 15:14:53.368196  7739 upgrade_proto.cpp:620] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I0730 15:14:53.475929  7739 img-client.cpp:139] Reading input/imc/dog-208-227.jpg
+I0730 15:14:53.478978  7739 img-client.cpp:139] Reading input/imc/cat-281-227.jpg
+I0730 15:14:53.481793  7739 img-client.cpp:139] Reading input/imc/tp-999-227.jpg
+I0730 15:14:53.485461  7739 tonic.cpp:31] Reshaping input to dims: 3 3 227 227
+I0730 15:14:53.485538  7739 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 15:23:18.986721  7739 img-client.cpp:222] Image: input/imc/dog-208-227.jpg class: 208
+I0730 15:23:18.987184  7739 img-client.cpp:222] Image: input/imc/cat-281-227.jpg class: 281
+I0730 15:23:18.987222  7739 img-client.cpp:222] Image: input/imc/tp-999-227.jpg class: 999
+385.50user 0.64system 8:27.03elapsed 76%CPU (0avgtext+0avgdata 2216512maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+img-dig
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-dig
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:23:20.338048 12684 net.cpp:39] Initializing net from parameters: 
+name: "dig"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "ip1"
+  name: "ip1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip1"
+  top: "ip1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "ip1"
+  top: "ip2"
+  name: "ip2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip2"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+I0730 15:23:20.338461 12684 net.cpp:358] Input 0 -> data
+I0730 15:23:20.338620 12684 net.cpp:67] Creating Layer conv1
+I0730 15:23:20.338692 12684 net.cpp:394] conv1 <- data
+I0730 15:23:20.338749 12684 net.cpp:356] conv1 -> conv1
+I0730 15:23:20.338825 12684 net.cpp:96] Setting up conv1
+I0730 15:23:20.339339 12684 net.cpp:103] Top shape: 1 20 24 24 (11520)
+I0730 15:23:20.339447 12684 net.cpp:67] Creating Layer pool1
+I0730 15:23:20.339488 12684 net.cpp:394] pool1 <- conv1
+I0730 15:23:20.339535 12684 net.cpp:356] pool1 -> pool1
+I0730 15:23:20.339584 12684 net.cpp:96] Setting up pool1
+I0730 15:23:20.339658 12684 net.cpp:103] Top shape: 1 20 12 12 (2880)
+I0730 15:23:20.339704 12684 net.cpp:67] Creating Layer conv2
+I0730 15:23:20.339762 12684 net.cpp:394] conv2 <- pool1
+I0730 15:23:20.339804 12684 net.cpp:356] conv2 -> conv2
+I0730 15:23:20.339846 12684 net.cpp:96] Setting up conv2
+I0730 15:23:20.340247 12684 net.cpp:103] Top shape: 1 50 8 8 (3200)
+I0730 15:23:20.340312 12684 net.cpp:67] Creating Layer pool2
+I0730 15:23:20.340351 12684 net.cpp:394] pool2 <- conv2
+I0730 15:23:20.340391 12684 net.cpp:356] pool2 -> pool2
+I0730 15:23:20.340445 12684 net.cpp:96] Setting up pool2
+I0730 15:23:20.340494 12684 net.cpp:103] Top shape: 1 50 4 4 (800)
+I0730 15:23:20.340535 12684 net.cpp:67] Creating Layer ip1
+I0730 15:23:20.340581 12684 net.cpp:394] ip1 <- pool2
+I0730 15:23:20.340621 12684 net.cpp:356] ip1 -> ip1
+I0730 15:23:20.340675 12684 net.cpp:96] Setting up ip1
+I0730 15:23:20.345340 12684 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:23:20.345401 12684 net.cpp:67] Creating Layer relu1
+I0730 15:23:20.345438 12684 net.cpp:394] relu1 <- ip1
+I0730 15:23:20.345489 12684 net.cpp:345] relu1 -> ip1 (in-place)
+I0730 15:23:20.345532 12684 net.cpp:96] Setting up relu1
+I0730 15:23:20.345584 12684 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:23:20.345626 12684 net.cpp:67] Creating Layer ip2
+I0730 15:23:20.345672 12684 net.cpp:394] ip2 <- ip1
+I0730 15:23:20.345712 12684 net.cpp:356] ip2 -> ip2
+I0730 15:23:20.345763 12684 net.cpp:96] Setting up ip2
+I0730 15:23:20.345892 12684 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:23:20.345944 12684 net.cpp:67] Creating Layer prob
+I0730 15:23:20.345981 12684 net.cpp:394] prob <- ip2
+I0730 15:23:20.346030 12684 net.cpp:356] prob -> prob
+I0730 15:23:20.346071 12684 net.cpp:96] Setting up prob
+I0730 15:23:20.346123 12684 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:23:20.346164 12684 net.cpp:67] Creating Layer argmax
+I0730 15:23:20.346210 12684 net.cpp:394] argmax <- prob
+I0730 15:23:20.346249 12684 net.cpp:356] argmax -> argmax
+I0730 15:23:20.346302 12684 net.cpp:96] Setting up argmax
+I0730 15:23:20.346343 12684 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:23:20.346390 12684 net.cpp:172] argmax does not need backward computation.
+I0730 15:23:20.346432 12684 net.cpp:172] prob does not need backward computation.
+I0730 15:23:20.346477 12684 net.cpp:172] ip2 does not need backward computation.
+I0730 15:23:20.346510 12684 net.cpp:172] relu1 does not need backward computation.
+I0730 15:23:20.346552 12684 net.cpp:172] ip1 does not need backward computation.
+I0730 15:23:20.346586 12684 net.cpp:172] pool2 does not need backward computation.
+I0730 15:23:20.346627 12684 net.cpp:172] conv2 does not need backward computation.
+I0730 15:23:20.346662 12684 net.cpp:172] pool1 does not need backward computation.
+I0730 15:23:20.346703 12684 net.cpp:172] conv1 does not need backward computation.
+I0730 15:23:20.346735 12684 net.cpp:208] This network produces output argmax
+I0730 15:23:20.346796 12684 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:23:20.346844 12684 net.cpp:219] Network initialization done.
+I0730 15:23:20.346890 12684 net.cpp:220] Memory required for data: 77684
+I0730 15:23:20.366947 12684 img-client.cpp:139] Reading input/dig/0.png
+I0730 15:23:20.369407 12684 img-client.cpp:139] Reading input/dig/1.png
+I0730 15:23:20.372378 12684 img-client.cpp:139] Reading input/dig/2.png
+I0730 15:23:20.372851 12684 img-client.cpp:139] Reading input/dig/3.png
+I0730 15:23:20.373421 12684 img-client.cpp:139] Reading input/dig/4.png
+I0730 15:23:20.373965 12684 img-client.cpp:139] Reading input/dig/5.png
+I0730 15:23:20.374806 12684 img-client.cpp:139] Reading input/dig/6.png
+I0730 15:23:20.375239 12684 img-client.cpp:139] Reading input/dig/7.png
+I0730 15:23:20.375627 12684 img-client.cpp:139] Reading input/dig/8.png
+I0730 15:23:20.376045 12684 img-client.cpp:139] Reading input/dig/9.png
+I0730 15:23:20.376453 12684 tonic.cpp:31] Reshaping input to dims: 10 1 28 28
+I0730 15:23:20.376515 12684 tonic.cpp:37] Reshaping output to dims: 10 1 1 1
+I0730 15:33:08.487628 12684 img-client.cpp:222] Image: input/dig/0.png class: 0
+I0730 15:33:08.488189 12684 img-client.cpp:222] Image: input/dig/1.png class: 1
+I0730 15:33:08.488242 12684 img-client.cpp:222] Image: input/dig/2.png class: 2
+I0730 15:33:08.488283 12684 img-client.cpp:222] Image: input/dig/3.png class: 3
+I0730 15:33:08.488350 12684 img-client.cpp:222] Image: input/dig/4.png class: 4
+I0730 15:33:08.488399 12684 img-client.cpp:222] Image: input/dig/5.png class: 5
+I0730 15:33:08.488440 12684 img-client.cpp:222] Image: input/dig/6.png class: 6
+I0730 15:33:08.488487 12684 img-client.cpp:222] Image: input/dig/7.png class: 7
+I0730 15:33:08.488525 12684 img-client.cpp:222] Image: input/dig/8.png class: 8
+I0730 15:33:08.488584 12684 img-client.cpp:222] Image: input/dig/9.png class: 9
+457.44user 0.19system 9:48.22elapsed 77%CPU (0avgtext+0avgdata 177712maxresident)k
+4064inputs+8outputs (2major+11938minor)pagefaults 0swaps
+---------------------------------------------------------
+img-dig
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-dig
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:33:09.744647 24859 net.cpp:39] Initializing net from parameters: 
+name: "dig"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "ip1"
+  name: "ip1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip1"
+  top: "ip1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "ip1"
+  top: "ip2"
+  name: "ip2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip2"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+I0730 15:33:09.745018 24859 net.cpp:358] Input 0 -> data
+I0730 15:33:09.745192 24859 net.cpp:67] Creating Layer conv1
+I0730 15:33:09.745252 24859 net.cpp:394] conv1 <- data
+I0730 15:33:09.745303 24859 net.cpp:356] conv1 -> conv1
+I0730 15:33:09.745381 24859 net.cpp:96] Setting up conv1
+I0730 15:33:09.750438 24859 net.cpp:103] Top shape: 1 20 24 24 (11520)
+I0730 15:33:09.750560 24859 net.cpp:67] Creating Layer pool1
+I0730 15:33:09.750607 24859 net.cpp:394] pool1 <- conv1
+I0730 15:33:09.750650 24859 net.cpp:356] pool1 -> pool1
+I0730 15:33:09.750715 24859 net.cpp:96] Setting up pool1
+I0730 15:33:09.750792 24859 net.cpp:103] Top shape: 1 20 12 12 (2880)
+I0730 15:33:09.750844 24859 net.cpp:67] Creating Layer conv2
+I0730 15:33:09.750892 24859 net.cpp:394] conv2 <- pool1
+I0730 15:33:09.750936 24859 net.cpp:356] conv2 -> conv2
+I0730 15:33:09.750980 24859 net.cpp:96] Setting up conv2
+I0730 15:33:09.751370 24859 net.cpp:103] Top shape: 1 50 8 8 (3200)
+I0730 15:33:09.751435 24859 net.cpp:67] Creating Layer pool2
+I0730 15:33:09.751477 24859 net.cpp:394] pool2 <- conv2
+I0730 15:33:09.751528 24859 net.cpp:356] pool2 -> pool2
+I0730 15:33:09.751574 24859 net.cpp:96] Setting up pool2
+I0730 15:33:09.751626 24859 net.cpp:103] Top shape: 1 50 4 4 (800)
+I0730 15:33:09.751670 24859 net.cpp:67] Creating Layer ip1
+I0730 15:33:09.751718 24859 net.cpp:394] ip1 <- pool2
+I0730 15:33:09.751760 24859 net.cpp:356] ip1 -> ip1
+I0730 15:33:09.751817 24859 net.cpp:96] Setting up ip1
+I0730 15:33:09.760172 24859 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:33:09.761476 24859 net.cpp:67] Creating Layer relu1
+I0730 15:33:09.761525 24859 net.cpp:394] relu1 <- ip1
+I0730 15:33:09.761593 24859 net.cpp:345] relu1 -> ip1 (in-place)
+I0730 15:33:09.761642 24859 net.cpp:96] Setting up relu1
+I0730 15:33:09.761698 24859 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:33:09.761742 24859 net.cpp:67] Creating Layer ip2
+I0730 15:33:09.761790 24859 net.cpp:394] ip2 <- ip1
+I0730 15:33:09.761836 24859 net.cpp:356] ip2 -> ip2
+I0730 15:33:09.761888 24859 net.cpp:96] Setting up ip2
+I0730 15:33:09.762001 24859 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:33:09.762056 24859 net.cpp:67] Creating Layer prob
+I0730 15:33:09.762095 24859 net.cpp:394] prob <- ip2
+I0730 15:33:09.762145 24859 net.cpp:356] prob -> prob
+I0730 15:33:09.762190 24859 net.cpp:96] Setting up prob
+I0730 15:33:09.762243 24859 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:33:09.762286 24859 net.cpp:67] Creating Layer argmax
+I0730 15:33:09.762333 24859 net.cpp:394] argmax <- prob
+I0730 15:33:09.762379 24859 net.cpp:356] argmax -> argmax
+I0730 15:33:09.762433 24859 net.cpp:96] Setting up argmax
+I0730 15:33:09.762478 24859 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:33:09.762526 24859 net.cpp:172] argmax does not need backward computation.
+I0730 15:33:09.762570 24859 net.cpp:172] prob does not need backward computation.
+I0730 15:33:09.762615 24859 net.cpp:172] ip2 does not need backward computation.
+I0730 15:33:09.762651 24859 net.cpp:172] relu1 does not need backward computation.
+I0730 15:33:09.762696 24859 net.cpp:172] ip1 does not need backward computation.
+I0730 15:33:09.762732 24859 net.cpp:172] pool2 does not need backward computation.
+I0730 15:33:09.762773 24859 net.cpp:172] conv2 does not need backward computation.
+I0730 15:33:09.762809 24859 net.cpp:172] pool1 does not need backward computation.
+I0730 15:33:09.762850 24859 net.cpp:172] conv1 does not need backward computation.
+I0730 15:33:09.762886 24859 net.cpp:208] This network produces output argmax
+I0730 15:33:09.762948 24859 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:33:09.763002 24859 net.cpp:219] Network initialization done.
+I0730 15:33:09.763049 24859 net.cpp:220] Memory required for data: 77684
+I0730 15:33:09.774324 24859 img-client.cpp:139] Reading input/dig/0.png
+I0730 15:33:09.774732 24859 img-client.cpp:139] Reading input/dig/1.png
+I0730 15:33:09.774868 24859 img-client.cpp:139] Reading input/dig/2.png
+I0730 15:33:09.775014 24859 img-client.cpp:139] Reading input/dig/3.png
+I0730 15:33:09.775159 24859 img-client.cpp:139] Reading input/dig/4.png
+I0730 15:33:09.775290 24859 img-client.cpp:139] Reading input/dig/5.png
+I0730 15:33:09.775434 24859 img-client.cpp:139] Reading input/dig/6.png
+I0730 15:33:09.775563 24859 img-client.cpp:139] Reading input/dig/7.png
+I0730 15:33:09.775701 24859 img-client.cpp:139] Reading input/dig/8.png
+I0730 15:33:09.775830 24859 img-client.cpp:139] Reading input/dig/9.png
+I0730 15:33:09.776062 24859 tonic.cpp:31] Reshaping input to dims: 10 1 28 28
+I0730 15:33:09.776126 24859 tonic.cpp:37] Reshaping output to dims: 10 1 1 1
+I0730 15:43:02.046840 24859 img-client.cpp:222] Image: input/dig/0.png class: 0
+I0730 15:43:02.047520 24859 img-client.cpp:222] Image: input/dig/1.png class: 1
+I0730 15:43:02.047569 24859 img-client.cpp:222] Image: input/dig/2.png class: 2
+I0730 15:43:02.047623 24859 img-client.cpp:222] Image: input/dig/3.png class: 3
+I0730 15:43:02.047667 24859 img-client.cpp:222] Image: input/dig/4.png class: 4
+I0730 15:43:02.047716 24859 img-client.cpp:222] Image: input/dig/5.png class: 5
+I0730 15:43:02.047758 24859 img-client.cpp:222] Image: input/dig/6.png class: 6
+I0730 15:43:02.047807 24859 img-client.cpp:222] Image: input/dig/7.png class: 7
+I0730 15:43:02.047847 24859 img-client.cpp:222] Image: input/dig/8.png class: 8
+I0730 15:43:02.047907 24859 img-client.cpp:222] Image: input/dig/9.png class: 9
+458.18user 0.24system 9:52.37elapsed 77%CPU (0avgtext+0avgdata 177696maxresident)k
+0inputs+8outputs (0major+11940minor)pagefaults 0swaps
+---------------------------------------------------------
+img-dig
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-dig
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:43:03.334966  6475 net.cpp:39] Initializing net from parameters: 
+name: "dig"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "ip1"
+  name: "ip1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip1"
+  top: "ip1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "ip1"
+  top: "ip2"
+  name: "ip2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip2"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+I0730 15:43:03.335337  6475 net.cpp:358] Input 0 -> data
+I0730 15:43:03.335496  6475 net.cpp:67] Creating Layer conv1
+I0730 15:43:03.335556  6475 net.cpp:394] conv1 <- data
+I0730 15:43:03.335608  6475 net.cpp:356] conv1 -> conv1
+I0730 15:43:03.335686  6475 net.cpp:96] Setting up conv1
+I0730 15:43:03.336236  6475 net.cpp:103] Top shape: 1 20 24 24 (11520)
+I0730 15:43:03.336982  6475 net.cpp:67] Creating Layer pool1
+I0730 15:43:03.337033  6475 net.cpp:394] pool1 <- conv1
+I0730 15:43:03.337105  6475 net.cpp:356] pool1 -> pool1
+I0730 15:43:03.337157  6475 net.cpp:96] Setting up pool1
+I0730 15:43:03.337239  6475 net.cpp:103] Top shape: 1 20 12 12 (2880)
+I0730 15:43:03.337286  6475 net.cpp:67] Creating Layer conv2
+I0730 15:43:03.337335  6475 net.cpp:394] conv2 <- pool1
+I0730 15:43:03.337378  6475 net.cpp:356] conv2 -> conv2
+I0730 15:43:03.337430  6475 net.cpp:96] Setting up conv2
+I0730 15:43:03.337733  6475 net.cpp:103] Top shape: 1 50 8 8 (3200)
+I0730 15:43:03.338443  6475 net.cpp:67] Creating Layer pool2
+I0730 15:43:03.338492  6475 net.cpp:394] pool2 <- conv2
+I0730 15:43:03.338547  6475 net.cpp:356] pool2 -> pool2
+I0730 15:43:03.338592  6475 net.cpp:96] Setting up pool2
+I0730 15:43:03.338642  6475 net.cpp:103] Top shape: 1 50 4 4 (800)
+I0730 15:43:03.338685  6475 net.cpp:67] Creating Layer ip1
+I0730 15:43:03.338732  6475 net.cpp:394] ip1 <- pool2
+I0730 15:43:03.338773  6475 net.cpp:356] ip1 -> ip1
+I0730 15:43:03.338829  6475 net.cpp:96] Setting up ip1
+I0730 15:43:03.343178  6475 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:43:03.347369  6475 net.cpp:67] Creating Layer relu1
+I0730 15:43:03.347426  6475 net.cpp:394] relu1 <- ip1
+I0730 15:43:03.347496  6475 net.cpp:345] relu1 -> ip1 (in-place)
+I0730 15:43:03.347548  6475 net.cpp:96] Setting up relu1
+I0730 15:43:03.351582  6475 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:43:03.351647  6475 net.cpp:67] Creating Layer ip2
+I0730 15:43:03.351690  6475 net.cpp:394] ip2 <- ip1
+I0730 15:43:03.351761  6475 net.cpp:356] ip2 -> ip2
+I0730 15:43:03.351811  6475 net.cpp:96] Setting up ip2
+I0730 15:43:03.351935  6475 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:43:03.352064  6475 net.cpp:67] Creating Layer prob
+I0730 15:43:03.352109  6475 net.cpp:394] prob <- ip2
+I0730 15:43:03.352259  6475 net.cpp:356] prob -> prob
+I0730 15:43:03.352308  6475 net.cpp:96] Setting up prob
+I0730 15:43:03.352396  6475 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:43:03.352444  6475 net.cpp:67] Creating Layer argmax
+I0730 15:43:03.352653  6475 net.cpp:394] argmax <- prob
+I0730 15:43:03.352706  6475 net.cpp:356] argmax -> argmax
+I0730 15:43:03.352752  6475 net.cpp:96] Setting up argmax
+I0730 15:43:03.352808  6475 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:43:03.353116  6475 net.cpp:172] argmax does not need backward computation.
+I0730 15:43:03.353173  6475 net.cpp:172] prob does not need backward computation.
+I0730 15:43:03.353209  6475 net.cpp:172] ip2 does not need backward computation.
+I0730 15:43:03.353255  6475 net.cpp:172] relu1 does not need backward computation.
+I0730 15:43:03.353291  6475 net.cpp:172] ip1 does not need backward computation.
+I0730 15:43:03.353334  6475 net.cpp:172] pool2 does not need backward computation.
+I0730 15:43:03.353369  6475 net.cpp:172] conv2 does not need backward computation.
+I0730 15:43:03.353412  6475 net.cpp:172] pool1 does not need backward computation.
+I0730 15:43:03.353448  6475 net.cpp:172] conv1 does not need backward computation.
+I0730 15:43:03.353492  6475 net.cpp:208] This network produces output argmax
+I0730 15:43:03.353559  6475 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:43:03.353615  6475 net.cpp:219] Network initialization done.
+I0730 15:43:03.354166  6475 net.cpp:220] Memory required for data: 77684
+I0730 15:43:03.365702  6475 img-client.cpp:139] Reading input/dig/0.png
+I0730 15:43:03.366358  6475 img-client.cpp:139] Reading input/dig/1.png
+I0730 15:43:03.366504  6475 img-client.cpp:139] Reading input/dig/2.png
+I0730 15:43:03.366650  6475 img-client.cpp:139] Reading input/dig/3.png
+I0730 15:43:03.366791  6475 img-client.cpp:139] Reading input/dig/4.png
+I0730 15:43:03.366932  6475 img-client.cpp:139] Reading input/dig/5.png
+I0730 15:43:03.367079  6475 img-client.cpp:139] Reading input/dig/6.png
+I0730 15:43:03.367218  6475 img-client.cpp:139] Reading input/dig/7.png
+I0730 15:43:03.367355  6475 img-client.cpp:139] Reading input/dig/8.png
+I0730 15:43:03.367496  6475 img-client.cpp:139] Reading input/dig/9.png
+I0730 15:43:03.367656  6475 tonic.cpp:31] Reshaping input to dims: 10 1 28 28
+I0730 15:43:03.367722  6475 tonic.cpp:37] Reshaping output to dims: 10 1 1 1
+I0730 15:52:59.773085  6475 img-client.cpp:222] Image: input/dig/0.png class: 0
+I0730 15:52:59.774171  6475 img-client.cpp:222] Image: input/dig/1.png class: 1
+I0730 15:52:59.774219  6475 img-client.cpp:222] Image: input/dig/2.png class: 2
+I0730 15:52:59.774289  6475 img-client.cpp:222] Image: input/dig/3.png class: 3
+I0730 15:52:59.774340  6475 img-client.cpp:222] Image: input/dig/4.png class: 4
+I0730 15:52:59.774397  6475 img-client.cpp:222] Image: input/dig/5.png class: 5
+I0730 15:52:59.774454  6475 img-client.cpp:222] Image: input/dig/6.png class: 6
+I0730 15:52:59.774507  6475 img-client.cpp:222] Image: input/dig/7.png class: 7
+I0730 15:52:59.774557  6475 img-client.cpp:222] Image: input/dig/8.png class: 8
+I0730 15:52:59.774629  6475 img-client.cpp:222] Image: input/dig/9.png class: 9
+458.46user 0.23system 9:56.51elapsed 76%CPU (0avgtext+0avgdata 177728maxresident)k
+0inputs+8outputs (0major+11940minor)pagefaults 0swaps
+---------------------------------------------------------
+img-dig
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-dig
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 15:53:01.028674 22749 net.cpp:39] Initializing net from parameters: 
+name: "dig"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "ip1"
+  name: "ip1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip1"
+  top: "ip1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "ip1"
+  top: "ip2"
+  name: "ip2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip2"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+I0730 15:53:01.030639 22749 net.cpp:358] Input 0 -> data
+I0730 15:53:01.030804 22749 net.cpp:67] Creating Layer conv1
+I0730 15:53:01.030868 22749 net.cpp:394] conv1 <- data
+I0730 15:53:01.030920 22749 net.cpp:356] conv1 -> conv1
+I0730 15:53:01.031002 22749 net.cpp:96] Setting up conv1
+I0730 15:53:01.031518 22749 net.cpp:103] Top shape: 1 20 24 24 (11520)
+I0730 15:53:01.031631 22749 net.cpp:67] Creating Layer pool1
+I0730 15:53:01.031674 22749 net.cpp:394] pool1 <- conv1
+I0730 15:53:01.031726 22749 net.cpp:356] pool1 -> pool1
+I0730 15:53:01.031776 22749 net.cpp:96] Setting up pool1
+I0730 15:53:01.031859 22749 net.cpp:103] Top shape: 1 20 12 12 (2880)
+I0730 15:53:01.032855 22749 net.cpp:67] Creating Layer conv2
+I0730 15:53:01.032903 22749 net.cpp:394] conv2 <- pool1
+I0730 15:53:01.032963 22749 net.cpp:356] conv2 -> conv2
+I0730 15:53:01.033025 22749 net.cpp:96] Setting up conv2
+I0730 15:53:01.033432 22749 net.cpp:103] Top shape: 1 50 8 8 (3200)
+I0730 15:53:01.033495 22749 net.cpp:67] Creating Layer pool2
+I0730 15:53:01.033537 22749 net.cpp:394] pool2 <- conv2
+I0730 15:53:01.033578 22749 net.cpp:356] pool2 -> pool2
+I0730 15:53:01.033637 22749 net.cpp:96] Setting up pool2
+I0730 15:53:01.033689 22749 net.cpp:103] Top shape: 1 50 4 4 (800)
+I0730 15:53:01.033731 22749 net.cpp:67] Creating Layer ip1
+I0730 15:53:01.033779 22749 net.cpp:394] ip1 <- pool2
+I0730 15:53:01.033823 22749 net.cpp:356] ip1 -> ip1
+I0730 15:53:01.033879 22749 net.cpp:96] Setting up ip1
+I0730 15:53:01.038919 22749 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:53:01.040060 22749 net.cpp:67] Creating Layer relu1
+I0730 15:53:01.040105 22749 net.cpp:394] relu1 <- ip1
+I0730 15:53:01.040159 22749 net.cpp:345] relu1 -> ip1 (in-place)
+I0730 15:53:01.040204 22749 net.cpp:96] Setting up relu1
+I0730 15:53:01.040257 22749 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 15:53:01.040299 22749 net.cpp:67] Creating Layer ip2
+I0730 15:53:01.040348 22749 net.cpp:394] ip2 <- ip1
+I0730 15:53:01.040391 22749 net.cpp:356] ip2 -> ip2
+I0730 15:53:01.040444 22749 net.cpp:96] Setting up ip2
+I0730 15:53:01.040555 22749 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:53:01.040611 22749 net.cpp:67] Creating Layer prob
+I0730 15:53:01.040648 22749 net.cpp:394] prob <- ip2
+I0730 15:53:01.040699 22749 net.cpp:356] prob -> prob
+I0730 15:53:01.040745 22749 net.cpp:96] Setting up prob
+I0730 15:53:01.040797 22749 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 15:53:01.040840 22749 net.cpp:67] Creating Layer argmax
+I0730 15:53:01.040887 22749 net.cpp:394] argmax <- prob
+I0730 15:53:01.040928 22749 net.cpp:356] argmax -> argmax
+I0730 15:53:01.040983 22749 net.cpp:96] Setting up argmax
+I0730 15:53:01.041046 22749 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 15:53:01.041095 22749 net.cpp:172] argmax does not need backward computation.
+I0730 15:53:01.041141 22749 net.cpp:172] prob does not need backward computation.
+I0730 15:53:01.041185 22749 net.cpp:172] ip2 does not need backward computation.
+I0730 15:53:01.041221 22749 net.cpp:172] relu1 does not need backward computation.
+I0730 15:53:01.041265 22749 net.cpp:172] ip1 does not need backward computation.
+I0730 15:53:01.041299 22749 net.cpp:172] pool2 does not need backward computation.
+I0730 15:53:01.041342 22749 net.cpp:172] conv2 does not need backward computation.
+I0730 15:53:01.041378 22749 net.cpp:172] pool1 does not need backward computation.
+I0730 15:53:01.041419 22749 net.cpp:172] conv1 does not need backward computation.
+I0730 15:53:01.041455 22749 net.cpp:208] This network produces output argmax
+I0730 15:53:01.041518 22749 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 15:53:01.041586 22749 net.cpp:219] Network initialization done.
+I0730 15:53:01.041628 22749 net.cpp:220] Memory required for data: 77684
+I0730 15:53:01.049049 22749 img-client.cpp:139] Reading input/dig/0.png
+I0730 15:53:01.049507 22749 img-client.cpp:139] Reading input/dig/1.png
+I0730 15:53:01.049664 22749 img-client.cpp:139] Reading input/dig/2.png
+I0730 15:53:01.049798 22749 img-client.cpp:139] Reading input/dig/3.png
+I0730 15:53:01.049949 22749 img-client.cpp:139] Reading input/dig/4.png
+I0730 15:53:01.050078 22749 img-client.cpp:139] Reading input/dig/5.png
+I0730 15:53:01.050209 22749 img-client.cpp:139] Reading input/dig/6.png
+I0730 15:53:01.050349 22749 img-client.cpp:139] Reading input/dig/7.png
+I0730 15:53:01.050489 22749 img-client.cpp:139] Reading input/dig/8.png
+I0730 15:53:01.050621 22749 img-client.cpp:139] Reading input/dig/9.png
+I0730 15:53:01.050792 22749 tonic.cpp:31] Reshaping input to dims: 10 1 28 28
+I0730 15:53:01.050855 22749 tonic.cpp:37] Reshaping output to dims: 10 1 1 1
+I0730 16:03:00.416952 22749 img-client.cpp:222] Image: input/dig/0.png class: 0
+I0730 16:03:00.417832 22749 img-client.cpp:222] Image: input/dig/1.png class: 1
+I0730 16:03:00.417894 22749 img-client.cpp:222] Image: input/dig/2.png class: 2
+I0730 16:03:00.417950 22749 img-client.cpp:222] Image: input/dig/3.png class: 3
+I0730 16:03:00.417994 22749 img-client.cpp:222] Image: input/dig/4.png class: 4
+I0730 16:03:00.418051 22749 img-client.cpp:222] Image: input/dig/5.png class: 5
+I0730 16:03:00.418098 22749 img-client.cpp:222] Image: input/dig/6.png class: 6
+I0730 16:03:00.418150 22749 img-client.cpp:222] Image: input/dig/7.png class: 7
+I0730 16:03:00.418191 22749 img-client.cpp:222] Image: input/dig/8.png class: 8
+I0730 16:03:00.418252 22749 img-client.cpp:222] Image: input/dig/9.png class: 9
+459.75user 0.19system 9:59.49elapsed 76%CPU (0avgtext+0avgdata 177712maxresident)k
+0inputs+8outputs (0major+11940minor)pagefaults 0swaps
+---------------------------------------------------------
+img-dig
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-dig
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:03:01.652132  7109 net.cpp:39] Initializing net from parameters: 
+name: "dig"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 20
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 50
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "ip1"
+  name: "ip1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 500
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip1"
+  top: "ip1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "ip1"
+  top: "ip2"
+  name: "ip2"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  bottom: "ip2"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+I0730 16:03:01.652544  7109 net.cpp:358] Input 0 -> data
+I0730 16:03:01.652699  7109 net.cpp:67] Creating Layer conv1
+I0730 16:03:01.652760  7109 net.cpp:394] conv1 <- data
+I0730 16:03:01.652812  7109 net.cpp:356] conv1 -> conv1
+I0730 16:03:01.652889  7109 net.cpp:96] Setting up conv1
+I0730 16:03:01.653419  7109 net.cpp:103] Top shape: 1 20 24 24 (11520)
+I0730 16:03:01.653518  7109 net.cpp:67] Creating Layer pool1
+I0730 16:03:01.653560  7109 net.cpp:394] pool1 <- conv1
+I0730 16:03:01.653612  7109 net.cpp:356] pool1 -> pool1
+I0730 16:03:01.653661  7109 net.cpp:96] Setting up pool1
+I0730 16:03:01.653733  7109 net.cpp:103] Top shape: 1 20 12 12 (2880)
+I0730 16:03:01.653780  7109 net.cpp:67] Creating Layer conv2
+I0730 16:03:01.653828  7109 net.cpp:394] conv2 <- pool1
+I0730 16:03:01.653868  7109 net.cpp:356] conv2 -> conv2
+I0730 16:03:01.653920  7109 net.cpp:96] Setting up conv2
+I0730 16:03:01.654305  7109 net.cpp:103] Top shape: 1 50 8 8 (3200)
+I0730 16:03:01.654367  7109 net.cpp:67] Creating Layer pool2
+I0730 16:03:01.654407  7109 net.cpp:394] pool2 <- conv2
+I0730 16:03:01.654458  7109 net.cpp:356] pool2 -> pool2
+I0730 16:03:01.654500  7109 net.cpp:96] Setting up pool2
+I0730 16:03:01.654551  7109 net.cpp:103] Top shape: 1 50 4 4 (800)
+I0730 16:03:01.654592  7109 net.cpp:67] Creating Layer ip1
+I0730 16:03:01.654639  7109 net.cpp:394] ip1 <- pool2
+I0730 16:03:01.654680  7109 net.cpp:356] ip1 -> ip1
+I0730 16:03:01.654734  7109 net.cpp:96] Setting up ip1
+I0730 16:03:01.659759  7109 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 16:03:01.659821  7109 net.cpp:67] Creating Layer relu1
+I0730 16:03:01.659860  7109 net.cpp:394] relu1 <- ip1
+I0730 16:03:01.659910  7109 net.cpp:345] relu1 -> ip1 (in-place)
+I0730 16:03:01.659952  7109 net.cpp:96] Setting up relu1
+I0730 16:03:01.660022  7109 net.cpp:103] Top shape: 1 500 1 1 (500)
+I0730 16:03:01.660066  7109 net.cpp:67] Creating Layer ip2
+I0730 16:03:01.660112  7109 net.cpp:394] ip2 <- ip1
+I0730 16:03:01.660153  7109 net.cpp:356] ip2 -> ip2
+I0730 16:03:01.660205  7109 net.cpp:96] Setting up ip2
+I0730 16:03:01.660316  7109 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 16:03:01.660370  7109 net.cpp:67] Creating Layer prob
+I0730 16:03:01.660408  7109 net.cpp:394] prob <- ip2
+I0730 16:03:01.660456  7109 net.cpp:356] prob -> prob
+I0730 16:03:01.660498  7109 net.cpp:96] Setting up prob
+I0730 16:03:01.660549  7109 net.cpp:103] Top shape: 1 10 1 1 (10)
+I0730 16:03:01.660591  7109 net.cpp:67] Creating Layer argmax
+I0730 16:03:01.660636  7109 net.cpp:394] argmax <- prob
+I0730 16:03:01.660681  7109 net.cpp:356] argmax -> argmax
+I0730 16:03:01.660732  7109 net.cpp:96] Setting up argmax
+I0730 16:03:01.660776  7109 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:03:01.660822  7109 net.cpp:172] argmax does not need backward computation.
+I0730 16:03:01.660867  7109 net.cpp:172] prob does not need backward computation.
+I0730 16:03:01.660912  7109 net.cpp:172] ip2 does not need backward computation.
+I0730 16:03:01.660948  7109 net.cpp:172] relu1 does not need backward computation.
+I0730 16:03:01.661001  7109 net.cpp:172] ip1 does not need backward computation.
+I0730 16:03:01.661037  7109 net.cpp:172] pool2 does not need backward computation.
+I0730 16:03:01.661082  7109 net.cpp:172] conv2 does not need backward computation.
+I0730 16:03:01.661116  7109 net.cpp:172] pool1 does not need backward computation.
+I0730 16:03:01.661159  7109 net.cpp:172] conv1 does not need backward computation.
+I0730 16:03:01.661195  7109 net.cpp:208] This network produces output argmax
+I0730 16:03:01.661257  7109 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:03:01.661327  7109 net.cpp:219] Network initialization done.
+I0730 16:03:01.661370  7109 net.cpp:220] Memory required for data: 77684
+I0730 16:03:01.671368  7109 img-client.cpp:139] Reading input/dig/0.png
+I0730 16:03:01.671815  7109 img-client.cpp:139] Reading input/dig/1.png
+I0730 16:03:01.671960  7109 img-client.cpp:139] Reading input/dig/2.png
+I0730 16:03:01.672116  7109 img-client.cpp:139] Reading input/dig/3.png
+I0730 16:03:01.672257  7109 img-client.cpp:139] Reading input/dig/4.png
+I0730 16:03:01.672389  7109 img-client.cpp:139] Reading input/dig/5.png
+I0730 16:03:01.672533  7109 img-client.cpp:139] Reading input/dig/6.png
+I0730 16:03:01.672662  7109 img-client.cpp:139] Reading input/dig/7.png
+I0730 16:03:01.672801  7109 img-client.cpp:139] Reading input/dig/8.png
+I0730 16:03:01.672931  7109 img-client.cpp:139] Reading input/dig/9.png
+I0730 16:03:01.673110  7109 tonic.cpp:31] Reshaping input to dims: 10 1 28 28
+I0730 16:03:01.673177  7109 tonic.cpp:37] Reshaping output to dims: 10 1 1 1
+I0730 16:12:53.703004  7109 img-client.cpp:222] Image: input/dig/0.png class: 0
+I0730 16:12:53.708881  7109 img-client.cpp:222] Image: input/dig/1.png class: 1
+I0730 16:12:53.708952  7109 img-client.cpp:222] Image: input/dig/2.png class: 2
+I0730 16:12:53.709025  7109 img-client.cpp:222] Image: input/dig/3.png class: 3
+I0730 16:12:53.709070  7109 img-client.cpp:222] Image: input/dig/4.png class: 4
+I0730 16:12:53.709131  7109 img-client.cpp:222] Image: input/dig/5.png class: 5
+I0730 16:12:53.709180  7109 img-client.cpp:222] Image: input/dig/6.png class: 6
+I0730 16:12:53.709230  7109 img-client.cpp:222] Image: input/dig/7.png class: 7
+I0730 16:12:53.709270  7109 img-client.cpp:222] Image: input/dig/8.png class: 8
+I0730 16:12:53.709331  7109 img-client.cpp:222] Image: input/dig/9.png class: 9
+459.04user 0.19system 9:52.15elapsed 77%CPU (0avgtext+0avgdata 177712maxresident)k
+0inputs+8outputs (0major+11942minor)pagefaults 0swaps
+---------------------------------------------------------
+img-face
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-face
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:12:55.019199 20653 net.cpp:39] Initializing net from parameters: 
+name: "face"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 32
+    kernel_size: 11
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "local4"
+  name: "local4"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "local4"
+  top: "local5"
+  name: "local5"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 7
+    stride: 2
+  }
+}
+layers {
+  bottom: "local5"
+  top: "local6"
+  name: "local6"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 5
+    stride: 1
+  }
+}
+layers {
+  bottom: "local6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 83
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 152
+input_dim: 152
+I0730 16:12:55.019575 20653 net.cpp:358] Input 0 -> data
+I0730 16:12:55.019732 20653 net.cpp:67] Creating Layer conv1
+I0730 16:12:55.019791 20653 net.cpp:394] conv1 <- data
+I0730 16:12:55.019841 20653 net.cpp:356] conv1 -> conv1
+I0730 16:12:55.019918 20653 net.cpp:96] Setting up conv1
+I0730 16:12:55.020190 20653 net.cpp:103] Top shape: 1 32 142 142 (645248)
+I0730 16:12:55.020295 20653 net.cpp:67] Creating Layer pool2
+I0730 16:12:55.020337 20653 net.cpp:394] pool2 <- conv1
+I0730 16:12:55.020390 20653 net.cpp:356] pool2 -> pool2
+I0730 16:12:55.020437 20653 net.cpp:96] Setting up pool2
+I0730 16:12:55.020522 20653 net.cpp:103] Top shape: 1 32 71 71 (161312)
+I0730 16:12:55.020570 20653 net.cpp:67] Creating Layer conv3
+I0730 16:12:55.020617 20653 net.cpp:394] conv3 <- pool2
+I0730 16:12:55.020656 20653 net.cpp:356] conv3 -> conv3
+I0730 16:12:55.020709 20653 net.cpp:96] Setting up conv3
+I0730 16:12:55.020896 20653 net.cpp:103] Top shape: 1 16 63 63 (63504)
+I0730 16:12:55.020967 20653 net.cpp:67] Creating Layer local4
+I0730 16:12:55.021005 20653 net.cpp:394] local4 <- conv3
+I0730 16:12:55.021055 20653 net.cpp:356] local4 -> local4
+I0730 16:12:55.021102 20653 net.cpp:96] Setting up local4
+I0730 16:12:55.831033 20653 net.cpp:103] Top shape: 1 16 55 55 (48400)
+I0730 16:12:55.831233 20653 net.cpp:67] Creating Layer local5
+I0730 16:12:55.831270 20653 net.cpp:394] local5 <- local4
+I0730 16:12:55.831359 20653 net.cpp:356] local5 -> local5
+I0730 16:12:55.831424 20653 net.cpp:96] Setting up local5
+I0730 16:12:55.902111 20653 net.cpp:103] Top shape: 1 16 25 25 (10000)
+I0730 16:12:55.902286 20653 net.cpp:67] Creating Layer local6
+I0730 16:12:55.902326 20653 net.cpp:394] local6 <- local5
+I0730 16:12:55.902431 20653 net.cpp:356] local6 -> local6
+I0730 16:12:55.902487 20653 net.cpp:96] Setting up local6
+I0730 16:12:55.926003 20653 net.cpp:103] Top shape: 1 16 21 21 (7056)
+I0730 16:12:55.926183 20653 net.cpp:67] Creating Layer fc7
+I0730 16:12:55.926228 20653 net.cpp:394] fc7 <- local6
+I0730 16:12:55.926309 20653 net.cpp:356] fc7 -> fc7
+I0730 16:12:55.926372 20653 net.cpp:96] Setting up fc7
+I0730 16:12:56.351332 20653 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 16:12:56.356205 20653 net.cpp:67] Creating Layer fc8
+I0730 16:12:56.357240 20653 net.cpp:394] fc8 <- fc7
+I0730 16:12:56.357301 20653 net.cpp:356] fc8 -> fc8
+I0730 16:12:56.357379 20653 net.cpp:96] Setting up fc8
+I0730 16:12:56.358197 20653 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:12:56.358273 20653 net.cpp:67] Creating Layer prob
+I0730 16:12:56.358316 20653 net.cpp:394] prob <- fc8
+I0730 16:12:56.358367 20653 net.cpp:356] prob -> prob
+I0730 16:12:56.358422 20653 net.cpp:96] Setting up prob
+I0730 16:12:56.358484 20653 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:12:56.358530 20653 net.cpp:67] Creating Layer argmax
+I0730 16:12:56.358578 20653 net.cpp:394] argmax <- prob
+I0730 16:12:56.358629 20653 net.cpp:356] argmax -> argmax
+I0730 16:12:56.358680 20653 net.cpp:96] Setting up argmax
+I0730 16:12:56.358733 20653 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:12:56.358779 20653 net.cpp:172] argmax does not need backward computation.
+I0730 16:12:56.358837 20653 net.cpp:172] prob does not need backward computation.
+I0730 16:12:56.358882 20653 net.cpp:172] fc8 does not need backward computation.
+I0730 16:12:56.358927 20653 net.cpp:172] fc7 does not need backward computation.
+I0730 16:12:56.358971 20653 net.cpp:172] local6 does not need backward computation.
+I0730 16:12:56.359014 20653 net.cpp:172] local5 does not need backward computation.
+I0730 16:12:56.359058 20653 net.cpp:172] local4 does not need backward computation.
+I0730 16:12:56.359102 20653 net.cpp:172] conv3 does not need backward computation.
+I0730 16:12:56.359146 20653 net.cpp:172] pool2 does not need backward computation.
+I0730 16:12:56.359190 20653 net.cpp:172] conv1 does not need backward computation.
+I0730 16:12:56.359233 20653 net.cpp:208] This network produces output argmax
+I0730 16:12:56.359310 20653 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:12:56.359385 20653 net.cpp:219] Network initialization done.
+I0730 16:12:56.359426 20653 net.cpp:220] Memory required for data: 3759132
+I0730 16:12:59.898891 20653 img-client.cpp:139] Reading input/face/cameron-diaz-11-152.jpg
+I0730 16:12:59.900493 20653 img-client.cpp:139] Reading input/face/angelina-jolie-03-152.jpg
+I0730 16:12:59.906608 20653 img-client.cpp:139] Reading input/face/daniel-craig-20-152.jpg
+I0730 16:12:59.907665 20653 img-client.cpp:161] Aligning: input/face/cameron-diaz-11-152.jpg
+I0730 16:13:00.003228 20653 img-client.cpp:161] Aligning: input/face/angelina-jolie-03-152.jpg
+I0730 16:13:00.052173 20653 img-client.cpp:161] Aligning: input/face/daniel-craig-20-152.jpg
+I0730 16:13:00.119487 20653 tonic.cpp:31] Reshaping input to dims: 3 3 152 152
+I0730 16:13:00.119628 20653 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 16:20:35.738963 20653 img-client.cpp:222] Image: input/face/cameron-diaz-11-152.jpg class: 11
+I0730 16:20:35.739578 20653 img-client.cpp:222] Image: input/face/angelina-jolie-03-152.jpg class: 0
+I0730 16:20:35.739642 20653 img-client.cpp:222] Image: input/face/daniel-craig-20-152.jpg class: 0
+333.20user 2.62system 7:40.87elapsed 72%CPU (0avgtext+0avgdata 3543136maxresident)k
+818040inputs+8outputs (17major+342246minor)pagefaults 0swaps
+---------------------------------------------------------
+img-face
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-face
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:20:36.997455 25212 net.cpp:39] Initializing net from parameters: 
+name: "face"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 32
+    kernel_size: 11
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "local4"
+  name: "local4"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "local4"
+  top: "local5"
+  name: "local5"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 7
+    stride: 2
+  }
+}
+layers {
+  bottom: "local5"
+  top: "local6"
+  name: "local6"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 5
+    stride: 1
+  }
+}
+layers {
+  bottom: "local6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 83
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 152
+input_dim: 152
+I0730 16:20:37.000489 25212 net.cpp:358] Input 0 -> data
+I0730 16:20:37.000649 25212 net.cpp:67] Creating Layer conv1
+I0730 16:20:37.000711 25212 net.cpp:394] conv1 <- data
+I0730 16:20:37.000762 25212 net.cpp:356] conv1 -> conv1
+I0730 16:20:37.000843 25212 net.cpp:96] Setting up conv1
+I0730 16:20:37.001164 25212 net.cpp:103] Top shape: 1 32 142 142 (645248)
+I0730 16:20:37.001268 25212 net.cpp:67] Creating Layer pool2
+I0730 16:20:37.001315 25212 net.cpp:394] pool2 <- conv1
+I0730 16:20:37.001369 25212 net.cpp:356] pool2 -> pool2
+I0730 16:20:37.001420 25212 net.cpp:96] Setting up pool2
+I0730 16:20:37.001508 25212 net.cpp:103] Top shape: 1 32 71 71 (161312)
+I0730 16:20:37.001557 25212 net.cpp:67] Creating Layer conv3
+I0730 16:20:37.001606 25212 net.cpp:394] conv3 <- pool2
+I0730 16:20:37.001651 25212 net.cpp:356] conv3 -> conv3
+I0730 16:20:37.001704 25212 net.cpp:96] Setting up conv3
+I0730 16:20:37.002022 25212 net.cpp:103] Top shape: 1 16 63 63 (63504)
+I0730 16:20:37.002640 25212 net.cpp:67] Creating Layer local4
+I0730 16:20:37.002694 25212 net.cpp:394] local4 <- conv3
+I0730 16:20:37.002750 25212 net.cpp:356] local4 -> local4
+I0730 16:20:37.002804 25212 net.cpp:96] Setting up local4
+I0730 16:20:37.299151 25212 net.cpp:103] Top shape: 1 16 55 55 (48400)
+I0730 16:20:37.300377 25212 net.cpp:67] Creating Layer local5
+I0730 16:20:37.300432 25212 net.cpp:394] local5 <- local4
+I0730 16:20:37.300477 25212 net.cpp:356] local5 -> local5
+I0730 16:20:37.301652 25212 net.cpp:96] Setting up local5
+I0730 16:20:37.328022 25212 net.cpp:103] Top shape: 1 16 25 25 (10000)
+I0730 16:20:37.328181 25212 net.cpp:67] Creating Layer local6
+I0730 16:20:37.328223 25212 net.cpp:394] local6 <- local5
+I0730 16:20:37.328291 25212 net.cpp:356] local6 -> local6
+I0730 16:20:37.328356 25212 net.cpp:96] Setting up local6
+I0730 16:20:37.338765 25212 net.cpp:103] Top shape: 1 16 21 21 (7056)
+I0730 16:20:37.338937 25212 net.cpp:67] Creating Layer fc7
+I0730 16:20:37.339041 25212 net.cpp:394] fc7 <- local6
+I0730 16:20:37.339102 25212 net.cpp:356] fc7 -> fc7
+I0730 16:20:37.339166 25212 net.cpp:96] Setting up fc7
+I0730 16:20:37.485798 25212 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 16:20:37.485971 25212 net.cpp:67] Creating Layer fc8
+I0730 16:20:37.486018 25212 net.cpp:394] fc8 <- fc7
+I0730 16:20:37.486068 25212 net.cpp:356] fc8 -> fc8
+I0730 16:20:37.486166 25212 net.cpp:96] Setting up fc8
+I0730 16:20:37.487095 25212 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:20:37.487165 25212 net.cpp:67] Creating Layer prob
+I0730 16:20:37.487213 25212 net.cpp:394] prob <- fc8
+I0730 16:20:37.487267 25212 net.cpp:356] prob -> prob
+I0730 16:20:37.487323 25212 net.cpp:96] Setting up prob
+I0730 16:20:37.487380 25212 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:20:37.487432 25212 net.cpp:67] Creating Layer argmax
+I0730 16:20:37.487479 25212 net.cpp:394] argmax <- prob
+I0730 16:20:37.487530 25212 net.cpp:356] argmax -> argmax
+I0730 16:20:37.487583 25212 net.cpp:96] Setting up argmax
+I0730 16:20:37.487638 25212 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:20:37.487687 25212 net.cpp:172] argmax does not need backward computation.
+I0730 16:20:37.487746 25212 net.cpp:172] prob does not need backward computation.
+I0730 16:20:37.487793 25212 net.cpp:172] fc8 does not need backward computation.
+I0730 16:20:37.487862 25212 net.cpp:172] fc7 does not need backward computation.
+I0730 16:20:37.487918 25212 net.cpp:172] local6 does not need backward computation.
+I0730 16:20:37.487956 25212 net.cpp:172] local5 does not need backward computation.
+I0730 16:20:37.488036 25212 net.cpp:172] local4 does not need backward computation.
+I0730 16:20:37.488077 25212 net.cpp:172] conv3 does not need backward computation.
+I0730 16:20:37.488134 25212 net.cpp:172] pool2 does not need backward computation.
+I0730 16:20:37.488183 25212 net.cpp:172] conv1 does not need backward computation.
+I0730 16:20:37.488229 25212 net.cpp:208] This network produces output argmax
+I0730 16:20:37.488309 25212 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:20:37.488382 25212 net.cpp:219] Network initialization done.
+I0730 16:20:37.488425 25212 net.cpp:220] Memory required for data: 3759132
+I0730 16:20:39.274649 25212 img-client.cpp:139] Reading input/face/cameron-diaz-11-152.jpg
+I0730 16:20:39.275671 25212 img-client.cpp:139] Reading input/face/angelina-jolie-03-152.jpg
+I0730 16:20:39.276360 25212 img-client.cpp:139] Reading input/face/daniel-craig-20-152.jpg
+I0730 16:20:39.277062 25212 img-client.cpp:161] Aligning: input/face/cameron-diaz-11-152.jpg
+I0730 16:20:39.337888 25212 img-client.cpp:161] Aligning: input/face/angelina-jolie-03-152.jpg
+I0730 16:20:39.387743 25212 img-client.cpp:161] Aligning: input/face/daniel-craig-20-152.jpg
+I0730 16:20:39.456421 25212 tonic.cpp:31] Reshaping input to dims: 3 3 152 152
+I0730 16:20:39.456571 25212 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 16:28:11.346406 25212 img-client.cpp:222] Image: input/face/cameron-diaz-11-152.jpg class: 11
+I0730 16:28:11.348047 25212 img-client.cpp:222] Image: input/face/angelina-jolie-03-152.jpg class: 0
+I0730 16:28:11.348104 25212 img-client.cpp:222] Image: input/face/daniel-craig-20-152.jpg class: 0
+330.09user 0.96system 7:34.47elapsed 72%CPU (0avgtext+0avgdata 3593472maxresident)k
+0inputs+8outputs (0major+342261minor)pagefaults 0swaps
+---------------------------------------------------------
+img-face
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-face
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:28:12.622766 28800 net.cpp:39] Initializing net from parameters: 
+name: "face"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 32
+    kernel_size: 11
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "local4"
+  name: "local4"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "local4"
+  top: "local5"
+  name: "local5"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 7
+    stride: 2
+  }
+}
+layers {
+  bottom: "local5"
+  top: "local6"
+  name: "local6"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 5
+    stride: 1
+  }
+}
+layers {
+  bottom: "local6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 83
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 152
+input_dim: 152
+I0730 16:28:12.624253 28800 net.cpp:358] Input 0 -> data
+I0730 16:28:12.624413 28800 net.cpp:67] Creating Layer conv1
+I0730 16:28:12.624476 28800 net.cpp:394] conv1 <- data
+I0730 16:28:12.624528 28800 net.cpp:356] conv1 -> conv1
+I0730 16:28:12.624608 28800 net.cpp:96] Setting up conv1
+I0730 16:28:12.624799 28800 net.cpp:103] Top shape: 1 32 142 142 (645248)
+I0730 16:28:12.624912 28800 net.cpp:67] Creating Layer pool2
+I0730 16:28:12.624958 28800 net.cpp:394] pool2 <- conv1
+I0730 16:28:12.625028 28800 net.cpp:356] pool2 -> pool2
+I0730 16:28:12.625078 28800 net.cpp:96] Setting up pool2
+I0730 16:28:12.625161 28800 net.cpp:103] Top shape: 1 32 71 71 (161312)
+I0730 16:28:12.625210 28800 net.cpp:67] Creating Layer conv3
+I0730 16:28:12.625259 28800 net.cpp:394] conv3 <- pool2
+I0730 16:28:12.625303 28800 net.cpp:356] conv3 -> conv3
+I0730 16:28:12.625356 28800 net.cpp:96] Setting up conv3
+I0730 16:28:12.625521 28800 net.cpp:103] Top shape: 1 16 63 63 (63504)
+I0730 16:28:12.625581 28800 net.cpp:67] Creating Layer local4
+I0730 16:28:12.625622 28800 net.cpp:394] local4 <- conv3
+I0730 16:28:12.625674 28800 net.cpp:356] local4 -> local4
+I0730 16:28:12.625723 28800 net.cpp:96] Setting up local4
+I0730 16:28:12.889077 28800 net.cpp:103] Top shape: 1 16 55 55 (48400)
+I0730 16:28:12.889258 28800 net.cpp:67] Creating Layer local5
+I0730 16:28:12.889302 28800 net.cpp:394] local5 <- local4
+I0730 16:28:12.889386 28800 net.cpp:356] local5 -> local5
+I0730 16:28:12.889451 28800 net.cpp:96] Setting up local5
+I0730 16:28:12.939326 28800 net.cpp:103] Top shape: 1 16 25 25 (10000)
+I0730 16:28:12.939463 28800 net.cpp:67] Creating Layer local6
+I0730 16:28:12.939524 28800 net.cpp:394] local6 <- local5
+I0730 16:28:12.939591 28800 net.cpp:356] local6 -> local6
+I0730 16:28:12.939656 28800 net.cpp:96] Setting up local6
+I0730 16:28:12.949180 28800 net.cpp:103] Top shape: 1 16 21 21 (7056)
+I0730 16:28:12.949339 28800 net.cpp:67] Creating Layer fc7
+I0730 16:28:12.949407 28800 net.cpp:394] fc7 <- local6
+I0730 16:28:12.949472 28800 net.cpp:356] fc7 -> fc7
+I0730 16:28:12.949537 28800 net.cpp:96] Setting up fc7
+I0730 16:28:13.070138 28800 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 16:28:13.070308 28800 net.cpp:67] Creating Layer fc8
+I0730 16:28:13.070350 28800 net.cpp:394] fc8 <- fc7
+I0730 16:28:13.070399 28800 net.cpp:356] fc8 -> fc8
+I0730 16:28:13.070500 28800 net.cpp:96] Setting up fc8
+I0730 16:28:13.071441 28800 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:28:13.071512 28800 net.cpp:67] Creating Layer prob
+I0730 16:28:13.071559 28800 net.cpp:394] prob <- fc8
+I0730 16:28:13.071614 28800 net.cpp:356] prob -> prob
+I0730 16:28:13.071671 28800 net.cpp:96] Setting up prob
+I0730 16:28:13.071728 28800 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:28:13.071781 28800 net.cpp:67] Creating Layer argmax
+I0730 16:28:13.071830 28800 net.cpp:394] argmax <- prob
+I0730 16:28:13.071882 28800 net.cpp:356] argmax -> argmax
+I0730 16:28:13.071935 28800 net.cpp:96] Setting up argmax
+I0730 16:28:13.071990 28800 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:28:13.072059 28800 net.cpp:172] argmax does not need backward computation.
+I0730 16:28:13.072119 28800 net.cpp:172] prob does not need backward computation.
+I0730 16:28:13.072168 28800 net.cpp:172] fc8 does not need backward computation.
+I0730 16:28:13.072216 28800 net.cpp:172] fc7 does not need backward computation.
+I0730 16:28:13.072262 28800 net.cpp:172] local6 does not need backward computation.
+I0730 16:28:13.072307 28800 net.cpp:172] local5 does not need backward computation.
+I0730 16:28:13.072355 28800 net.cpp:172] local4 does not need backward computation.
+I0730 16:28:13.072401 28800 net.cpp:172] conv3 does not need backward computation.
+I0730 16:28:13.072448 28800 net.cpp:172] pool2 does not need backward computation.
+I0730 16:28:13.072494 28800 net.cpp:172] conv1 does not need backward computation.
+I0730 16:28:13.072561 28800 net.cpp:208] This network produces output argmax
+I0730 16:28:13.072641 28800 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:28:13.072716 28800 net.cpp:219] Network initialization done.
+I0730 16:28:13.072757 28800 net.cpp:220] Memory required for data: 3759132
+I0730 16:28:15.017835 28800 img-client.cpp:139] Reading input/face/cameron-diaz-11-152.jpg
+I0730 16:28:15.018781 28800 img-client.cpp:139] Reading input/face/angelina-jolie-03-152.jpg
+I0730 16:28:15.019460 28800 img-client.cpp:139] Reading input/face/daniel-craig-20-152.jpg
+I0730 16:28:15.020192 28800 img-client.cpp:161] Aligning: input/face/cameron-diaz-11-152.jpg
+I0730 16:28:15.070850 28800 img-client.cpp:161] Aligning: input/face/angelina-jolie-03-152.jpg
+I0730 16:28:15.138959 28800 img-client.cpp:161] Aligning: input/face/daniel-craig-20-152.jpg
+I0730 16:28:15.208132 28800 tonic.cpp:31] Reshaping input to dims: 3 3 152 152
+I0730 16:28:15.208230 28800 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 16:35:47.219653 28800 img-client.cpp:222] Image: input/face/cameron-diaz-11-152.jpg class: 11
+I0730 16:35:47.220306 28800 img-client.cpp:222] Image: input/face/angelina-jolie-03-152.jpg class: 0
+I0730 16:35:47.220414 28800 img-client.cpp:222] Image: input/face/daniel-craig-20-152.jpg class: 0
+330.82user 1.02system 7:34.74elapsed 72%CPU (0avgtext+0avgdata 3593504maxresident)k
+0inputs+8outputs (0major+342261minor)pagefaults 0swaps
+---------------------------------------------------------
+img-face
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-face
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:35:48.482009   329 net.cpp:39] Initializing net from parameters: 
+name: "face"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 32
+    kernel_size: 11
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "local4"
+  name: "local4"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "local4"
+  top: "local5"
+  name: "local5"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 7
+    stride: 2
+  }
+}
+layers {
+  bottom: "local5"
+  top: "local6"
+  name: "local6"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 5
+    stride: 1
+  }
+}
+layers {
+  bottom: "local6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 83
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 152
+input_dim: 152
+I0730 16:35:48.482417   329 net.cpp:358] Input 0 -> data
+I0730 16:35:48.482578   329 net.cpp:67] Creating Layer conv1
+I0730 16:35:48.482640   329 net.cpp:394] conv1 <- data
+I0730 16:35:48.482691   329 net.cpp:356] conv1 -> conv1
+I0730 16:35:48.482767   329 net.cpp:96] Setting up conv1
+I0730 16:35:48.483062   329 net.cpp:103] Top shape: 1 32 142 142 (645248)
+I0730 16:35:48.483162   329 net.cpp:67] Creating Layer pool2
+I0730 16:35:48.483206   329 net.cpp:394] pool2 <- conv1
+I0730 16:35:48.483258   329 net.cpp:356] pool2 -> pool2
+I0730 16:35:48.483306   329 net.cpp:96] Setting up pool2
+I0730 16:35:48.483387   329 net.cpp:103] Top shape: 1 32 71 71 (161312)
+I0730 16:35:48.483435   329 net.cpp:67] Creating Layer conv3
+I0730 16:35:48.483484   329 net.cpp:394] conv3 <- pool2
+I0730 16:35:48.483525   329 net.cpp:356] conv3 -> conv3
+I0730 16:35:48.483577   329 net.cpp:96] Setting up conv3
+I0730 16:35:48.483896   329 net.cpp:103] Top shape: 1 16 63 63 (63504)
+I0730 16:35:48.483955   329 net.cpp:67] Creating Layer local4
+I0730 16:35:48.484016   329 net.cpp:394] local4 <- conv3
+I0730 16:35:48.484066   329 net.cpp:356] local4 -> local4
+I0730 16:35:48.484122   329 net.cpp:96] Setting up local4
+I0730 16:35:48.768673   329 net.cpp:103] Top shape: 1 16 55 55 (48400)
+I0730 16:35:48.768887   329 net.cpp:67] Creating Layer local5
+I0730 16:35:48.768959   329 net.cpp:394] local5 <- local4
+I0730 16:35:48.769024   329 net.cpp:356] local5 -> local5
+I0730 16:35:48.769088   329 net.cpp:96] Setting up local5
+I0730 16:35:48.795785   329 net.cpp:103] Top shape: 1 16 25 25 (10000)
+I0730 16:35:48.795946   329 net.cpp:67] Creating Layer local6
+I0730 16:35:48.796013   329 net.cpp:394] local6 <- local5
+I0730 16:35:48.796102   329 net.cpp:356] local6 -> local6
+I0730 16:35:48.796164   329 net.cpp:96] Setting up local6
+I0730 16:35:48.812382   329 net.cpp:103] Top shape: 1 16 21 21 (7056)
+I0730 16:35:48.813995   329 net.cpp:67] Creating Layer fc7
+I0730 16:35:48.814049   329 net.cpp:394] fc7 <- local6
+I0730 16:35:48.814203   329 net.cpp:356] fc7 -> fc7
+I0730 16:35:48.814283   329 net.cpp:96] Setting up fc7
+I0730 16:35:48.950855   329 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 16:35:48.951035   329 net.cpp:67] Creating Layer fc8
+I0730 16:35:48.951079   329 net.cpp:394] fc8 <- fc7
+I0730 16:35:48.951128   329 net.cpp:356] fc8 -> fc8
+I0730 16:35:48.951249   329 net.cpp:96] Setting up fc8
+I0730 16:35:48.952244   329 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:35:48.952322   329 net.cpp:67] Creating Layer prob
+I0730 16:35:48.952361   329 net.cpp:394] prob <- fc8
+I0730 16:35:48.952421   329 net.cpp:356] prob -> prob
+I0730 16:35:48.952477   329 net.cpp:96] Setting up prob
+I0730 16:35:48.952532   329 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:35:48.952584   329 net.cpp:67] Creating Layer argmax
+I0730 16:35:48.952630   329 net.cpp:394] argmax <- prob
+I0730 16:35:48.952680   329 net.cpp:356] argmax -> argmax
+I0730 16:35:48.952733   329 net.cpp:96] Setting up argmax
+I0730 16:35:48.952786   329 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:35:48.952850   329 net.cpp:172] argmax does not need backward computation.
+I0730 16:35:48.952909   329 net.cpp:172] prob does not need backward computation.
+I0730 16:35:48.952956   329 net.cpp:172] fc8 does not need backward computation.
+I0730 16:35:48.953002   329 net.cpp:172] fc7 does not need backward computation.
+I0730 16:35:48.953047   329 net.cpp:172] local6 does not need backward computation.
+I0730 16:35:48.953093   329 net.cpp:172] local5 does not need backward computation.
+I0730 16:35:48.953136   329 net.cpp:172] local4 does not need backward computation.
+I0730 16:35:48.953181   329 net.cpp:172] conv3 does not need backward computation.
+I0730 16:35:48.953224   329 net.cpp:172] pool2 does not need backward computation.
+I0730 16:35:48.953269   329 net.cpp:172] conv1 does not need backward computation.
+I0730 16:35:48.953311   329 net.cpp:208] This network produces output argmax
+I0730 16:35:48.953389   329 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:35:48.953464   329 net.cpp:219] Network initialization done.
+I0730 16:35:48.953507   329 net.cpp:220] Memory required for data: 3759132
+I0730 16:35:50.799692   329 img-client.cpp:139] Reading input/face/cameron-diaz-11-152.jpg
+I0730 16:35:50.800715   329 img-client.cpp:139] Reading input/face/angelina-jolie-03-152.jpg
+I0730 16:35:50.801393   329 img-client.cpp:139] Reading input/face/daniel-craig-20-152.jpg
+I0730 16:35:50.802078   329 img-client.cpp:161] Aligning: input/face/cameron-diaz-11-152.jpg
+I0730 16:35:50.868576   329 img-client.cpp:161] Aligning: input/face/angelina-jolie-03-152.jpg
+I0730 16:35:50.915451   329 img-client.cpp:161] Aligning: input/face/daniel-craig-20-152.jpg
+I0730 16:35:50.982221   329 tonic.cpp:31] Reshaping input to dims: 3 3 152 152
+I0730 16:35:50.982372   329 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 16:43:20.642462   329 img-client.cpp:222] Image: input/face/cameron-diaz-11-152.jpg class: 11
+I0730 16:43:20.644115   329 img-client.cpp:222] Image: input/face/angelina-jolie-03-152.jpg class: 0
+I0730 16:43:20.644171   329 img-client.cpp:222] Image: input/face/daniel-craig-20-152.jpg class: 0
+328.87user 1.06system 7:32.31elapsed 72%CPU (0avgtext+0avgdata 3593472maxresident)k
+0inputs+8outputs (0major+342260minor)pagefaults 0swaps
+---------------------------------------------------------
+img-face
+********* Setting up benchmark img
+********* Running benchmark as ./tonic-img-face
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:43:21.990129  4009 net.cpp:39] Initializing net from parameters: 
+name: "face"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 32
+    kernel_size: 11
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "local4"
+  name: "local4"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 9
+    stride: 1
+  }
+}
+layers {
+  bottom: "local4"
+  top: "local5"
+  name: "local5"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 7
+    stride: 2
+  }
+}
+layers {
+  bottom: "local5"
+  top: "local6"
+  name: "local6"
+  type: LOCAL
+  local_param {
+    num_output: 16
+    kernel_size: 5
+    stride: 1
+  }
+}
+layers {
+  bottom: "local6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 83
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+layers {
+  bottom: "prob"
+  top: "argmax"
+  name: "argmax"
+  type: ARGMAX
+}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 152
+input_dim: 152
+I0730 16:43:21.990496  4009 net.cpp:358] Input 0 -> data
+I0730 16:43:21.990655  4009 net.cpp:67] Creating Layer conv1
+I0730 16:43:21.990782  4009 net.cpp:394] conv1 <- data
+I0730 16:43:21.990836  4009 net.cpp:356] conv1 -> conv1
+I0730 16:43:21.991020  4009 net.cpp:96] Setting up conv1
+I0730 16:43:21.992274  4009 net.cpp:103] Top shape: 1 32 142 142 (645248)
+I0730 16:43:21.992385  4009 net.cpp:67] Creating Layer pool2
+I0730 16:43:21.992429  4009 net.cpp:394] pool2 <- conv1
+I0730 16:43:21.992482  4009 net.cpp:356] pool2 -> pool2
+I0730 16:43:21.992532  4009 net.cpp:96] Setting up pool2
+I0730 16:43:21.992614  4009 net.cpp:103] Top shape: 1 32 71 71 (161312)
+I0730 16:43:21.992663  4009 net.cpp:67] Creating Layer conv3
+I0730 16:43:21.992712  4009 net.cpp:394] conv3 <- pool2
+I0730 16:43:21.992753  4009 net.cpp:356] conv3 -> conv3
+I0730 16:43:21.992817  4009 net.cpp:96] Setting up conv3
+I0730 16:43:21.992990  4009 net.cpp:103] Top shape: 1 16 63 63 (63504)
+I0730 16:43:21.993049  4009 net.cpp:67] Creating Layer local4
+I0730 16:43:21.993088  4009 net.cpp:394] local4 <- conv3
+I0730 16:43:21.993140  4009 net.cpp:356] local4 -> local4
+I0730 16:43:21.993187  4009 net.cpp:96] Setting up local4
+I0730 16:43:22.281563  4009 net.cpp:103] Top shape: 1 16 55 55 (48400)
+I0730 16:43:22.281744  4009 net.cpp:67] Creating Layer local5
+I0730 16:43:22.281780  4009 net.cpp:394] local5 <- local4
+I0730 16:43:22.281821  4009 net.cpp:356] local5 -> local5
+I0730 16:43:22.281911  4009 net.cpp:96] Setting up local5
+I0730 16:43:22.308727  4009 net.cpp:103] Top shape: 1 16 25 25 (10000)
+I0730 16:43:22.308914  4009 net.cpp:67] Creating Layer local6
+I0730 16:43:22.308948  4009 net.cpp:394] local6 <- local5
+I0730 16:43:22.308989  4009 net.cpp:356] local6 -> local6
+I0730 16:43:22.309072  4009 net.cpp:96] Setting up local6
+I0730 16:43:22.320863  4009 net.cpp:103] Top shape: 1 16 21 21 (7056)
+I0730 16:43:22.321019  4009 net.cpp:67] Creating Layer fc7
+I0730 16:43:22.321092  4009 net.cpp:394] fc7 <- local6
+I0730 16:43:22.321151  4009 net.cpp:356] fc7 -> fc7
+I0730 16:43:22.321223  4009 net.cpp:96] Setting up fc7
+I0730 16:43:22.461740  4009 net.cpp:103] Top shape: 1 4096 1 1 (4096)
+I0730 16:43:22.461910  4009 net.cpp:67] Creating Layer fc8
+I0730 16:43:22.461947  4009 net.cpp:394] fc8 <- fc7
+I0730 16:43:22.461985  4009 net.cpp:356] fc8 -> fc8
+I0730 16:43:22.462043  4009 net.cpp:96] Setting up fc8
+I0730 16:43:22.462997  4009 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:43:22.463068  4009 net.cpp:67] Creating Layer prob
+I0730 16:43:22.463106  4009 net.cpp:394] prob <- fc8
+I0730 16:43:22.463163  4009 net.cpp:356] prob -> prob
+I0730 16:43:22.463212  4009 net.cpp:96] Setting up prob
+I0730 16:43:22.463268  4009 net.cpp:103] Top shape: 1 83 1 1 (83)
+I0730 16:43:22.463318  4009 net.cpp:67] Creating Layer argmax
+I0730 16:43:22.463364  4009 net.cpp:394] argmax <- prob
+I0730 16:43:22.463413  4009 net.cpp:356] argmax -> argmax
+I0730 16:43:22.463495  4009 net.cpp:96] Setting up argmax
+I0730 16:43:22.463548  4009 net.cpp:103] Top shape: 1 1 1 1 (1)
+I0730 16:43:22.463596  4009 net.cpp:172] argmax does not need backward computation.
+I0730 16:43:22.463654  4009 net.cpp:172] prob does not need backward computation.
+I0730 16:43:22.463698  4009 net.cpp:172] fc8 does not need backward computation.
+I0730 16:43:22.463743  4009 net.cpp:172] fc7 does not need backward computation.
+I0730 16:43:22.463788  4009 net.cpp:172] local6 does not need backward computation.
+I0730 16:43:22.463834  4009 net.cpp:172] local5 does not need backward computation.
+I0730 16:43:22.463877  4009 net.cpp:172] local4 does not need backward computation.
+I0730 16:43:22.463922  4009 net.cpp:172] conv3 does not need backward computation.
+I0730 16:43:22.463965  4009 net.cpp:172] pool2 does not need backward computation.
+I0730 16:43:22.464030  4009 net.cpp:172] conv1 does not need backward computation.
+I0730 16:43:22.464076  4009 net.cpp:208] This network produces output argmax
+I0730 16:43:22.464154  4009 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:43:22.464226  4009 net.cpp:219] Network initialization done.
+I0730 16:43:22.464267  4009 net.cpp:220] Memory required for data: 3759132
+I0730 16:43:24.331490  4009 img-client.cpp:139] Reading input/face/cameron-diaz-11-152.jpg
+I0730 16:43:24.332465  4009 img-client.cpp:139] Reading input/face/angelina-jolie-03-152.jpg
+I0730 16:43:24.333762  4009 img-client.cpp:139] Reading input/face/daniel-craig-20-152.jpg
+I0730 16:43:24.334991  4009 img-client.cpp:161] Aligning: input/face/cameron-diaz-11-152.jpg
+I0730 16:43:24.395665  4009 img-client.cpp:161] Aligning: input/face/angelina-jolie-03-152.jpg
+I0730 16:43:24.464427  4009 img-client.cpp:161] Aligning: input/face/daniel-craig-20-152.jpg
+I0730 16:43:24.514087  4009 tonic.cpp:31] Reshaping input to dims: 3 3 152 152
+I0730 16:43:24.517477  4009 tonic.cpp:37] Reshaping output to dims: 3 1 1 1
+I0730 16:50:55.632725  4009 img-client.cpp:222] Image: input/face/cameron-diaz-11-152.jpg class: 11
+I0730 16:50:55.633432  4009 img-client.cpp:222] Image: input/face/angelina-jolie-03-152.jpg class: 0
+I0730 16:50:55.633472  4009 img-client.cpp:222] Image: input/face/daniel-craig-20-152.jpg class: 0
+329.58user 1.07system 7:33.80elapsed 72%CPU (0avgtext+0avgdata 3593520maxresident)k
+0inputs+8outputs (0major+342262minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-pos
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:50:57.303134  7920 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 16:50:57.303506  7920 net.cpp:358] Input 0 -> data
+I0730 16:50:57.303668  7920 net.cpp:67] Creating Layer fc1
+I0730 16:50:57.303726  7920 net.cpp:394] fc1 <- data
+I0730 16:50:57.303786  7920 net.cpp:356] fc1 -> fc1
+I0730 16:50:57.303858  7920 net.cpp:96] Setting up fc1
+I0730 16:50:57.304813  7920 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 16:50:57.306216  7920 net.cpp:67] Creating Layer htanh
+I0730 16:50:57.306758  7920 net.cpp:394] htanh <- fc1
+I0730 16:50:57.306802  7920 net.cpp:356] htanh -> htanh
+I0730 16:50:57.306859  7920 net.cpp:96] Setting up htanh
+I0730 16:50:57.306920  7920 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 16:50:57.306968  7920 net.cpp:67] Creating Layer fc3
+I0730 16:50:57.307006  7920 net.cpp:394] fc3 <- htanh
+I0730 16:50:57.307056  7920 net.cpp:356] fc3 -> fc3
+I0730 16:50:57.307102  7920 net.cpp:96] Setting up fc3
+I0730 16:50:57.307195  7920 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 16:50:57.307245  7920 net.cpp:172] fc3 does not need backward computation.
+I0730 16:50:57.307301  7920 net.cpp:172] htanh does not need backward computation.
+I0730 16:50:57.307335  7920 net.cpp:172] fc1 does not need backward computation.
+I0730 16:50:57.307395  7920 net.cpp:208] This network produces output fc3
+I0730 16:50:57.307443  7920 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:50:57.307497  7920 net.cpp:219] Network initialization done.
+I0730 16:50:57.307533  7920 net.cpp:220] Memory required for data: 2580
+I0730 16:50:57.320564  7920 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 16:50:57.320643  7920 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+Command terminated by signal 9
+93.75user 5.28system 7:13.76elapsed 22%CPU (0avgtext+0avgdata 15252880maxresident)k
+162888inputs+0outputs (2major+1202547minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-pos
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 16:58:12.764909 21058 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 16:58:12.765194 21058 net.cpp:358] Input 0 -> data
+I0730 16:58:12.765297 21058 net.cpp:67] Creating Layer fc1
+I0730 16:58:12.765346 21058 net.cpp:394] fc1 <- data
+I0730 16:58:12.765403 21058 net.cpp:356] fc1 -> fc1
+I0730 16:58:12.765466 21058 net.cpp:96] Setting up fc1
+I0730 16:58:12.770826 21058 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 16:58:12.771092 21058 net.cpp:67] Creating Layer htanh
+I0730 16:58:12.771147 21058 net.cpp:394] htanh <- fc1
+I0730 16:58:12.771386 21058 net.cpp:356] htanh -> htanh
+I0730 16:58:12.771433 21058 net.cpp:96] Setting up htanh
+I0730 16:58:12.771479 21058 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 16:58:12.771533 21058 net.cpp:67] Creating Layer fc3
+I0730 16:58:12.771580 21058 net.cpp:394] fc3 <- htanh
+I0730 16:58:12.771620 21058 net.cpp:356] fc3 -> fc3
+I0730 16:58:12.771672 21058 net.cpp:96] Setting up fc3
+I0730 16:58:12.771778 21058 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 16:58:12.771828 21058 net.cpp:172] fc3 does not need backward computation.
+I0730 16:58:12.771867 21058 net.cpp:172] htanh does not need backward computation.
+I0730 16:58:12.771913 21058 net.cpp:172] fc1 does not need backward computation.
+I0730 16:58:12.771949 21058 net.cpp:208] This network produces output fc3
+I0730 16:58:12.772023 21058 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 16:58:12.772069 21058 net.cpp:219] Network initialization done.
+I0730 16:58:12.772116 21058 net.cpp:220] Memory required for data: 2580
+I0730 16:58:12.784401 21058 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 16:58:12.784483 21058 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+---------------------------------------------------------
+nlp-pos
+ssh_exchange_identification: Connection closed by remote host
+Command terminated by signal 9
+94.89user 5.52system 2:12.64elapsed 75%CPU (0avgtext+0avgdata 15528208maxresident)k
+428296inputs+0outputs (1055major+1220404minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-pos
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:00:26.545316  4958 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:00:26.545650  4958 net.cpp:358] Input 0 -> data
+I0730 17:00:26.545771  4958 net.cpp:67] Creating Layer fc1
+I0730 17:00:26.545820  4958 net.cpp:394] fc1 <- data
+I0730 17:00:26.545861  4958 net.cpp:356] fc1 -> fc1
+I0730 17:00:26.545927  4958 net.cpp:96] Setting up fc1
+I0730 17:00:26.547185  4958 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:00:26.547436  4958 net.cpp:67] Creating Layer htanh
+I0730 17:00:26.547488  4958 net.cpp:394] htanh <- fc1
+I0730 17:00:26.547538  4958 net.cpp:356] htanh -> htanh
+I0730 17:00:26.547740  4958 net.cpp:96] Setting up htanh
+I0730 17:00:26.547794  4958 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:00:26.547840  4958 net.cpp:67] Creating Layer fc3
+I0730 17:00:26.547888  4958 net.cpp:394] fc3 <- htanh
+I0730 17:00:26.547930  4958 net.cpp:356] fc3 -> fc3
+I0730 17:00:26.547982  4958 net.cpp:96] Setting up fc3
+I0730 17:00:26.548192  4958 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:00:26.548815  4958 net.cpp:172] fc3 does not need backward computation.
+I0730 17:00:26.548863  4958 net.cpp:172] htanh does not need backward computation.
+I0730 17:00:26.548899  4958 net.cpp:172] fc1 does not need backward computation.
+I0730 17:00:26.550405  4958 net.cpp:208] This network produces output fc3
+I0730 17:00:26.550461  4958 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:00:26.551029  4958 net.cpp:219] Network initialization done.
+I0730 17:00:26.551075  4958 net.cpp:220] Memory required for data: 2580
+I0730 17:00:26.564532  4958 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:00:26.564613  4958 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+---------------------------------------------------------
+nlp-pos
+Command terminated by signal 9
+94.98user 4.92system 2:13.27elapsed 74%CPU (0avgtext+0avgdata 15484912maxresident)k
+183744inputs+0outputs (67major+1217197minor)pagefaults 0swaps
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:02:40.202458 22958 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:02:40.202843 22958 net.cpp:358] Input 0 -> data
+I0730 17:02:40.203121 22958 net.cpp:67] Creating Layer fc1
+I0730 17:02:40.203243 22958 net.cpp:394] fc1 <- data
+I0730 17:02:40.203300 22958 net.cpp:356] fc1 -> fc1
+I0730 17:02:40.203367 22958 net.cpp:96] Setting up fc1
+I0730 17:02:40.204530 22958 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:02:40.204618 22958 net.cpp:67] Creating Layer htanh
+I0730 17:02:40.204670 22958 net.cpp:394] htanh <- fc1
+I0730 17:02:40.204720 22958 net.cpp:356] htanh -> htanh
+I0730 17:02:40.204776 22958 net.cpp:96] Setting up htanh
+I0730 17:02:40.204819 22958 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:02:40.204870 22958 net.cpp:67] Creating Layer fc3
+I0730 17:02:40.204906 22958 net.cpp:394] fc3 <- htanh
+I0730 17:02:40.204954 22958 net.cpp:356] fc3 -> fc3
+I0730 17:02:40.204998 22958 net.cpp:96] Setting up fc3
+I0730 17:02:40.205131 22958 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:02:40.205180 22958 net.cpp:172] fc3 does not need backward computation.
+I0730 17:02:40.205229 22958 net.cpp:172] htanh does not need backward computation.
+I0730 17:02:40.205265 22958 net.cpp:172] fc1 does not need backward computation.
+I0730 17:02:40.205308 22958 net.cpp:208] This network produces output fc3
+I0730 17:02:40.205351 22958 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:02:40.205401 22958 net.cpp:219] Network initialization done.
+I0730 17:02:40.205436 22958 net.cpp:220] Memory required for data: 2580
+I0730 17:02:40.211189 22958 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:02:40.211261 22958 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+---------------------------------------------------------
+nlp-chk
+Command terminated by signal 9
+95.06user 5.12system 2:15.33elapsed 74%CPU (0avgtext+0avgdata 15495440maxresident)k
+182008inputs+0outputs (66major+1217910minor)pagefaults 0swaps
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:04:55.787667  9628 net.cpp:39] Initializing net from parameters: 
+name: "chk"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 42
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:04:55.788038  9628 net.cpp:358] Input 0 -> data
+I0730 17:04:55.788839  9628 net.cpp:67] Creating Layer fc1
+I0730 17:04:55.788895  9628 net.cpp:394] fc1 <- data
+I0730 17:04:55.790472  9628 net.cpp:356] fc1 -> fc1
+I0730 17:04:55.790540  9628 net.cpp:96] Setting up fc1
+I0730 17:04:55.792026  9628 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:04:55.792297  9628 net.cpp:67] Creating Layer htanh
+I0730 17:04:55.792345  9628 net.cpp:394] htanh <- fc1
+I0730 17:04:55.792558  9628 net.cpp:356] htanh -> htanh
+I0730 17:04:55.792614  9628 net.cpp:96] Setting up htanh
+I0730 17:04:55.792659  9628 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:04:55.792721  9628 net.cpp:67] Creating Layer fc3
+I0730 17:04:55.792760  9628 net.cpp:394] fc3 <- htanh
+I0730 17:04:55.792809  9628 net.cpp:356] fc3 -> fc3
+I0730 17:04:55.792855  9628 net.cpp:96] Setting up fc3
+I0730 17:04:55.792973  9628 net.cpp:103] Top shape: 1 42 1 1 (42)
+I0730 17:04:55.793021  9628 net.cpp:172] fc3 does not need backward computation.
+I0730 17:04:55.793071  9628 net.cpp:172] htanh does not need backward computation.
+I0730 17:04:55.793105  9628 net.cpp:172] fc1 does not need backward computation.
+I0730 17:04:55.793149  9628 net.cpp:208] This network produces output fc3
+I0730 17:04:55.793191  9628 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:04:55.793241  9628 net.cpp:219] Network initialization done.
+I0730 17:04:55.793277  9628 net.cpp:220] Memory required for data: 2568
+I0730 17:04:55.809048  9628 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:04:55.809769  9628 net.cpp:358] Input 0 -> data
+I0730 17:04:55.809844  9628 net.cpp:67] Creating Layer fc1
+I0730 17:04:55.809882  9628 net.cpp:394] fc1 <- data
+I0730 17:04:55.809924  9628 net.cpp:356] fc1 -> fc1
+I0730 17:04:55.809981  9628 net.cpp:96] Setting up fc1
+I0730 17:04:55.810209  9628 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:04:55.810271  9628 net.cpp:67] Creating Layer htanh
+I0730 17:04:55.810307  9628 net.cpp:394] htanh <- fc1
+I0730 17:04:55.810339  9628 net.cpp:356] htanh -> htanh
+I0730 17:04:55.810394  9628 net.cpp:96] Setting up htanh
+I0730 17:04:55.810433  9628 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:04:55.810483  9628 net.cpp:67] Creating Layer fc3
+I0730 17:04:55.810520  9628 net.cpp:394] fc3 <- htanh
+I0730 17:04:55.810570  9628 net.cpp:356] fc3 -> fc3
+I0730 17:04:55.810611  9628 net.cpp:96] Setting up fc3
+I0730 17:04:55.810781  9628 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:04:55.810832  9628 net.cpp:172] fc3 does not need backward computation.
+I0730 17:04:55.810879  9628 net.cpp:172] htanh does not need backward computation.
+I0730 17:04:55.810914  9628 net.cpp:172] fc1 does not need backward computation.
+I0730 17:04:55.810957  9628 net.cpp:208] This network produces output fc3
+I0730 17:04:55.811079  9628 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:04:55.811125  9628 net.cpp:219] Network initialization done.
+I0730 17:04:55.811161  9628 net.cpp:220] Memory required for data: 2580
+I0730 17:04:55.818163  9628 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:04:55.822342  9628 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+I0730 17:04:55.826093  9628 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:04:55.826148  9628 tonic.cpp:37] Reshaping output to dims: 28 42 1 1
+---------------------------------------------------------
+nlp-chk
+ssh_exchange_identification: Connection closed by remote host
+Command terminated by signal 9
+89.87user 5.00system 2:09.32elapsed 73%CPU (0avgtext+0avgdata 15521696maxresident)k
+190688inputs+0outputs (89major+1219515minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-chk
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:07:06.423383 27724 net.cpp:39] Initializing net from parameters: 
+name: "chk"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 42
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:07:06.424803 27724 net.cpp:358] Input 0 -> data
+I0730 17:07:06.424916 27724 net.cpp:67] Creating Layer fc1
+I0730 17:07:06.424964 27724 net.cpp:394] fc1 <- data
+I0730 17:07:06.425021 27724 net.cpp:356] fc1 -> fc1
+I0730 17:07:06.425088 27724 net.cpp:96] Setting up fc1
+I0730 17:07:06.425916 27724 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:07:06.426158 27724 net.cpp:67] Creating Layer htanh
+I0730 17:07:06.426306 27724 net.cpp:394] htanh <- fc1
+I0730 17:07:06.426352 27724 net.cpp:356] htanh -> htanh
+I0730 17:07:06.426404 27724 net.cpp:96] Setting up htanh
+I0730 17:07:06.426450 27724 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:07:06.426501 27724 net.cpp:67] Creating Layer fc3
+I0730 17:07:06.426537 27724 net.cpp:394] fc3 <- htanh
+I0730 17:07:06.426584 27724 net.cpp:356] fc3 -> fc3
+I0730 17:07:06.426628 27724 net.cpp:96] Setting up fc3
+I0730 17:07:06.426758 27724 net.cpp:103] Top shape: 1 42 1 1 (42)
+I0730 17:07:06.426806 27724 net.cpp:172] fc3 does not need backward computation.
+I0730 17:07:06.426856 27724 net.cpp:172] htanh does not need backward computation.
+I0730 17:07:06.426890 27724 net.cpp:172] fc1 does not need backward computation.
+I0730 17:07:06.426934 27724 net.cpp:208] This network produces output fc3
+I0730 17:07:06.426977 27724 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:07:06.427027 27724 net.cpp:219] Network initialization done.
+I0730 17:07:06.427062 27724 net.cpp:220] Memory required for data: 2568
+I0730 17:07:06.433015 27724 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:07:06.433102 27724 net.cpp:358] Input 0 -> data
+I0730 17:07:06.433156 27724 net.cpp:67] Creating Layer fc1
+I0730 17:07:06.433212 27724 net.cpp:394] fc1 <- data
+I0730 17:07:06.433251 27724 net.cpp:356] fc1 -> fc1
+I0730 17:07:06.433305 27724 net.cpp:96] Setting up fc1
+I0730 17:07:06.433509 27724 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:07:06.433568 27724 net.cpp:67] Creating Layer htanh
+I0730 17:07:06.433605 27724 net.cpp:394] htanh <- fc1
+I0730 17:07:06.433655 27724 net.cpp:356] htanh -> htanh
+I0730 17:07:06.433696 27724 net.cpp:96] Setting up htanh
+I0730 17:07:06.433743 27724 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:07:06.433784 27724 net.cpp:67] Creating Layer fc3
+I0730 17:07:06.433828 27724 net.cpp:394] fc3 <- htanh
+I0730 17:07:06.433867 27724 net.cpp:356] fc3 -> fc3
+I0730 17:07:06.433917 27724 net.cpp:96] Setting up fc3
+I0730 17:07:06.433976 27724 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:07:06.434023 27724 net.cpp:172] fc3 does not need backward computation.
+I0730 17:07:06.434059 27724 net.cpp:172] htanh does not need backward computation.
+I0730 17:07:06.434103 27724 net.cpp:172] fc1 does not need backward computation.
+I0730 17:07:06.434139 27724 net.cpp:208] This network produces output fc3
+I0730 17:07:06.434185 27724 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:07:06.434222 27724 net.cpp:219] Network initialization done.
+I0730 17:07:06.434265 27724 net.cpp:220] Memory required for data: 2580
+I0730 17:07:06.439141 27724 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:07:06.439213 27724 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+I0730 17:07:06.441118 27724 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:07:06.441171 27724 tonic.cpp:37] Reshaping output to dims: 28 42 1 1
+---------------------------------------------------------
+nlp-chk
+Command terminated by signal 9
+89.50user 5.11system 2:07.52elapsed 74%CPU (0avgtext+0avgdata 15468384maxresident)k
+183384inputs+0outputs (60major+1216156minor)pagefaults 0swaps
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:09:14.452409 13192 net.cpp:39] Initializing net from parameters: 
+name: "chk"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 42
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:09:14.452730 13192 net.cpp:358] Input 0 -> data
+I0730 17:09:14.452836 13192 net.cpp:67] Creating Layer fc1
+I0730 17:09:14.452883 13192 net.cpp:394] fc1 <- data
+I0730 17:09:14.452962 13192 net.cpp:356] fc1 -> fc1
+I0730 17:09:14.453032 13192 net.cpp:96] Setting up fc1
+I0730 17:09:14.458016 13192 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:09:14.458336 13192 net.cpp:67] Creating Layer htanh
+I0730 17:09:14.458384 13192 net.cpp:394] htanh <- fc1
+I0730 17:09:14.458621 13192 net.cpp:356] htanh -> htanh
+I0730 17:09:14.458683 13192 net.cpp:96] Setting up htanh
+I0730 17:09:14.458729 13192 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:09:14.458783 13192 net.cpp:67] Creating Layer fc3
+I0730 17:09:14.458822 13192 net.cpp:394] fc3 <- htanh
+I0730 17:09:14.458871 13192 net.cpp:356] fc3 -> fc3
+I0730 17:09:14.458916 13192 net.cpp:96] Setting up fc3
+I0730 17:09:14.459028 13192 net.cpp:103] Top shape: 1 42 1 1 (42)
+I0730 17:09:14.459070 13192 net.cpp:172] fc3 does not need backward computation.
+I0730 17:09:14.459102 13192 net.cpp:172] htanh does not need backward computation.
+I0730 17:09:14.459130 13192 net.cpp:172] fc1 does not need backward computation.
+I0730 17:09:14.459156 13192 net.cpp:208] This network produces output fc3
+I0730 17:09:14.459190 13192 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:09:14.459221 13192 net.cpp:219] Network initialization done.
+I0730 17:09:14.459830 13192 net.cpp:220] Memory required for data: 2568
+I0730 17:09:14.475522 13192 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:09:14.475620 13192 net.cpp:358] Input 0 -> data
+I0730 17:09:14.475680 13192 net.cpp:67] Creating Layer fc1
+I0730 17:09:14.475738 13192 net.cpp:394] fc1 <- data
+I0730 17:09:14.475780 13192 net.cpp:356] fc1 -> fc1
+I0730 17:09:14.475834 13192 net.cpp:96] Setting up fc1
+I0730 17:09:14.476125 13192 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:09:14.476187 13192 net.cpp:67] Creating Layer htanh
+I0730 17:09:14.476227 13192 net.cpp:394] htanh <- fc1
+I0730 17:09:14.476274 13192 net.cpp:356] htanh -> htanh
+I0730 17:09:14.476318 13192 net.cpp:96] Setting up htanh
+I0730 17:09:14.476367 13192 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:09:14.476408 13192 net.cpp:67] Creating Layer fc3
+I0730 17:09:14.476454 13192 net.cpp:394] fc3 <- htanh
+I0730 17:09:14.476495 13192 net.cpp:356] fc3 -> fc3
+I0730 17:09:14.476547 13192 net.cpp:96] Setting up fc3
+I0730 17:09:14.476610 13192 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:09:14.476660 13192 net.cpp:172] fc3 does not need backward computation.
+I0730 17:09:14.476709 13192 net.cpp:172] htanh does not need backward computation.
+I0730 17:09:14.476757 13192 net.cpp:172] fc1 does not need backward computation.
+I0730 17:09:14.476791 13192 net.cpp:208] This network produces output fc3
+I0730 17:09:14.476840 13192 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:09:14.476879 13192 net.cpp:219] Network initialization done.
+I0730 17:09:14.476922 13192 net.cpp:220] Memory required for data: 2580
+I0730 17:09:14.487733 13192 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:09:14.487818 13192 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+I0730 17:09:14.490562 13192 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:09:14.490617 13192 tonic.cpp:37] Reshaping output to dims: 28 42 1 1
+Command terminated by signal 9
+89.28user 5.15system 2:08.59elapsed 73%CPU (0avgtext+0avgdata 15453056maxresident)k
+183840inputs+0outputs (62major+1214595minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-chk
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:11:25.387955 31469 net.cpp:39] Initializing net from parameters: 
+name: "chk"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 42
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:11:25.388296 31469 net.cpp:358] Input 0 -> data
+I0730 17:11:25.388420 31469 net.cpp:67] Creating Layer fc1
+I0730 17:11:25.388468 31469 net.cpp:394] fc1 <- data
+I0730 17:11:25.388507 31469 net.cpp:356] fc1 -> fc1
+I0730 17:11:25.388573 31469 net.cpp:96] Setting up fc1
+I0730 17:11:25.392343 31469 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:11:25.392592 31469 net.cpp:67] Creating Layer htanh
+I0730 17:11:25.392628 31469 net.cpp:394] htanh <- fc1
+I0730 17:11:25.392853 31469 net.cpp:356] htanh -> htanh
+I0730 17:11:25.392905 31469 net.cpp:96] Setting up htanh
+I0730 17:11:25.392942 31469 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:11:25.392977 31469 net.cpp:67] Creating Layer fc3
+I0730 17:11:25.393013 31469 net.cpp:394] fc3 <- htanh
+I0730 17:11:25.393076 31469 net.cpp:356] fc3 -> fc3
+I0730 17:11:25.393133 31469 net.cpp:96] Setting up fc3
+I0730 17:11:25.393254 31469 net.cpp:103] Top shape: 1 42 1 1 (42)
+I0730 17:11:25.393302 31469 net.cpp:172] fc3 does not need backward computation.
+I0730 17:11:25.393342 31469 net.cpp:172] htanh does not need backward computation.
+I0730 17:11:25.393388 31469 net.cpp:172] fc1 does not need backward computation.
+I0730 17:11:25.393424 31469 net.cpp:208] This network produces output fc3
+I0730 17:11:25.393473 31469 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:11:25.393514 31469 net.cpp:219] Network initialization done.
+I0730 17:11:25.393558 31469 net.cpp:220] Memory required for data: 2568
+I0730 17:11:25.400383 31469 net.cpp:39] Initializing net from parameters: 
+name: "pos"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 45
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 300
+input_dim: 1
+input_dim: 1
+I0730 17:11:25.400496 31469 net.cpp:358] Input 0 -> data
+I0730 17:11:25.400555 31469 net.cpp:67] Creating Layer fc1
+I0730 17:11:25.400614 31469 net.cpp:394] fc1 <- data
+I0730 17:11:25.400660 31469 net.cpp:356] fc1 -> fc1
+I0730 17:11:25.400720 31469 net.cpp:96] Setting up fc1
+I0730 17:11:25.400935 31469 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:11:25.400996 31469 net.cpp:67] Creating Layer htanh
+I0730 17:11:25.401034 31469 net.cpp:394] htanh <- fc1
+I0730 17:11:25.401109 31469 net.cpp:356] htanh -> htanh
+I0730 17:11:25.401154 31469 net.cpp:96] Setting up htanh
+I0730 17:11:25.401202 31469 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:11:25.401242 31469 net.cpp:67] Creating Layer fc3
+I0730 17:11:25.401288 31469 net.cpp:394] fc3 <- htanh
+I0730 17:11:25.401327 31469 net.cpp:356] fc3 -> fc3
+I0730 17:11:25.401377 31469 net.cpp:96] Setting up fc3
+I0730 17:11:25.401438 31469 net.cpp:103] Top shape: 1 45 1 1 (45)
+I0730 17:11:25.401486 31469 net.cpp:172] fc3 does not need backward computation.
+I0730 17:11:25.401523 31469 net.cpp:172] htanh does not need backward computation.
+I0730 17:11:25.401567 31469 net.cpp:172] fc1 does not need backward computation.
+I0730 17:11:25.401602 31469 net.cpp:208] This network produces output fc3
+I0730 17:11:25.401648 31469 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:11:25.401685 31469 net.cpp:219] Network initialization done.
+I0730 17:11:25.401728 31469 net.cpp:220] Memory required for data: 2580
+I0730 17:11:25.407174 31469 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:11:25.407296 31469 tonic.cpp:37] Reshaping output to dims: 28 45 1 1
+I0730 17:11:25.412134 31469 tonic.cpp:31] Reshaping input to dims: 28 300 1 1
+I0730 17:11:25.412199 31469 tonic.cpp:37] Reshaping output to dims: 28 42 1 1
+Command terminated by signal 9
+89.06user 5.17system 2:07.29elapsed 74%CPU (0avgtext+0avgdata 15440160maxresident)k
+183560inputs+0outputs (62major+1212094minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-ner
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:13:35.080289 16445 net.cpp:39] Initializing net from parameters: 
+name: "ner"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 17
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 375
+input_dim: 1
+input_dim: 1
+I0730 17:13:35.080571 16445 net.cpp:358] Input 0 -> data
+I0730 17:13:35.080698 16445 net.cpp:67] Creating Layer fc1
+I0730 17:13:35.080751 16445 net.cpp:394] fc1 <- data
+I0730 17:13:35.080811 16445 net.cpp:356] fc1 -> fc1
+I0730 17:13:35.080878 16445 net.cpp:96] Setting up fc1
+I0730 17:13:35.082888 16445 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:13:35.083318 16445 net.cpp:67] Creating Layer htanh
+I0730 17:13:35.084265 16445 net.cpp:394] htanh <- fc1
+I0730 17:13:35.084319 16445 net.cpp:356] htanh -> htanh
+I0730 17:13:35.084385 16445 net.cpp:96] Setting up htanh
+I0730 17:13:35.084434 16445 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:13:35.084489 16445 net.cpp:67] Creating Layer fc3
+I0730 17:13:35.084528 16445 net.cpp:394] fc3 <- htanh
+I0730 17:13:35.084580 16445 net.cpp:356] fc3 -> fc3
+I0730 17:13:35.084625 16445 net.cpp:96] Setting up fc3
+I0730 17:13:35.084720 16445 net.cpp:103] Top shape: 1 17 1 1 (17)
+I0730 17:13:35.084771 16445 net.cpp:172] fc3 does not need backward computation.
+I0730 17:13:35.084823 16445 net.cpp:172] htanh does not need backward computation.
+I0730 17:13:35.084863 16445 net.cpp:172] fc1 does not need backward computation.
+I0730 17:13:35.084909 16445 net.cpp:208] This network produces output fc3
+I0730 17:13:35.084954 16445 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:13:35.085006 16445 net.cpp:219] Network initialization done.
+I0730 17:13:35.085043 16445 net.cpp:220] Memory required for data: 2468
+I0730 17:13:35.094151 16445 tonic.cpp:31] Reshaping input to dims: 28 375 1 1
+I0730 17:13:35.094228 16445 tonic.cpp:37] Reshaping output to dims: 28 17 1 1
+Command terminated by signal 9
+68.32user 5.20system 1:44.27elapsed 70%CPU (0avgtext+0avgdata 15470064maxresident)k
+208744inputs+0outputs (166major+1215488minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-ner
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:15:20.317811 30998 net.cpp:39] Initializing net from parameters: 
+name: "ner"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 17
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 375
+input_dim: 1
+input_dim: 1
+I0730 17:15:20.318073 30998 net.cpp:358] Input 0 -> data
+I0730 17:15:20.318181 30998 net.cpp:67] Creating Layer fc1
+I0730 17:15:20.318229 30998 net.cpp:394] fc1 <- data
+I0730 17:15:20.318286 30998 net.cpp:356] fc1 -> fc1
+I0730 17:15:20.318343 30998 net.cpp:96] Setting up fc1
+I0730 17:15:20.319458 30998 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:15:20.319699 30998 net.cpp:67] Creating Layer htanh
+I0730 17:15:20.319910 30998 net.cpp:394] htanh <- fc1
+I0730 17:15:20.319962 30998 net.cpp:356] htanh -> htanh
+I0730 17:15:20.320029 30998 net.cpp:96] Setting up htanh
+I0730 17:15:20.320077 30998 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:15:20.320132 30998 net.cpp:67] Creating Layer fc3
+I0730 17:15:20.320169 30998 net.cpp:394] fc3 <- htanh
+I0730 17:15:20.320219 30998 net.cpp:356] fc3 -> fc3
+I0730 17:15:20.320271 30998 net.cpp:96] Setting up fc3
+I0730 17:15:20.320358 30998 net.cpp:103] Top shape: 1 17 1 1 (17)
+I0730 17:15:20.320406 30998 net.cpp:172] fc3 does not need backward computation.
+I0730 17:15:20.320456 30998 net.cpp:172] htanh does not need backward computation.
+I0730 17:15:20.320485 30998 net.cpp:172] fc1 does not need backward computation.
+I0730 17:15:20.320525 30998 net.cpp:208] This network produces output fc3
+I0730 17:15:20.320577 30998 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:15:20.320638 30998 net.cpp:219] Network initialization done.
+I0730 17:15:20.320701 30998 net.cpp:220] Memory required for data: 2468
+I0730 17:15:20.327695 30998 tonic.cpp:31] Reshaping input to dims: 28 375 1 1
+I0730 17:15:20.327760 30998 tonic.cpp:37] Reshaping output to dims: 28 17 1 1
+---------------------------------------------------------
+nlp-ner
+ssh_exchange_identification: Connection closed by remote host
+Command terminated by signal 9
+69.18user 5.06system 1:46.08elapsed 69%CPU (0avgtext+0avgdata 15530800maxresident)k
+590640inputs+0outputs (1741major+1220598minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-ner
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:17:07.720088 12869 net.cpp:39] Initializing net from parameters: 
+name: "ner"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 17
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 375
+input_dim: 1
+input_dim: 1
+I0730 17:17:07.721292 12869 net.cpp:358] Input 0 -> data
+I0730 17:17:07.722486 12869 net.cpp:67] Creating Layer fc1
+I0730 17:17:07.722542 12869 net.cpp:394] fc1 <- data
+I0730 17:17:07.722599 12869 net.cpp:356] fc1 -> fc1
+I0730 17:17:07.722671 12869 net.cpp:96] Setting up fc1
+I0730 17:17:07.723783 12869 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:17:07.724066 12869 net.cpp:67] Creating Layer htanh
+I0730 17:17:07.724324 12869 net.cpp:394] htanh <- fc1
+I0730 17:17:07.724375 12869 net.cpp:356] htanh -> htanh
+I0730 17:17:07.724411 12869 net.cpp:96] Setting up htanh
+I0730 17:17:07.724472 12869 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:17:07.724550 12869 net.cpp:67] Creating Layer fc3
+I0730 17:17:07.724592 12869 net.cpp:394] fc3 <- htanh
+I0730 17:17:07.724632 12869 net.cpp:356] fc3 -> fc3
+I0730 17:17:07.724714 12869 net.cpp:96] Setting up fc3
+I0730 17:17:07.724803 12869 net.cpp:103] Top shape: 1 17 1 1 (17)
+I0730 17:17:07.724853 12869 net.cpp:172] fc3 does not need backward computation.
+I0730 17:17:07.724895 12869 net.cpp:172] htanh does not need backward computation.
+I0730 17:17:07.724938 12869 net.cpp:172] fc1 does not need backward computation.
+I0730 17:17:07.724984 12869 net.cpp:208] This network produces output fc3
+I0730 17:17:07.725033 12869 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:17:07.725095 12869 net.cpp:219] Network initialization done.
+I0730 17:17:07.725131 12869 net.cpp:220] Memory required for data: 2468
+I0730 17:17:07.732919 12869 tonic.cpp:31] Reshaping input to dims: 28 375 1 1
+I0730 17:17:07.732995 12869 tonic.cpp:37] Reshaping output to dims: 28 17 1 1
+Command terminated by signal 9
+68.49user 4.92system 1:43.61elapsed 70%CPU (0avgtext+0avgdata 15453136maxresident)k
+183712inputs+0outputs (66major+1212593minor)pagefaults 0swaps
+---------------------------------------------------------
+nlp-ner
+********* Setting up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0730 17:18:52.497970 28150 net.cpp:39] Initializing net from parameters: 
+name: "ner"
+layers {
+  bottom: "data"
+  top: "fc1"
+  name: "fc1"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 300
+  }
+}
+layers {
+  bottom: "fc1"
+  top: "htanh"
+  name: "htanh"
+  type: HTANH
+}
+layers {
+  bottom: "htanh"
+  top: "fc3"
+  name: "fc3"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 17
+  }
+}
+input: "data"
+input_dim: 1
+input_dim: 375
+input_dim: 1
+input_dim: 1
+I0730 17:18:52.498294 28150 net.cpp:358] Input 0 -> data
+I0730 17:18:52.498414 28150 net.cpp:67] Creating Layer fc1
+I0730 17:18:52.498463 28150 net.cpp:394] fc1 <- data
+I0730 17:18:52.498502 28150 net.cpp:356] fc1 -> fc1
+I0730 17:18:52.498565 28150 net.cpp:96] Setting up fc1
+I0730 17:18:52.499250 28150 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:18:52.499521 28150 net.cpp:67] Creating Layer htanh
+I0730 17:18:52.499579 28150 net.cpp:394] htanh <- fc1
+I0730 17:18:52.499650 28150 net.cpp:356] htanh -> htanh
+I0730 17:18:52.499702 28150 net.cpp:96] Setting up htanh
+I0730 17:18:52.499963 28150 net.cpp:103] Top shape: 1 300 1 1 (300)
+I0730 17:18:52.500025 28150 net.cpp:67] Creating Layer fc3
+I0730 17:18:52.500074 28150 net.cpp:394] fc3 <- htanh
+I0730 17:18:52.500115 28150 net.cpp:356] fc3 -> fc3
+I0730 17:18:52.500169 28150 net.cpp:96] Setting up fc3
+I0730 17:18:52.500254 28150 net.cpp:103] Top shape: 1 17 1 1 (17)
+I0730 17:18:52.500319 28150 net.cpp:172] fc3 does not need backward computation.
+I0730 17:18:52.500370 28150 net.cpp:172] htanh does not need backward computation.
+I0730 17:18:52.500412 28150 net.cpp:172] fc1 does not need backward computation.
+I0730 17:18:52.500447 28150 net.cpp:208] This network produces output fc3
+I0730 17:18:52.500499 28150 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I0730 17:18:52.500538 28150 net.cpp:219] Network initialization done.
+I0730 17:18:52.500582 28150 net.cpp:220] Memory required for data: 2468
+I0730 17:18:52.508713 28150 tonic.cpp:31] Reshaping input to dims: 28 375 1 1
+I0730 17:18:52.508795 28150 tonic.cpp:37] Reshaping output to dims: 28 17 1 1
+Command terminated by signal 9
+68.55user 4.98system 1:42.34elapsed 71%CPU (0avgtext+0avgdata 15432912maxresident)k
+182528inputs+0outputs (63major+1213930minor)pagefaults 0swaps
+---------------------------------------------------------

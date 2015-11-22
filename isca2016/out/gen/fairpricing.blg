@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_7)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: fairpricing.aux
+The style file: ieeetr.bst
+Database file #1: bib.bib
+Warning--entry type for "forbes" isn't style-file defined
+--line 620 of file bib.bib
+Warning--I didn't find a database entry for "denew"
+You've used 58 entries,
+            1876 wiz_defined-function locations,
+            837 strings with 17629 characters,
+and the built_in function-call counts, 18732 in all, are:
+= -- 1822
+> -- 763
+< -- 0
++ -- 277
+- -- 219
+* -- 1412
+:= -- 2526
+add.period$ -- 67
+call.type$ -- 58
+change.case$ -- 58
+chr.to.int$ -- 0
+cite$ -- 58
+duplicate$ -- 964
+empty$ -- 1818
+format.name$ -- 219
+if$ -- 4583
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 48
+newline$ -- 187
+num.names$ -- 57
+pop$ -- 227
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 719
+stack$ -- 0
+substring$ -- 1329
+swap$ -- 386
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 187
+width$ -- 60
+write$ -- 629
+(There were 2 warnings)

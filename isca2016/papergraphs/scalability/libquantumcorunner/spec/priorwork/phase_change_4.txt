@@ -1,0 +1,102 @@
+colocating with libquantum
+perlbench
+---------------------------------------------------------
+colocating with libquantum
+perlbench
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+---------------------------------------------------------
+colocating with libquantum
+povray
+---------------------------------------------------------
+colocating with libquantum
+povray
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+---------------------------------------------------------
+colocating with libquantum
+astar
+---------------------------------------------------------
+colocating with libquantum
+astar
+---------------------------------------------------------
+colocating with libquantum
+namd
+---------------------------------------------------------
+colocating with libquantum
+namd
+---------------------------------------------------------
+colocating with libquantum
+calculix
+---------------------------------------------------------
+colocating with libquantum
+calculix
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+---------------------------------------------------------
+colocating with libquantum
+lbm
+---------------------------------------------------------
+colocating with libquantum
+lbm
+---------------------------------------------------------
+colocating with libquantum
+gamess
+---------------------------------------------------------
+colocating with libquantum
+gamess
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+---------------------------------------------------------

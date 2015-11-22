@@ -1,0 +1,424 @@
+===========================================================================
+                            MICRO48 Review #43A
+                     Updated 2 Jul 2015 3:23:29am EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+The authors present a technique to determine the isolated execution time of single-threaded programs while running concurrently with other programs on a multicore processor, to obtain a fairer bill for data center clients when there is large interference. The technique exploits phase behavior, and is more accurate than prior proposals with less overhead.
+
+                        ===== Paper Strengths =====
+
+- Less overhead and better accuracy than prior work.
+- Evaluated on real machines (no simulation)
+- Clearly written paper, easy to follow
+
+                       ===== Paper Weaknesses =====
+
+- Choice of benchmarks: SPEC is not the common cloud workload, and is known for exposing limited phase behavior
+- Only evaluated on single-threaded benchmarks, again not the common cloud workload
+- No incentive for data center owners: clients pay less with this technique
+- Limited novelty
+
+       Overall Merit (Pre-Response): 3. Average (C) -- Average-quality
+                                        paper with many deficiencies that
+                                        are difficult to overlook. Describe
+                                        changes needed for this paper to
+                                        become Good (B).
+                            Novelty: 3. Very Incremental Improvement  --
+                                        below par with respect to typical
+                                        MICRO papers
+                    Writing Quality: 3. Adequate
+  Reviewer Confidence and Expertise: 4. Expert in area, with highest
+                                        confidence in review
+
+           ===== Questions to Address in Revision/Rebuttal =====
+
+- Did you check if the parameters for shuttering are the optimal ones (or close to)? It might be that by enlarging the measurement interval and the pausing time, the error and the overhead is lower for the shuttering technique.
+- How did you select the "contentious co-runners"? Did you try random combinations, and have you checked that the contentious co-runners lead to the highest interference and the largest possible errors?
+- Please provide some ideas on how this would work for multiple multi-threaded programs (without describing a detailed implementation and evaluating it).
+- You might add some related work on phase detection and prediction (e.g., work by E. Duesterwald).
+
+             Importance of Revision: 3. Revision would be somewhat useful
+                                        -- I am open to revising my score
+                                        based on how satisfactorily the
+                                        concerns are addressed
+
+                    ===== Other Detailed Comments =====
+
+It is a pity that you did not evaluate your technique on more relevant applications (e.g., cloudsuite). The results depend very much on the phase behavior of the applications, and that could be very different for these applications than for SPEC.
+
+There seems to be no incentive for the data center owner to implement this. Clients will pay less than they do now.
+
+How did you select the best PMUs to detect phase behavior? Only when running alone, or when running with other applications? If it is the latter, how scalable is this technique if you have a lot of possible combinations, which could have a different impact on the PMU values?
+
+Figure 8(c): why is the error for some applications larger than for shuttering?
+
+While the structure of the text is good, and it reads fluently, there are quite some grammatical and spelling errors, so you should go over the text to correct them.
+
+===========================================================================
+                            MICRO48 Review #43B
+                     Updated 3 Jul 2015 10:26:40am EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+Applications co-running in a public cloud infrastructures infer with each other, which may lead to unfair billing. This paper builds a runtime system that estimates solo performance of applications when co-located, so that fair billing is enabled. They do so by taking "snapshots", short durations of time that pause other VMs on phase changes to estimate solo performance.
+
+                        ===== Paper Strengths =====
+
+Interesting problem.
+Real hardware experiments.
+
+                       ===== Paper Weaknesses =====
+
+Several aspects of the design need deeper analysis (see below).
+
+       Overall Merit (Pre-Response): 3. Average (C) -- Average-quality
+                                        paper with many deficiencies that
+                                        are difficult to overlook. Describe
+                                        changes needed for this paper to
+                                        become Good (B).
+                            Novelty: 4. Incremental improvement –- on par
+                                        with typical MICRO papers
+                    Writing Quality: 3. Adequate
+  Reviewer Confidence and Expertise: 3. Knowledgeable in area, and
+                                        significant confidence in review
+
+           ===== Questions to Address in Revision/Rebuttal =====
+
+I believe that the formula on page 4 to compute CPI is wrong. I believe you should weight CPI_i with instruction count I_i, not time T_i. This needs to be corrected.
+
+You should explain how you obtained the parameters in Table 2.
+
+In addition, I'd like to see an experiment in which you set the solo measurement intervals to be equally long for shuttering as snapshot. I'd think that shuttering may work reasonably well with a longer solo measurement interval because there isn't much phase behavior anyways, as you mention.
+
+             Importance of Revision: 3. Revision would be somewhat useful
+                                        -- I am open to revising my score
+                                        based on how satisfactorily the
+                                        concerns are addressed
+
+                    ===== Other Detailed Comments =====
+
+I like the topic of the paper. The problem addressed here is interesting, and I believe it's a real problem. Because of hardware sharing in the cloud, customers may be paying too much relative to the delivered compute power.
+
+Here are a number of thoughts/comments that could make the paper stronger. 
+
+The paper focuses on computation. Other areas of focus could be storage and network bandwidth, see for example the VM configurations one can choose on Amazon's EC2. It could be an interesting avenue for future work to extend the work towards storage and network bandwidth. Acknowledging the limited focus on computation in the paper seems appropriate.
+
+Along the same lines of thought, you are using the SPEC CPU2006 benchmark suite, which seems a poor fit with the cloud, and focuses on computation (not storage nor network bandwidth). I know it is hard to get a grasp on real cloud workloads, but at least there is CloudSuite, which seems a better workload for your study?
+
+Also, the paper seems to focus on batch-style workloads. If so, this should be acknowledged in the paper. Many of the workloads running in the cloud are interactive, for which the proposed runtime system, which takes solo snapshots, may not be acceptable given the interactive nature of these Internet service workloads.
+
+There is quite a bit of related work that tries to estimate solo performance in multicore/multithreaded systems, see for example: Eyerman [ASPLOS 2009], Subramanian [HPCA 2013], Du Bois [TACO 2013], Luque [TC 2012, TACO 2013], Liu [CAL 2014]. These works should be referenced at least. Also, there is a lot of related work on phase detection and analysis (even prediction), see for example Calder [ISCA 2003, HPCA 2005] and Dhodapkar/Smith [MICRO 2003].
+
+Phase detection is done by tracking hardware performance counter values as explained in Section 3.2.1. The final set of performance counters used to track phase behavior is determined for the set of eight SPEC CPU benchmarks as mentioned in the paper. You need to do a cross-validation experiments to show that the selected performance counters are robust across workloads, otherwise it is unclear whether this set of performance counters will work for other types of workloads, and whether your technique will be able to detect phase changes accurately for other workloads.
+
+You assume four VMs for a quad-core processor. What about over-subscription? (which seems an important use case for public clouds?) Would you system still work in an oversubscribed scenario?
+
+I think it might be useful to "stress-test" your runtime system using micro-benchmarks. That would substantially increase confidence in your system.
+
+After reading the paper, I was left wondering why snapshot is any better than shuttering. And I think part of the reason is that snapshot uses much longer solo measurement intervals. I'd therefore like to see an experiment in which you explore accuracy for different sampling parameters for both techniques. In particular, I'd think that shuttering may work well (on par with snapshot?) for longer solo measurement intervals, because, as you mention in the paper, there isn't that much phase behavior anyways.
+
+===========================================================================
+                            MICRO48 Review #43C
+                     Updated 4 Jul 2015 3:31:02am EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+The paper looks at the problem of fair pricing in cloud computing scenarios when co-running VMs degrade each other's performance. Authors observe that detecting performance degradation due to LLC contention requires long sampling intervals, which prior work did not do. To avoid frequent invocation of lengthy sampling phases, the paper proposes using hardware performance counters to detect points in time when a new sampling phase should be invoked.
+
+                        ===== Paper Strengths =====
+
+Paper attacks an important and timely problem.
+
+Nice insight that large LLCs require a long time to fill, which means that long sampling periods are needed to isolate an application's performance.
+
+                       ===== Paper Weaknesses =====
+
+Quite incremental with respect to prior work.
+
+No attempt was made to tune the baseline mechanism (shuttering) despite the fact that evaluated workloads are different than the ones on which the baseline was originally evaluated.
+
+Evaluated workloads are not exactly representative of typical cloud deployments.
+
+       Overall Merit (Pre-Response): 3. Average (C) -- Average-quality
+                                        paper with many deficiencies that
+                                        are difficult to overlook. Describe
+                                        changes needed for this paper to
+                                        become Good (B).
+                            Novelty: 4. Incremental improvement –- on par
+                                        with typical MICRO papers
+                    Writing Quality: 4. Well-written
+  Reviewer Confidence and Expertise: 4. Expert in area, with highest
+                                        confidence in review
+
+           ===== Questions to Address in Revision/Rebuttal =====
+
+How do you detect changes in the underlying environment (e.g., phases changes or new co-runners) when the number of VMs is overprovisioned and, as a result, the set of active VMs changes frequently?
+
+             Importance of Revision: 1. Revision cannot save this paper --
+                                        The required changes are so
+                                        significant that it will just
+                                        become a different paper
+
+                    ===== Other Detailed Comments =====
+
+This is a nice, easy-to-read paper. The core observation about large LLCs taking a long time to stabilize, miss-rate wise, is nice. 
+
+I do have several reservations about the work. First is its incremental nature. Not only was shuttering for the purpose of cloud pricing proposed in [10], but shuttering specifically for LLC contention detection was suggested even earlier by Mars et al. in "Contention Aware Execution" (CGO'10). It would be good to cite this earlier work. 
+
+Secondly, authors should have attempted to tune the shuttering parameters used in the evaluation. While I didn't see it stated anywhere, but the parameters seemed to be taken straight out of [10]. The problem is that the workloads used in [10] and in this paper are quite different, and [10] showed that there's sensitivity to the parameters. So it's possible  that with the right set of parameters, shuttering could be more competitive. 
+
+Finally, the evaluated workloads are not very meaningful for the cloud environment. Most cloud workloads are web servers, database servers, and object stores, not Mcf & Libquantum. I suspect the underlying observations made in the paper will hold for server workloads as well, but it would be good to show that. 
+
+Overall, the paper definitely has value, but I don't think it's quite at the level of MICRO yet.
+
+===========================================================================
+                            MICRO48 Review #43D
+                     Updated 6 Jul 2015 2:05:49pm EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+The paper proposes a IPC-degradation prediction mechanism for fair pricing in data centers. The proposal is done at software level on a real board. Results show that Snapshot improves Shuttering for the evaluated workloads.
+
+                        ===== Paper Strengths =====
+
+Good motivation. 
+Ideas presented in a simple yet easy-to-understand manner.
+
+                       ===== Paper Weaknesses =====
+
+- A big part of the most relevant related work is missing
+- The phase detection mechanism seem to be developed in an ad-hoc manner
+- The evaluation is rather narrow
+- Scalability issues to properly discussed
+
+       Overall Merit (Pre-Response): 2. Poor (D) -- Poor-quality paper
+                            Novelty: 3. Very Incremental Improvement  --
+                                        below par with respect to typical
+                                        MICRO papers
+                    Writing Quality: 4. Well-written
+  Reviewer Confidence and Expertise: 4. Expert in area, with highest
+                                        confidence in review
+             Importance of Revision: 3. Revision would be somewhat useful
+                                        -- I am open to revising my score
+                                        based on how satisfactorily the
+                                        concerns are addressed
+
+                    ===== Other Detailed Comments =====
+
+I have several comments on this paper.
+
+1. Related work
+	- There have been several works making proposals at hardware level for CMP[2,3,4], SMT[1] and CMP+SMT[5] processors to derive the IPCsolo of applications when they run as part of a workload. These need to be referenced.
+	- The authors assume that the 'fair' reference IPC is IPC solo. However, as the core count increases in every chip genreation, it is unlikely that each application can be provided its IPC solo. In following [3] it is discussed alternative to this reference IPC. In particular it is dicussed IPCfair-share where each application is ensured to get the same IPC it would get running in isolation with a fair share of the resources. 
+	[1]  Eyerman et al.  Per-thread cycle accounting in SMT processors. In ASPLOS,  2009.
+	[2] CPU Accounting in CMP Processors. IEEE COMPUTER ARCHITECTURE LETTERS, VOL. 8, NO. 1, JANUARY-JUNE 2009.
+	[3] CPU Accounting for Multicore Processors.  In IEEE Transaction on Computers, Volume 61, Issue 2, 2012. 
+	[4] ITCA: Inter-Task Conflict-Aware CPU Accounting for CMPs. PACT 2009
+	[5] Fair CPU Time Accounting in CMP+SMT Processors. In ACM Transactions on Architecture and Code Optimization (TACO), Volume 9 Issue 4, 2013.
+	- In addition to performancew, there are also several works [6-10] exploring fair pricing by taking energy into account.
+	[6] A Case for Energy-Aware Accounting and Billing in Large-Scale Computing Facilities Cost Metrics and Design Implications. In IEEE Micro, May/June 2011.
+	[7] Per-task Energy Accounting in Computing Systems. IEEE COMPUTER ARCHITECTURE LETTERS, Volume 13, Issue 2, 2014.
+	[8] Hardware Support for Accurate Per-Task Energy Metering in Multicore Systems. In HiPEAC, January 2014.
+	[9] DReAM: Per-Task DRAM Energy Metering in Multicore Systems. In EUROPAR, 2014
+	[10] Power containers: an OS facility for fine-grained power and energy management on multicore. In ASPLOS, 2013.
+	- Since this work assumes fairness pricing is IPCsolo, the works above presing hardware support presented above should be added in therelated work section. Those works focusing on fairness of resource partitions, are much less relevant to this paper.
+
+2. Phase Detection Mechanism
+	- Authors evaluate several PMUs to help better determine the phase change, however choose only one, LLC store miss. And the evaluation setup seems to favor this PMU, since most results are generated by using benchmarks with high LLC contention benchmarks(mcf, libquantum, milc). 
+	- It is unclear to me why CPI changes with corunner and cpu resource usage does not (as claimed by the authors)? If the LLC is shared the miss/hit rates of a task depends on its corunners.
+	- Are the training applications for the selection of the PMU used also for evaluation?
+	- Why for the training you use astar as corunners? Why is this representative of other workloads.
+	- The Spike detection mechanism is also a bit ad-hoc (e.g. the part on the number of readings required to assume a phase change).
+
+3. Scalability and Evaluation
+	- The scalability of this approach to higher core counts is unclear to me. As the number of core increases, the number of solo periods to track the IPCsolo of the different application also increses, which increasing (negatively) affects performance. **Especially authors seem having ignored the phase detection of other co-runners, let's say, what is the mechanism to deal with the situation when several co-running programs encounter phase change at the same time? and how much overhead will be incurred due to the isolation phase from their co-runners.
+	- Better define how to evaluate the estimation accuracy, it is not full clear to me.
+	- In figure 9(a,b), since the progress of a program when it runs solo will be different compared with when it co-runs with other programs, how is it possible to fairly compare both. As for astar shown in the figures, the ending point is slightly different, I guess there will be benchmarks have much more significant differences, right? Especially, shuttering has 200ms measurement frequency, snapshot has 1s, how could the references (green lines) be the same? What is the frequency to get the green line? If reference value are obtained every 1s, estimation of every 200ms obviously will not match it. 
+	- The set of corunners evaluated seem to be very narrow. This reduces the impact of the paper.
+
+4. Novelty
+	- The novelty w.r.t to other techniques such as POPPA is the addition of a Phase Detection mechanism to trigger the IPCsolo prediction only on Phase Changes rather than trigger it periodically. I do not feel this is enough contribution for MICRO.
+
+===========================================================================
+                            MICRO48 Review #43E
+                     Updated 9 Jul 2015 9:31:19am EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+The paper presents snapshot, a system profiler that detects phase
+changes and measures performance contention only upon entering a new
+phase. Snapshot improves the accuracy of performance prediction and
+reduces profiling overheads relative to a mechanism that profiles at
+regular intervals. Predictions of performance degradation could be
+used to adjust prices for virtual machines in the cloud.
+
+                        ===== Paper Strengths =====
+
+Snapshot address an important problem --- co-location and contention
+in datacenters. The mechanism provides a quantitative improvement over
+prior work.
+
+                       ===== Paper Weaknesses =====
+
+The contribution to profiling is useful but small. The paper has a
+number of limitations: (a) it does not motivate Snapshot over
+alternative approaches, (b) it does not demonstrate a systems
+application, and (c) it appears less rigorous than prior efforts in
+sampling the simulation of multi-programmed workloads.
+
+       Overall Merit (Pre-Response): 3. Average (C) -- Average-quality
+                                        paper with many deficiencies that
+                                        are difficult to overlook. Describe
+                                        changes needed for this paper to
+                                        become Good (B).
+                            Novelty: 3. Very Incremental Improvement  --
+                                        below par with respect to typical
+                                        MICRO papers
+                    Writing Quality: 4. Well-written
+  Reviewer Confidence and Expertise: 4. Expert in area, with highest
+                                        confidence in review
+
+           ===== Questions to Address in Revision/Rebuttal =====
+
+See the three questions in the detailed comments. The paper needs
+either a system contribution (e.g., case study that demonstrates
+improvements in some system metric) or additional rigor (e.g.,
+comparison against sampled simulation methodologies for
+multi-programmed workloads).
+
+             Importance of Revision: 1. Revision cannot save this paper --
+                                        The required changes are so
+                                        significant that it will just
+                                        become a different paper
+
+                    ===== Other Detailed Comments =====
+
+[Overall Comments] With snapshot, the paper addresses an important
+problem but over-states the contribution. Snapshot is essentially a
+performance profiler that detects application phases and measures
+degraded performance. Snapshot works empirically, but the contribution
+is modest given the standards set by prior work. The paper would 
+be stronger if it could answer a few questions. 
+
+First, why should we use snapshot over prior studies in contention
+modeling? The authors note the differences with Bubble-up and Cuanta
+but does snapshot have some advantage over these studies?
+
+Second, how does snapshot lead to a better co-location policy?  The
+authors hint at fair pricing but do not close the loop with an
+implementation or evaluation that improves some system metric.
+
+Third, how does snapshot's phase detection scheme relate to prior work
+in phase analysis for multi-threaded and multi-programmed workloads
+(e.g., co-phase matrix). Techniques have been proposed for sampled
+simulation and multi-programmed workloads, which could apply in the
+datacenter setting as well. Snapshot seems less rigorous in
+comparison.
+
+[1 Introduction] "The most relevant related work estimates performance
+degradation in HPC clusters [10,11]. The authors should see other
+related work, Bubble-Up and Bubble-Flux by J. Mars et al., which
+considers co-location for Google workloads.
+
+[2.2 Motivation] This paper is well motivated over two pieces of prior
+work [10,11], but Figure 3 suggests prior work is a weak baseline.
+Bubble-Up estimates contentiousness and co-locates such that
+performance penalties from contention do not exceed some threshold
+(e.g., 10%). Would such a scheme work here? Why or why not?
+
+[3.2 Mechanism] The paper would benefit from more insight behind the
+three types of peformance monitoring units (PMUs). Why are these
+particular measurements so important. The correlation between phase
+transitions and LLC store misses is not particularly intuitive.
+
+[3.3 Pricing for Fairness] The idea is an interesting one and the
+paper takes a promising first step towards adjusting prices for
+contention. But the paper does not close the loop in the pricing
+scheme with a co-location strategy that uses it. Rather fair pricing
+is presented as a motivating use case for the snapshot mechanism. 
+
+[4 Evaluation] The evaluation focuses on accuracy and overhead for
+snapshot. The error is low and the overheads are modest. But the paper
+would be more substantial with a case study that evaluates snapshot's
+use. Does snapshot give us better co-locations? Adjusting the prices
+according to accurate performance predictions is a modest
+contribution, especially since price adjustments are trivial.
+
+===========================================================================
+                            MICRO48 Review #43F
+                     Updated 10 Jul 2015 4:47:29am EDT
+---------------------------------------------------------------------------
+   Paper #43: Fair Pricing in Infrastructure-as-a-Service Clouds via
+              Snapshots
+---------------------------------------------------------------------------
+
+
+                         ===== Paper Summary =====
+
+The paper proposes a mechanism for estimating performance degradation in co-hosted applications in the cloud to enable fair pricing. The main idea to achieving this is to detect phases as the application is execution, pause all other VMs except the one being monitored, and run it for a while to find out its real performance when not co-located. The evaluations are conducted with some Spec workloads to show the accuracy of their approach.
+
+                        ===== Paper Strengths =====
+
++ Gauging performance interference in cohosted servers is an important and unsolved problem.
+
+                       ===== Paper Weaknesses =====
+
+- going from performance interference to pricing is a stretch.
+- approach seems rather unscalabale.
+
+       Overall Merit (Pre-Response): 2. Poor (D) -- Poor-quality paper
+                            Novelty: 3. Very Incremental Improvement  --
+                                        below par with respect to typical
+                                        MICRO papers
+                    Writing Quality: 3. Adequate
+  Reviewer Confidence and Expertise: 3. Knowledgeable in area, and
+                                        significant confidence in review
+
+           ===== Questions to Address in Revision/Rebuttal =====
+
+- Given you stop all others but one VM and profile it for a period during the phase, how scalable is this approach given that number of VMs can get quite high with higher number of cores and multiple sockets?
+
+- Pricing depends on so many economic factors, including market conditions and what someone is willing to pay. This is a paper specifically on performance degradation - why not simply confine to that topic (similar to so many other papers in the area) rather than pitch it as a pricing issue?
+
+- Why only Spec workloads? No commercial and I/O intensive workloads?
+
+             Importance of Revision: 1. Revision cannot save this paper --
+                                        The required changes are so
+                                        significant that it will just
+                                        become a different paper
+
+                    ===== Other Detailed Comments =====
+
+Here are some main concerns of this work:
+- The problem of gauging performance degradation in such environments is important. But going from there to "pricing" is not as straightforward - includes consideration of so many other factors (competitor pricing, importance of the jobs to the consumer, how much they are willing to pay, etc.). All that this paper talks about is performance degradation - so it should just stop it at that and limit the scope to gauging the degradation. 
+
+- Not very clear how scalable this approach will be given the mechanism stops all other VMs while profiling the ongoing one. You need to consider that future systems will have dozens of cores and multiple sockets, making the number of VMs per server quite high.
+
+- All the evaluations seem somewhat simplistic considering Spec workloads.
+What about enterprise workloads, I/O workloads etc, which are much more realistic for these environments. Do they have phases? How easy are those to detect? What would be their profiling overheads, etc.?

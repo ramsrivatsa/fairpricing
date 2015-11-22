@@ -1,0 +1,170 @@
+===========================================================================
+                          ASPLOS 2016 Review #8A
+---------------------------------------------------------------------------
+Paper #8: PRUNE: Fair Pricing RUNtime Engine in Infrastructure-as-a-Service
+          Clouds via Snapshots
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+      Reviewer Expertise/Confidence: 2. Some familiarity with the
+                                        area/medium confidence in the
+                                        review
+
+                         ===== Paper summary =====
+
+This paper presents a phase-based solo performance calibration approach to
+estimate performance slowdown of cloud co-execution and enable fair pricing
+for cloud users.
+
+                        ===== Paper Strengths =====
+
+This paper targets a well-motivated problem.
+
+The proposed techniques are based on insights from real cloud applications
+and solid measurements.
+
+                       ===== Paper Weaknesses =====
+
+The presented technique of pausing all co-running applications at an 
+application's phase change to measure its solo performance is fundamentally
+not scalable.
+
+I also think the paper's approach of choosing phase-change monitoring PMUs
+can be more disciplined.
+
+                      ===== Comments to authors =====
+
+Pausing all co-running applications to measure one's solo performance seems
+to be fundamentally not scalable on large multicores.  This typically means
+keeping most of the machine idle when such solo performance characterization
+is ongoing.  And more CPUs and VMs on a machine generally means a task phase
+change occurs more frequently.  While the paper has experimented on a 16-CPU
+machine, far larger machines are already commonplace today.  
+
+On the other hand, on a large machine with many CPUs and co-runners, not every
+other co-runner affects one's co-run behaviors and an interesting direction 
+would be to see whether it is effective to just pause a subset of interfering
+co-runners in a solo performance characterization phase.
+
+The paper's approach of choosing phase-change monitoring PMUs seems to be
+heuristics-driven and highly dependent on the chosen training applications.
+I wonder whether it can be made more disciplined.  For instance, instead of
+ranking the PMUs on the \alpha values, is it possible compute some statistic
+correlation metric or signal processing metric between a PMU and its solo
+phase change?  Is there a fundamental understanding that the identified PMU
+metrics likely work beyond the training workloads?  Section 3.3 says that a
+phase change is declared when a "significant" number of values in the queue
+belongs to a new range.  Is there a principled understanding on how to choose
+such a threshold that'd reliably work well in all (or most) practical
+situations.
+
+Step 1 in page 5 says "CPI with time".  I suppose a stable characterization
+should use the number of retired instructions as the execution progress
+indicator (since the retired instruction count tends to more consistently,
+compared to the elapsed time, label a canonical point in execution).
+
+A fundamental reason for why the proposed phase characterization may work is
+that phase changes in practical cloud environments is relatively infrequent.
+For instance, Figure 5 points to phases in granularity of 10^11 instructions.
+These are really long phases.  Is it sound to believe that
+phase changes are generally infrequent?  Or do we know fine-grained phase
+changes don't matter as much?  As a reference, "Request Behavior Variations"
+(ASPLOS 2010) points out some fine-grained request behavior changes 
+(in million-instruction or finer granularity) in server applications.
+
+               ===== Questions for authors’ response =====
+
+See questions in the "Comments" section.
+
+                            Novelty: 2. Incremental improvement
+                    Writing quality: 3. Adequate
+
+===========================================================================
+                          ASPLOS 2016 Review #8B
+---------------------------------------------------------------------------
+Paper #8: PRUNE: Fair Pricing RUNtime Engine in Infrastructure-as-a-Service
+          Clouds via Snapshots
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+      Reviewer Expertise/Confidence: 4. Expert in the area/highest
+                                        confidence in the review
+
+                         ===== Paper summary =====
+
+This paper proposes Snapshot, a lightweight runtime technique to estimate the VM performance degradation due to co-runner interference in public clouds.  The key insight behind Snapshot is that there is no need to re-test for interference until an application/VM changes phase. Thus, Snapshot 1) creates a mechanism to detect a phase change in a VM; 2) pauses co-running VMs for a short time when the VM changes phase; and 3) compares the execution of the VM with and without the co-running VMs to compute a degradation factor.  The cloud provider gives the user a discount proportional to this factor. The paper evaluates Snapshot as implemented in a real system, in terms of its accuracy and overhead.  It also compares Snapshot to prior work that paused applications periodically (i.e., without phase detection) to test for interference.
+
+                        ===== Paper Strengths =====
+
++ Interference is an important problem
++ Eliminating interference checking until a phase change is a reasonable idea.
+
+                       ===== Paper Weaknesses =====
+
+- The work is very incremental
+- I'm not convinced that the approach would actually work in practice
+
+                      ===== Comments to authors =====
+
+My main problem with the paper is that it is very incremental.  Prior work has already proposed pausing co-running VMs [15], leveraging CPI to identify interference (e.g., CPI^2, [9]), using PMU counters to identify changes in VM behavior and estimate performance degradation due to interference (e.g., [9]).
+
+Another concern is that the approach doesn't seem to scale well with the number of cores.  A change in behavior that is large enough to be deemed a phase change in *any* VM causes *all* other VMs on the same node to be paused.  As the number of cores (and the amount of oversubscription) increases, a potentially quadratically increasing number of pauses will affect each application/VM.  To avoid all the pausing, an approach that runs a VM in isolation independently of its co-runners (e.g., on a different node, using VM cloning) would scale better to large numbers of cores.  How does Snapshot compare quantitatively to such an approach? How large a node and/or how messy the co-runners have to be for the latter approach to scale better?
+
+As far as I could tell, the paper doesn't say how long the pauses are.  How long does the pause have to be for the CPI results of the isolated run to be meaningful? I would expect a thorough study of this parameter, but I couldn't find it in the paper.
+
+The paper doesn't discuss the impact of the pauses on the paused VMs. At the very least, the paused VMs could lose LLC cache space that would have to be re-loaded.  Even if this doesn't happen, couldn't the pauses negatively affect the tail latency of a latency-sensitive service running on the node, especially in cases when multiple co-runners seem to change phase frequently?  Moreover, could the pauses cause networking disruptions for these services?  It would have been good to understand these issues.
+
+The PMU counters selected clearly work for the applications in this study.  However, I have a hard time believing that they would always work.  For example, wouldn't it be important to have counters dealing with I/O and hypervisor behaviors as well?  These could be significant sources of interference.  Does CPI only work for applications that do I/O?  
+
+Looking at Snapshot to produce fairer pricing seems reasonable.  However, pricing in real cloud providers is unlikely to be as simple as this paper makes it to be.  Would they really give proportional discounts as you have in the paper without some sort of accounting of their own costs?  It is difficult for CS researchers to come up with reasonable pricing schemes. Moreover, I think that the same technique could be used for other purposes, such as dynamically adjusting resource allocations or coming up with better VM placements.  Perhaps focusing more on such CS issues would be safer.
+
+               ===== Questions for authors’ response =====
+
+Please answer the questions I posed above.
+
+                            Novelty: 2. Incremental improvement
+                    Writing quality: 3. Adequate
+
+===========================================================================
+                          ASPLOS 2016 Review #8C
+---------------------------------------------------------------------------
+Paper #8: PRUNE: Fair Pricing RUNtime Engine in Infrastructure-as-a-Service
+          Clouds via Snapshots
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+      Reviewer Expertise/Confidence: 3. Knowledgeable in the area/high
+                                        confidence in the review
+
+                         ===== Paper summary =====
+
+This paper proposes a phase-detection based pricing runtime engine (PRUNE), which can detect and measure performance degradation in public clouds. An intriguing contribution of this work is that PRUNE is able to detect false phases caused by co-phase interference and spikes. Experimental results show that PRUNE can precisely detect phase changes with low overheads.
+
+                        ===== Paper Strengths =====
+
++ An important problem.
++ Good analysis of root causes of false phases.
+
+                       ===== Paper Weaknesses =====
+
+- Lack of implementation details.
+- Limited usage scenarios.
+
+                      ===== Comments to authors =====
+
+This paper attacks the important problem that how to provide fair pricing in public clouds where the “noisy neighbor” problem severely degrades users’ experience. In my opinion, the SLAs of current cloud service providers are still at an infant stage, compared with other domains like airline business model, which have developed for more than half century.
+
+Of course, fairly pricing cloud services is more challenging because it seems that quality of could service has to be gauged in relative metrics. This paper proposes measuring VMs’ QoS in the granularity of phases, which might be a good angle for precisely pricing.
+
+Several concerns:
+(1) The paper lacks overall design architecture and implementation details. It is not clear where PRUNE is installed and how many modules require modifications. For example, is it necessary to modify a VM’s guest OS?
+
+(2) The overhead of PRUNE depends on the frequency of phase changes that is further influenced by the number of VMs and application behaviors. According to Algorithm 1, all VMs will be paused for gauging one VM’s performance degradation when a phase change is detected. However, Figure 13 only shows one VM’s execution time overhead. It is also important to provide the overhead of these co-runners because in reality multiple equal tenants can co-run on a physical server.
+
+               ===== Questions for authors’ response =====
+
+(1) What’s the overhead of co-runners?
+
+                            Novelty: 2. Incremental improvement
+                    Writing quality: 3. Adequate
+

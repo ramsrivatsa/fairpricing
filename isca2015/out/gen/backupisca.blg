@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: backupisca.aux
+The style file: unsrt.bst
+Database file #1: bib.bib
+Warning--I didn't find a database entry for "sembrand2011iiswc"
+Warning--I didn't find a database entry for "Sherwood:2003:PTP:871656.859657"
+Warning--empty journal in denew
+Warning--empty year in denew
+You've used 30 entries,
+            1791 wiz_defined-function locations,
+            645 strings with 10382 characters,
+and the built_in function-call counts, 9282 in all, are:
+= -- 891
+> -- 355
+< -- 17
++ -- 130
+- -- 100
+* -- 602
+:= -- 1319
+add.period$ -- 102
+call.type$ -- 30
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 469
+empty$ -- 893
+format.name$ -- 100
+if$ -- 2215
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 28
+newline$ -- 154
+num.names$ -- 30
+pop$ -- 105
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 298
+stack$ -- 0
+substring$ -- 664
+swap$ -- 187
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 87
+width$ -- 32
+write$ -- 361
+(There were 4 warnings)

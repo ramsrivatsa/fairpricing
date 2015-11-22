@@ -1,0 +1,72 @@
+colocating with libquantum
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+105.03user 4.72system 2:56.72elapsed 62%CPU (0avgtext+0avgdata 835648maxresident)k
+83120inputs+2304outputs (19major+52344minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+104.39user 4.75system 2:55.09elapsed 62%CPU (0avgtext+0avgdata 835648maxresident)k
+83120inputs+2304outputs (19major+52344minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+103.94user 4.84system 2:54.90elapsed 62%CPU (0avgtext+0avgdata 835648maxresident)k
+83120inputs+2304outputs (19major+52344minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+91.32user 2.30system 2:27.05elapsed 63%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+90.80user 2.14system 2:25.81elapsed 63%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+91.85user 2.11system 2:27.80elapsed 63%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+386.95user 9.37system 10:21.61elapsed 63%CPU (0avgtext+0avgdata 3478528maxresident)k
+102856inputs+8outputs (8major+220058minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+385.91user 9.37system 10:18.36elapsed 63%CPU (0avgtext+0avgdata 3478512maxresident)k
+102856inputs+8outputs (8major+220056minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+388.31user 9.38system 10:23.61elapsed 63%CPU (0avgtext+0avgdata 3478528maxresident)k
+102856inputs+8outputs (8major+220057minor)pagefaults 0swaps
+---------------------------------------------------------

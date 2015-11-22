@@ -1,0 +1,455 @@
+colocating with libquantum
+gmm
+********* Setting 
+ up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+361.49user 2.78system 10:29.58elapsed 57%CPU (0avgtext+0avgdata 171664maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+gmm
+********* Setting 
+ up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+369.97user 2.91system 10:49.85elapsed 57%CPU (0avgtext+0avgdata 171648maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+gmm
+********* Setting 
+ up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+369.22user 3.09system 10:46.62elapsed 57%CPU (0avgtext+0avgdata 171664maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+gmm
+********* Setting 
+ up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+369.67user 2.82system 10:46.29elapsed 57%CPU (0avgtext+0avgdata 171648maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+gmm
+********* Setting 
+ up benchmark gmm
+********* Running benchmark as ./gmm_scoring
+372.49user 2.68system 10:51.86elapsed 57%CPU (0avgtext+0avgdata 171648maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+********* Setting 
+ up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+830.56user 6.99system 24:21.50elapsed 57%CPU (0avgtext+0avgdata 1695632maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+********* Setting 
+ up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+845.64user 6.51system 24:44.16elapsed 57%CPU (0avgtext+0avgdata 1738816maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+********* Setting 
+ up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+855.94user 6.87system 25:01.53elapsed 57%CPU (0avgtext+0avgdata 1738944maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+********* Setting 
+ up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+843.43user 6.63system 24:46.37elapsed 57%CPU (0avgtext+0avgdata 1668064maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+********* Setting 
+ up benchmark dnn-asr
+********* Running benchmark as ./dnn_asr
+857.32user 6.88system 25:01.11elapsed 57%CPU (0avgtext+0avgdata 1738912maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+********* Setting 
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+303.87user 2.05system 8:56.93elapsed 56%CPU (0avgtext+0avgdata 52992maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+********* Setting 
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+303.89user 2.00system 8:51.89elapsed 57%CPU (0avgtext+0avgdata 52992maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+********* Setting 
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+303.65user 1.85system 8:50.38elapsed 57%CPU (0avgtext+0avgdata 52992maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+********* Setting 
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+303.66user 1.96system 8:50.86elapsed 57%CPU (0avgtext+0avgdata 52992maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+********* Setting 
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+303.63user 2.14system 8:52.59elapsed 57%CPU (0avgtext+0avgdata 52992maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+********* Setting 
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+350.27user 2.31system 10:12.77elapsed 57%CPU (0avgtext+0avgdata 52944maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+********* Setting 
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+350.66user 2.26system 10:12.86elapsed 57%CPU (0avgtext+0avgdata 52944maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+********* Setting 
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+349.94user 2.19system 10:12.15elapsed 57%CPU (0avgtext+0avgdata 52960maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+********* Setting 
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+349.83user 2.43system 10:14.00elapsed 57%CPU (0avgtext+0avgdata 52960maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+********* Setting 
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+350.72user 2.21system 10:14.37elapsed 57%CPU (0avgtext+0avgdata 52960maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+stem
+********* Setting 
+ up benchmark stemmer
+********* Running benchmark as ./stem_porter
+780.76user 4.68system 22:49.68elapsed 57%CPU (0avgtext+0avgdata 21648maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+stem
+********* Setting 
+ up benchmark stemmer
+********* Running benchmark as ./stem_porter
+781.05user 4.85system 22:46.17elapsed 57%CPU (0avgtext+0avgdata 21632maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+stem
+********* Setting 
+ up benchmark stemmer
+********* Running benchmark as ./stem_porter
+779.42user 4.51system 22:45.54elapsed 57%CPU (0avgtext+0avgdata 21648maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+stem
+********* Setting 
+ up benchmark stemmer
+********* Running benchmark as ./stem_porter
+772.52user 4.64system 22:28.01elapsed 57%CPU (0avgtext+0avgdata 21632maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+stem
+********* Setting 
+ up benchmark stemmer
+********* Running benchmark as ./stem_porter
+766.99user 4.43system 22:21.32elapsed 57%CPU (0avgtext+0avgdata 21632maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+regex
+********* Setting 
+ up benchmark regex
+********* Running benchmark as ./regex_slre
+414.60user 2.48system 12:05.99elapsed 57%CPU (0avgtext+0avgdata 14096maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+regex
+********* Setting 
+ up benchmark regex
+********* Running benchmark as ./regex_slre
+420.64user 2.62system 12:14.77elapsed 57%CPU (0avgtext+0avgdata 14096maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+regex
+********* Setting 
+ up benchmark regex
+********* Running benchmark as ./regex_slre
+424.27user 2.62system 12:21.99elapsed 57%CPU (0avgtext+0avgdata 14112maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+regex
+********* Setting 
+ up benchmark regex
+********* Running benchmark as ./regex_slre
+411.77user 2.56system 11:57.84elapsed 57%CPU (0avgtext+0avgdata 14096maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+regex
+********* Setting 
+ up benchmark regex
+********* Running benchmark as ./regex_slre
+417.77user 2.84system 12:06.67elapsed 57%CPU (0avgtext+0avgdata 14096maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+crf
+********* Setting 
+ up benchmark crf
+********* Running benchmark as ./crf_tag
+1263.69user 9.49system 36:34.61elapsed 58%CPU (0avgtext+0avgdata 387520maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+crf
+********* Setting 
+ up benchmark crf
+********* Running benchmark as ./crf_tag
+1261.35user 8.47system 36:26.99elapsed 58%CPU (0avgtext+0avgdata 387536maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+crf
+********* Setting 
+ up benchmark crf
+********* Running benchmark as ./crf_tag
+1267.15user 7.65system 36:38.32elapsed 57%CPU (0avgtext+0avgdata 387520maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+crf
+********* Setting 
+ up benchmark crf
+********* Running benchmark as ./crf_tag
+1271.23user 8.26system 36:46.80elapsed 57%CPU (0avgtext+0avgdata 387520maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+crf
+********* Setting 
+ up benchmark crf
+********* Running benchmark as ./crf_tag
+1273.39user 8.34system 36:48.83elapsed 58%CPU (0avgtext+0avgdata 387520maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+684.58user 6.58system 19:55.06elapsed 57%CPU (0avgtext+0avgdata 2216496maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+675.83user 5.65system 19:33.64elapsed 58%CPU (0avgtext+0avgdata 2216512maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+673.05user 6.07system 19:42.74elapsed 57%CPU (0avgtext+0avgdata 2216512maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+679.87user 5.64system 19:44.72elapsed 57%CPU (0avgtext+0avgdata 2216528maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+681.37user 5.28system 19:44.30elapsed 57%CPU (0avgtext+0avgdata 2216448maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+701.24user 5.63system 20:24.50elapsed 57%CPU (0avgtext+0avgdata 177696maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+705.55user 5.66system 20:30.23elapsed 57%CPU (0avgtext+0avgdata 177696maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+708.90user 5.58system 20:41.13elapsed 57%CPU (0avgtext+0avgdata 177744maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+705.47user 5.64system 20:35.73elapsed 57%CPU (0avgtext+0avgdata 177712maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+711.29user 5.51system 20:50.38elapsed 57%CPU (0avgtext+0avgdata 177712maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-face
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+955.19user 10.15system 27:43.82elapsed 58%CPU (0avgtext+0avgdata 3463296maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-face
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+956.89user 8.08system 27:43.57elapsed 58%CPU (0avgtext+0avgdata 3593472maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-face
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+966.25user 8.28system 28:01.24elapsed 57%CPU (0avgtext+0avgdata 3593488maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-face
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+967.29user 8.08system 28:02.75elapsed 57%CPU (0avgtext+0avgdata 3593488maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+img-face
+********* Setting 
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+963.80user 7.93system 27:58.32elapsed 57%CPU (0avgtext+0avgdata 3593488maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+129.68user 18.22system 4:18.66elapsed 57%CPU (0avgtext+0avgdata 15534448maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+127.87user 13.87system 4:15.82elapsed 55%CPU (0avgtext+0avgdata 15482016maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+127.87user 13.87system 4:15.82elapsed 55%CPU (0avgtext+0avgdata 15482016maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+129.94user 19.91system 4:26.15elapsed 56%CPU (0avgtext+0avgdata 15514944maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+127.35user 13.18system 4:07.28elapsed 56%CPU (0avgtext+0avgdata 15470080maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+119.55user 17.61system 4:03.03elapsed 56%CPU (0avgtext+0avgdata 15515296maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+119.05user 12.74system 3:56.51elapsed 55%CPU (0avgtext+0avgdata 15504560maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+118.26user 11.82system 3:51.52elapsed 56%CPU (0avgtext+0avgdata 15442928maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+110.91user 10.94system 3:33.01elapsed 57%CPU (0avgtext+0avgdata 15518256maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+111.36user 10.67system 3:34.87elapsed 56%CPU (0avgtext+0avgdata 15431296maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+91.14user 9.67system 2:55.03elapsed 57%CPU (0avgtext+0avgdata 15496448maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+89.94user 9.52system 2:53.03elapsed 57%CPU (0avgtext+0avgdata 15490080maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+90.46user 9.90system 2:55.92elapsed 57%CPU (0avgtext+0avgdata 15499968maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+92.01user 11.20system 3:00.17elapsed 57%CPU (0avgtext+0avgdata 15515712maxresident)k
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+********* Setting 
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+84.98user 10.13system 2:43.14elapsed 58%CPU (0avgtext+0avgdata 15442128maxresident)k
+---------------------------------------------------------

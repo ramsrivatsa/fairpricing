@@ -1,0 +1,156 @@
+colocating with libquantum
+gmm
+2	26
+---------------------------------------------------------
+colocating with libquantum
+gmm
+2	24
+---------------------------------------------------------
+colocating with libquantum
+gmm
+2	26
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+2	64
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+2	63
+---------------------------------------------------------
+colocating with libquantum
+dnn_asr
+2	67
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+2	29
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+2	25
+---------------------------------------------------------
+colocating with libquantum
+surf-fe
+2	22
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+2	27
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+2	26
+---------------------------------------------------------
+colocating with libquantum
+surf-fd
+2	24
+---------------------------------------------------------
+colocating with libquantum
+stem
+2	24
+---------------------------------------------------------
+colocating with libquantum
+stem
+2	26
+---------------------------------------------------------
+colocating with libquantum
+stem
+2	27
+---------------------------------------------------------
+colocating with libquantum
+regex
+2	41
+---------------------------------------------------------
+colocating with libquantum
+regex
+2	50
+---------------------------------------------------------
+colocating with libquantum
+regex
+2	42
+---------------------------------------------------------
+colocating with libquantum
+crf
+5	51
+---------------------------------------------------------
+colocating with libquantum
+crf
+5	50
+---------------------------------------------------------
+colocating with libquantum
+crf
+6	45
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+2	51
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+2	57
+---------------------------------------------------------
+colocating with libquantum
+img-imc
+2	55
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+2	48
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+2	52
+---------------------------------------------------------
+colocating with libquantum
+img-dig
+2	52
+---------------------------------------------------------
+colocating with libquantum
+img-face
+2	10
+---------------------------------------------------------
+colocating with libquantum
+img-face
+2	10
+---------------------------------------------------------
+colocating with libquantum
+img-face
+2	10
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+2	13
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+2	14
+---------------------------------------------------------
+colocating with libquantum
+nlp-pos
+2	13
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+2	13
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+2	12
+---------------------------------------------------------
+colocating with libquantum
+nlp-chk
+3	13
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+2	11
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+2	9
+---------------------------------------------------------
+colocating with libquantum
+nlp-ner
+2	9
+---------------------------------------------------------

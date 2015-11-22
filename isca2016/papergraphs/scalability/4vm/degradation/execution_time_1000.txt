@@ -1,0 +1,168 @@
+colocating with libquantum
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+586.29user 3.54system 13:29.34elapsed 72%CPU (0avgtext+0avgdata 139568maxresident)k
+11904inputs+3056outputs (53major+27894minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+583.60user 3.75system 13:26.98elapsed 72%CPU (0avgtext+0avgdata 139568maxresident)k
+11904inputs+3056outputs (53major+27894minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+584.98user 4.06system 13:27.88elapsed 72%CPU (0avgtext+0avgdata 139568maxresident)k
+11904inputs+3056outputs (53major+27894minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+965.23user 5.40system 25:09.92elapsed 72%CPU (0avgtext+0avgdata 173952maxresident)k
+75544inputs+8272outputs (11major+14370minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+980.07user 5.14system 25:25.55elapsed 73%CPU (0avgtext+0avgdata 173968maxresident)k
+75544inputs+8280outputs (11major+14371minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+994.60user 7.03system 25:47.98elapsed 73%CPU (0avgtext+0avgdata 173952maxresident)k
+75544inputs+8272outputs (11major+14371minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+424.76user 7.80system 9:55.18elapsed 72%CPU (0avgtext+0avgdata 3244912maxresident)k
+9152inputs+125360outputs (41major+1812546minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+422.25user 7.40system 9:54.06elapsed 72%CPU (0avgtext+0avgdata 3244912maxresident)k
+9152inputs+125352outputs (41major+1812546minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+422.99user 8.05system 9:56.45elapsed 72%CPU (0avgtext+0avgdata 3244912maxresident)k
+9152inputs+125352outputs (41major+1812546minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+534.76user 6.43system 12:25.97elapsed 72%CPU (0avgtext+0avgdata 1715008maxresident)k
+125392inputs+122464outputs (49major+125186minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+537.50user 5.61system 12:27.17elapsed 72%CPU (0avgtext+0avgdata 1714992maxresident)k
+125392inputs+122464outputs (49major+125185minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+536.33user 5.53system 12:27.25elapsed 72%CPU (0avgtext+0avgdata 1714992maxresident)k
+125392inputs+122464outputs (49major+125185minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+340.15user 2.90system 7:53.82elapsed 72%CPU (0avgtext+0avgdata 488016maxresident)k
+60688inputs+24outputs (14major+32097minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+338.98user 3.14system 7:33.75elapsed 72%CPU (0avgtext+0avgdata 488048maxresident)k
+60688inputs+24outputs (14major+32099minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+339.92user 2.70system 7:54.24elapsed 72%CPU (0avgtext+0avgdata 488032maxresident)k
+60688inputs+24outputs (14major+32099minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+905.72user 8.15system 20:00.24elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5192inputs+2312outputs (23major+46907minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+905.11user 8.00system 20:09.32elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5192inputs+2312outputs (23major+46907minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+905.13user 8.64system 20:00.87elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5192inputs+2312outputs (23major+46909minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+196.11user 2.89system 4:34.30elapsed 72%CPU (0avgtext+0avgdata 3478512maxresident)k
+102856inputs+8outputs (8major+220054minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+196.02user 2.42system 4:30.21elapsed 72%CPU (0avgtext+0avgdata 3478512maxresident)k
+102856inputs+8outputs (8major+220054minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+197.34user 2.69system 4:30.45elapsed 72%CPU (0avgtext+0avgdata 3478512maxresident)k
+102856inputs+8outputs (8major+220054minor)pagefaults 0swaps
+---------------------------------------------------------

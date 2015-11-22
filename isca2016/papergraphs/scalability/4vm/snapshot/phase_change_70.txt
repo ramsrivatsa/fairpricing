@@ -1,0 +1,84 @@
+colocating with libquantum
+tonto
+83	18
+---------------------------------------------------------
+colocating with libquantum
+tonto
+81	31
+---------------------------------------------------------
+colocating with libquantum
+tonto
+84	23
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+7	95
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+8	70
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+21	70
+---------------------------------------------------------
+colocating with libquantum
+dealII
+195	4
+---------------------------------------------------------
+colocating with libquantum
+dealII
+176	11
+---------------------------------------------------------
+colocating with libquantum
+dealII
+177	8
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+13	36
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+21	26
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+12	29
+---------------------------------------------------------
+colocating with libquantum
+soplex
+4	8
+---------------------------------------------------------
+colocating with libquantum
+soplex
+5	10
+---------------------------------------------------------
+colocating with libquantum
+soplex
+5	4
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+19	54
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+14	65
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+14	78
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+18	3
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+13	3
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+14	5
+---------------------------------------------------------

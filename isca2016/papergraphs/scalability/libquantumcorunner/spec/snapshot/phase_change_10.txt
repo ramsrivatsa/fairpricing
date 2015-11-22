@@ -1,0 +1,316 @@
+colocating with libquantum
+perlbench
+3	38
+---------------------------------------------------------
+colocating with libquantum
+perlbench
+4	39
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+4	36
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+7	103
+---------------------------------------------------------
+colocating with libquantum
+povray
+5	36
+---------------------------------------------------------
+colocating with libquantum
+povray
+4	27
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+51	465
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+47	482
+---------------------------------------------------------
+colocating with libquantum
+astar
+16	30
+---------------------------------------------------------
+colocating with libquantum
+astar
+15	12
+---------------------------------------------------------
+colocating with libquantum
+namd
+4	26
+---------------------------------------------------------
+colocating with libquantum
+namd
+3	32
+---------------------------------------------------------
+colocating with libquantum
+calculix
+401	785
+---------------------------------------------------------
+colocating with libquantum
+calculix
+395	851
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+4	28
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+4	31
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+82	1359
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+51	1204
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+8	33
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+9	29
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+4	19
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+3	41
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+117	1317
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+186	1087
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+7	28
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+7	34
+---------------------------------------------------------
+colocating with libquantum
+lbm
+40	572
+---------------------------------------------------------
+colocating with libquantum
+lbm
+46	575
+---------------------------------------------------------
+colocating with libquantum
+gamess
+4	32
+---------------------------------------------------------
+colocating with libquantum
+gamess
+3	47
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+364	3086
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+411	2188
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+12	1906
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+11	1783
+---------------------------------------------------------
+colocating with libquantum
+tonto
+54	48
+---------------------------------------------------------
+colocating with libquantum
+tonto
+59	45
+---------------------------------------------------------
+colocating with libquantum
+tonto
+57	21
+---------------------------------------------------------
+colocating with libquantum
+tonto
+68	18
+---------------------------------------------------------
+colocating with libquantum
+tonto
+71	22
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+36	1609
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+43	1596
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+44	1491
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+35	1659
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+43	1589
+---------------------------------------------------------
+colocating with libquantum
+dealII
+275	8
+---------------------------------------------------------
+colocating with libquantum
+dealII
+288	9
+---------------------------------------------------------
+colocating with libquantum
+dealII
+289	7
+---------------------------------------------------------
+colocating with libquantum
+dealII
+300	20
+---------------------------------------------------------
+colocating with libquantum
+dealII
+318	24
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+8	1398
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+9	1546
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+11	1435
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+8	1411
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+14	1214
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+18	1352
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+24	1118
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+21	1168
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+38	1200
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+23	1283
+---------------------------------------------------------
+colocating with libquantum
+soplex
+5	33
+---------------------------------------------------------
+colocating with libquantum
+soplex
+5	11
+---------------------------------------------------------
+colocating with libquantum
+soplex
+5	11
+---------------------------------------------------------
+colocating with libquantum
+soplex
+8	22
+---------------------------------------------------------
+colocating with libquantum
+soplex
+7	24
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+44	1280
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+48	1237
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+41	1237
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+43	1282
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+31	1293
+---------------------------------------------------------
+colocating with libquantum
+milc
+44	1119
+---------------------------------------------------------
+colocating with libquantum
+milc
+73	908
+---------------------------------------------------------
+colocating with libquantum
+milc
+64	989
+---------------------------------------------------------
+colocating with libquantum
+milc
+50	1042
+---------------------------------------------------------
+colocating with libquantum
+milc
+56	1158
+---------------------------------------------------------
+colocating with libquantum
+mcf
+71	1059
+---------------------------------------------------------
+colocating with libquantum
+mcf
+74	1080
+---------------------------------------------------------
+colocating with libquantum
+mcf
+28	881
+---------------------------------------------------------
+colocating with libquantum
+mcf
+28	881
+---------------------------------------------------------
+colocating with libquantum
+mcf
+28	881
+---------------------------------------------------------

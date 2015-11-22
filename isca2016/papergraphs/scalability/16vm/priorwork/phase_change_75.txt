@@ -1,0 +1,48 @@
+colocating with libquantum
+tonto
+---------------------------------------------------------
+colocating with libquantum
+tonto
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+---------------------------------------------------------
+colocating with libquantum
+dealII
+---------------------------------------------------------
+colocating with libquantum
+dealII
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+---------------------------------------------------------
+colocating with libquantum
+sjeng
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+---------------------------------------------------------
+colocating with libquantum
+soplex
+---------------------------------------------------------
+colocating with libquantum
+soplex
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+---------------------------------------------------------
+colocating with libquantum
+omnetpp
+---------------------------------------------------------
+colocating with libquantum
+mcf
+---------------------------------------------------------
+colocating with libquantum
+mcf
+---------------------------------------------------------

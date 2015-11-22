@@ -1,0 +1,272 @@
+colocating with libquantum
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+83.53user 3.25system 2:13.16elapsed 65%CPU (0avgtext+0avgdata 835648maxresident)k
+82872inputs+2288outputs (19major+52342minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+81.52user 3.08system 2:12.37elapsed 63%CPU (0avgtext+0avgdata 835632maxresident)k
+82872inputs+2296outputs (19major+52341minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+********* Preparing to run benchmark set {leslie3d} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 437.leslie3d
+********* Running benchmark as ./leslie3d_base.amd64-m64-gcc46-static
+881.01user 8.15system 22:27.77elapsed 65%CPU (0avgtext+0avgdata 502816maxresident)k
+2872inputs+192outputs (12major+31669minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+leslie3d
+********* Preparing to run benchmark set {leslie3d} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 437.leslie3d
+********* Running benchmark as ./leslie3d_base.amd64-m64-gcc46-static
+887.27user 7.02system 23:32.21elapsed 63%CPU (0avgtext+0avgdata 502816maxresident)k
+2872inputs+192outputs (12major+31669minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+povray
+********* Preparing to run benchmark set {povray} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 453.povray
+********* Running benchmark as ./povray_base.amd64-m64-gcc46-static
+214.60user 2.14system 5:40.06elapsed 63%CPU (0avgtext+0avgdata 16480maxresident)k
+6072inputs+10768outputs (24major+1064minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+povray
+********* Preparing to run benchmark set {povray} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 453.povray
+********* Running benchmark as ./povray_base.amd64-m64-gcc46-static
+212.98user 2.01system 5:38.44elapsed 63%CPU (0avgtext+0avgdata 16464maxresident)k
+6072inputs+10776outputs (24major+1063minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+********* Preparing to run benchmark set {libquantum} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 462.libquantum
+********* Running benchmark as ./libquantum_base.amd64-m64-gcc46-static
+1221.45user 9.55system 31:36.04elapsed 64%CPU (0avgtext+0avgdata 394864maxresident)k
+2144inputs+8outputs (10major+228427minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+libquantum
+********* Preparing to run benchmark set {libquantum} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 462.libquantum
+********* Running benchmark as ./libquantum_base.amd64-m64-gcc46-static
+1318.62user 9.98system 34:33.58elapsed 64%CPU (0avgtext+0avgdata 394864maxresident)k
+2144inputs+8outputs (10major+228426minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+astar
+********* Preparing to run benchmark set {astar} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 473.astar
+********* Running benchmark as ./astar_base.amd64-m64-gcc46-static
+646.21user 7.62system 16:41.14elapsed 65%CPU (0avgtext+0avgdata 1330240maxresident)k
+10256inputs+8outputs (11major+160586minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+astar
+********* Preparing to run benchmark set {astar} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 473.astar
+********* Running benchmark as ./astar_base.amd64-m64-gcc46-static
+348.17user 4.08system 8:38.07elapsed 67%CPU (0avgtext+0avgdata 1330224maxresident)k
+10256inputs+8outputs (11major+160585minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+namd
+********* Preparing to run benchmark set {namd} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 444.namd
+********* Running benchmark as ./namd_base.amd64-m64-gcc46-static
+540.99user 4.50system 14:31.55elapsed 62%CPU (0avgtext+0avgdata 185344maxresident)k
+17584inputs+200outputs (13major+11665minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+namd
+********* Preparing to run benchmark set {namd} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 444.namd
+********* Running benchmark as ./namd_base.amd64-m64-gcc46-static
+532.00user 5.18system 13:35.58elapsed 65%CPU (0avgtext+0avgdata 185328maxresident)k
+17584inputs+200outputs (13major+11664minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+calculix
+********* Preparing to run benchmark set {calculix} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 454.calculix
+********* Running benchmark as ./calculix_base.amd64-m64-gcc46-static
+1155.40user 17.12system 28:39.00elapsed 68%CPU (0avgtext+0avgdata 470288maxresident)k
+7408inputs+17264outputs (29major+2514025minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+calculix
+********* Preparing to run benchmark set {calculix} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 454.calculix
+********* Running benchmark as ./calculix_base.amd64-m64-gcc46-static
+1155.57user 17.24system 28:50.53elapsed 67%CPU (0avgtext+0avgdata 470288maxresident)k
+7408inputs+17272outputs (29major+2514024minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+81.43user 0.97system 2:05.01elapsed 65%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5810minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+82.42user 0.96system 2:09.04elapsed 64%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5810minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+********* Preparing to run benchmark set {zeusmp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 434.zeusmp
+********* Running benchmark as ./zeusmp_base.amd64-m64-gcc46-static
+1044.04user 8.90system 26:35.31elapsed 66%CPU (0avgtext+0avgdata 2054672maxresident)k
+2856inputs+32outputs (13major+128608minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+zeusmp
+********* Preparing to run benchmark set {zeusmp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 434.zeusmp
+********* Running benchmark as ./zeusmp_base.amd64-m64-gcc46-static
+996.15user 8.57system 24:43.31elapsed 67%CPU (0avgtext+0avgdata 2054672maxresident)k
+2856inputs+32outputs (13major+128608minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+********* Preparing to run benchmark set {gobmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 445.gobmk
+********* Running benchmark as ./gobmk_base.amd64-m64-gcc46-static
+139.56user 1.33system 3:39.73elapsed 64%CPU (0avgtext+0avgdata 113952maxresident)k
+9080inputs+224outputs (28major+7397minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gobmk
+********* Preparing to run benchmark set {gobmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 445.gobmk
+********* Running benchmark as ./gobmk_base.amd64-m64-gcc46-static
+133.31user 1.28system 3:29.25elapsed 64%CPU (0avgtext+0avgdata 113952maxresident)k
+9080inputs+224outputs (28major+7397minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+********* Preparing to run benchmark set {hmmer} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 456.hmmer
+********* Running benchmark as ./hmmer_base.amd64-m64-gcc46-static
+191.97user 2.74system 4:50.68elapsed 66%CPU (0avgtext+0avgdata 101616maxresident)k
+109704inputs+8outputs (12major+6386minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+hmmer
+********* Preparing to run benchmark set {hmmer} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 456.hmmer
+********* Running benchmark as ./hmmer_base.amd64-m64-gcc46-static
+190.69user 2.56system 4:45.68elapsed 67%CPU (0avgtext+0avgdata 101616maxresident)k
+109704inputs+8outputs (12major+6386minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+********* Preparing to run benchmark set {bwaves} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 410.bwaves
+********* Running benchmark as ./bwaves_base.amd64-m64-gcc46-static
+1340.04user 14.64system 33:02.87elapsed 68%CPU (0avgtext+0avgdata 3576688maxresident)k
+2496inputs+32outputs (10major+1271903minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+bwaves
+********* Preparing to run benchmark set {bwaves} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 410.bwaves
+********* Running benchmark as ./bwaves_base.amd64-m64-gcc46-static
+1384.26user 13.12system 34:38.03elapsed 67%CPU (0avgtext+0avgdata 3576704maxresident)k
+2496inputs+32outputs (10major+1271904minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+********* Preparing to run benchmark set {gromacs} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 435.gromacs
+********* Running benchmark as ./gromacs_base.amd64-m64-gcc46-static
+592.81user 5.24system 15:13.85elapsed 65%CPU (0avgtext+0avgdata 59216maxresident)k
+11256inputs+8outputs (18major+3990minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gromacs
+********* Preparing to run benchmark set {gromacs} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 435.gromacs
+********* Running benchmark as ./gromacs_base.amd64-m64-gcc46-static
+599.39user 5.74system 15:21.62elapsed 65%CPU (0avgtext+0avgdata 59232maxresident)k
+11256inputs+8outputs (18major+3991minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+lbm
+********* Preparing to run benchmark set {lbm} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 470.lbm
+********* Running benchmark as ./lbm_base.amd64-m64-gcc46-static
+1115.41user 9.55system 28:55.29elapsed 64%CPU (0avgtext+0avgdata 1676208maxresident)k
+4304inputs+24outputs (8major+104790minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+lbm
+********* Preparing to run benchmark set {lbm} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 470.lbm
+********* Running benchmark as ./lbm_base.amd64-m64-gcc46-static
+1156.00user 11.68system 28:51.01elapsed 67%CPU (0avgtext+0avgdata 1676224maxresident)k
+4304inputs+24outputs (8major+104791minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gamess
+********* Preparing to run benchmark set {gamess} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 416.gamess
+********* Running benchmark as ./gamess_base.amd64-m64-gcc46-static
+206.69user 2.46system 5:20.05elapsed 65%CPU (0avgtext+0avgdata 25168maxresident)k
+16528inputs+17928outputs (58major+1589minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+gamess
+********* Preparing to run benchmark set {gamess} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 416.gamess
+********* Running benchmark as ./gamess_base.amd64-m64-gcc46-static
+207.60user 2.19system 5:21.25elapsed 65%CPU (0avgtext+0avgdata 25184maxresident)k
+16528inputs+17928outputs (58major+1590minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+********* Preparing to run benchmark set {cactusADM} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 436.cactusADM
+********* Running benchmark as ./cactusADM_base.amd64-m64-gcc46-static
+2974.87user 23.71system 1:09:33elapsed 71%CPU (0avgtext+0avgdata 2553296maxresident)k
+4424inputs+832outputs (19major+634253minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+cactusADM
+********* Preparing to run benchmark set {cactusADM} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 436.cactusADM
+********* Running benchmark as ./cactusADM_base.amd64-m64-gcc46-static
+2946.38user 27.34system 1:09:23elapsed 71%CPU (0avgtext+0avgdata 2553296maxresident)k
+4424inputs+832outputs (19major+634253minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+********* Preparing to run benchmark set {GemsFDTD} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 459.GemsFDTD
+********* Running benchmark as ./GemsFDTD_base.amd64-m64-gcc46-static
+1083.79user 8.94system 27:25.07elapsed 66%CPU (0avgtext+0avgdata 3391632maxresident)k
+4480inputs+1080outputs (15major+222297minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with libquantum
+GemsFDTD
+********* Preparing to run benchmark set {GemsFDTD} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 459.GemsFDTD
+********* Running benchmark as ./GemsFDTD_base.amd64-m64-gcc46-static
+1004.98user 10.26system 24:13.58elapsed 69%CPU (0avgtext+0avgdata 3391648maxresident)k
+4480inputs+1080outputs (15major+222298minor)pagefaults 0swaps
+---------------------------------------------------------

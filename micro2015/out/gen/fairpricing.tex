@@ -1,0 +1,550 @@
+\documentclass{sig-alternate}
+\usepackage{epsfig}
+\usepackage{amsmath,environ}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{pdfsync}
+%\usepackage{caption}
+\usepackage[format=plain,font={bf,footnotesize},skip=3mm]{caption}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{subcaption}
+\usepackage{todonotes}
+\newcommand{\redcomment}[1]{\todo[inline,color=red!40,size=\small]{#1}}
+\newcommand{\greencomment}[1]{\todo[inline,color=green!40,size=\small]{#1}}
+\newcommand{\bluecomment}[1]{\todo[inline,color=blue!40,size=\small]{#1}}
+\newcommand{\yellowcomment}[1]{\todo[inline,color=yellow!40,size=\small]{#1}}
+\lstset{language=C++, basicstyle=\footnotesize}
+\usepackage{etoolbox}
+\usepackage{balance}
+\usepackage{cite}
+\newcommand{\ignore}[1]{}
+\usepackage{fancyhdr}
+\usepackage[normalem]{ulem}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+
+%%%%%%%%%%%---SETME-----%%%%%%%%%%%%%
+\newcommand{\microsubmissionnumber}{043}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+\setlength{\headheight}{50pt}
+\renewcommand{\headrulewidth}{0pt}
+  \fancyhead[C]{\normalsize{MICRO 2015 Submission
+      \textbf{\#\microsubmissionnumber} -- Confidential Draft -- Do NOT Distribute!!}} 
+  \pagenumbering{arabic}
+}
+
+% To improve the table/figure captions
+\date{}
+\begin{document}
+\thispagestyle{firstpage}
+\pagestyle{plain}
+
+
+\title{Fair Pricing in Infrastructure-as-a-Service \\ Clouds via Snapshots}
+\maketitle
+
+\begin{abstract}
+
+Infrastructure-as-a-Service (IaaS) cloud computing has recently emerged as a new paradigm for cost effectiveness. This allows users to pay a flat hourly rate for running their applications on virtual machines (VMs). However, virtual machines belonging to different users co-located on a same physical machine may interfere with one another, causing performance degradation of individual applications. The magnitude of this degradation is highly variable as it depends upon the nature of co-located applications. Since neither providers nor clients have control over the nature of co-running applications, performance degradation due to interference can lead to a biased pricing scenario. For example, a user who pays flat hourly rate for its VM might end up paying more when contentious VMs from other users are co-located on a same server.
+
+Providing fair pricing requires accurate estimation of performance degradation due to interference between co-located VMs. Estimating performance interference is challenging especially in IaaS where cloud providers do not have information on individual VM's content. Moreover, any estimation technique should not incur much overhead in production environments.
+
+To precisely estimate unintended performance degradation of individual VMs, this paper proposes \textit{snapshot} technique, which pauses all the other VMs except for one of the VMs only when that VM undergoes a phase change. To enable this, we introduce a novel phase detection mechanism which examines the execution behavior for each VM in co-located environments.  In this work, we show that we are able to accurately identify phase changes and estimate performance degradation within 4\% mean absolute error on SPEC benchmarks with a very low overhead of around 1\% when four VMs are running on a four core machine.
+
+\end{abstract}
+\section{Introduction}
+\label{sec:Introduction}
+
+Infrastructure-as-a-Service (IaaS) cloud computing enables users to take advantage of the computing infrastructures under the pay-as-you-go scheme. Cloud providers rely on virtualization to provide the isolated computing resources called instances (or VMs) to each customer. High resource utilization is achieved by consolidating virtual machines into a single server. However, consolidation of virtual machines belonging to different users may lead to performance interference with each other. Although public clouds provide a variety of instance types to satisfy different requirements from users such as the number of virtual CPUs, the amount of memory and disk, users cannot specify the requirements for shared architectural resources like last level cache, memory bandwidth and memory controller. The sharing of architectural resources can significantly affect the performance of each application~\cite{Nathuji:2010:QMP:1755913.1755938,Govindan:2011:CQE:2038916.2038938,Ahn:2012:DVM:2342763.2342782,Varadarajan:2012:RAI:2382196.2382228,Vasic:2012:DAR:2248487.2151021,Novakovic:2013:DTI:2535461.2535489,Ma:2015:SDS:2694344.2694382,Liu:2014:OVM:2665671.2665720, 6522328}.
+
+Figure~\ref{fig:comparecorun} shows the execution time when mcf is co-locating with different applications running on another VM. Each bar is normalized to solo execution of mcf. In such a scenario, libquantum, lbm, and soplex highly affect the performance of mcf. Especially, when mcf is running with libquantum, it would take 2.1x more time to complete compared to the case when mcf is running alone. 
+In the perspective of users, this performance degradation is not acceptable because current IaaS cloud providers calculate the price based on the amount of time each user spends running applications. As a result, it causes biased pricing scenarios where a user might end up paying more when running with contentious co-runners due to increased execution time.
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=comparecorun, width=1\columnwidth}
+\caption{mcf with co-runners normalized to solo execution\vspace{-0.3in}}
+\label{fig:comparecorun}
+\end{minipage}
+\end{figure}
+
+One of the possible solutions to the biased pricing problem is to accurately determine performance degradation for each VM. With this information, we could minimize the biased pricing scenarios. The most relevant prior work proposes runtime techniques for estimating performance degradation in HPC clusters~\cite{fairpricing, 6844481}. These techniques periodically pause all the other running applications except for one during a short amount of time to estimate solo performance while avoiding performance interference. However, the prior studies show low accuracy in many applications, which is essential for fair pricing, and high overhead which makes it difficult to deploy in production environments. In addition, the prior studies are sensitive to the number of co-runners in both the accuracy and overhead.
+
+The key observation of our approach is that we do not need to periodically estimate the performance degradation for each VM because the execution behavior of applications does not drastically change within a steady phase and the number of phase changes is not significant in many applications. Our \textit{snapshot} technique pauses VMs only at phase changes. As a result, we can reduce the overhead of frequently pausing VMs at fixed time intervals. In addition, \textit{snapshot} enables us to increase enough pausing time to accurately measure solo execution performance of each VM. Thus, even if the number of co-running VMs increases, \textit{snapshot} is less susceptible to the accuracy and overhead problems. To enable \textit{snapshot}, we propose a novel phase detection mechanism based on performance monitoring units (PMUs). Since each application has different execution behavior, we investigate the representative hardware events to detect phase changes across all SPEC applications used in our experiment. Through the selected performance monitoring units, we can effectively capture phase changes during runtime. Our Fair Pricing Runtime engine is based on our \textit{snapshot} on top of this phase detection mechanism. The contributions of this paper are as follows.
+
+\begin{itemize}
+\item \textbf{Fair Pricing Runtime:} We introduce a lightweight, scalable, and deployable runtime system that enables fair pricing in public clouds through the precisely estimated solo performance of applications when co-located. 
+
+\item \textbf{Snapshot:} To efficiently estimate solo performance of applications in public clouds, we use \textit{snapshot} technique, which pauses all other VMs except for one during a short time, on phase changes.
+
+\item \textbf{Phase Detection Mechanism:} We design phase detection mechanism to figure out the phase changes of applications during runtime. We also efficiently eliminate false positives as well as spikes by leveraging the multi-queue based binary classification technique.
+
+\end{itemize}
+
+Using our runtime enigne, we are able to precisely estimate the performance degradation in co-located environments with a mean absolute error of around 4\% and negligible overheads of less than 1\%. Comparing to the prior work we are able to estimate performance degradation at 2x more accuracy with 5x less overhead.
+\section{Background and Motivation}
+\label{sec:BackgroundandMotivation}
+
+In this section, we discuss the background of public IaaS clouds. Next, we investigate the prior technique in detail and discuss its accuracy and overheads issues in estimating performance degradation.
+\subsection{Background: Public Clouds for IaaS}
+\label{subsec:Background:PublicCloudsforIaaS}
+
+To build Infrastructure-as-a-Service(IaaS), public clouds have adopted the virtualization technology. Each customer is provided with one or more virtual machines commonly called instances. Each public cloud provides a variety of instance types to satisfy the various demands from users. These instance types can be broadly categorized as compute, memory, I/O, etc. In addition, customers choose suitable resource capabilities such as the number of virtual CPUs, the amount of memory and storage size based on their requirements. The pricing strategy differs based on the instance types and capabilities. To use the IaaS cloud services, you have to pay the fee under the pay-as-you-go scheme where the price is proportional to the execution time of the VM.
+
+Although the pay-as-you-go scheme is an attractive pricing model, it overlooks the fact that the computing resources can be shared between different customers. The application performance of users could be easily affected by other customers who extensively use shared computing resources. If a virtual machine undergoes performance degradation due to resource contention, the victim users end up paying more price due to their increased execution time. To complement the fairness problem, we could consider having strict quality of service (QoS) between service providers and customers. However, it is difficult to define QoS metrics in public clouds because we would not know the type of the running applications. Even if we are aware of its broader category such as web servers or batch applications, the same type of application could have different execution characteristics. For example, there can be two users running web servers on clouds, but each web server might be customized for their own purpose. Then, the QoS metrics like request per second (RPS) might be difficult to use.
+
+The most accurate way of eliminating biased pricing schemes is by figuring out performance degradation that occurs due to co-running applications during runtime. However, it is challenging in co-located environments like public clouds. Especially, the architectural resources such as last level cache and memory bandwidth, which are shared among users, makes it difficult to estimate performance degradation for each user's VM in clouds. 
+In this paper, we focus on the batch applications which are highly affected by the architectural shared resources. There have been prior efforts to estimate the performance degradation in co-located environments. We will discuss the issues of the prior technique in the next section.
+\subsection{Motivation: Accuracy and Overheads of Prior Work}
+\label{subsec:Motivation:AccuracyandOverheadsofPriorWork}
+
+To precisely measure the amount of performance degradation caused by co-running applications, the prior studies propose a technique called \textit{shuttering} which pauses all the running VMs for a very short time except for one VM repeatedly at fixed time intervals ~\cite{fairpricing, 6844481}.During the pausing time, a VM can monopolize computing resources on a system and they can easily extract the solo performance of applications.  Figure~\ref{fig:precise_shuttering} shows how the prior technique works to estimate solo performance of an application running in a VM.
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=precise_shuttering, width=1\columnwidth}
+\caption{Pausing all other VMs during fixed time intervals}
+\label{fig:precise_shuttering}
+\end{minipage}
+\end{figure}
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=overheads_precise_shuttering, width=1\columnwidth}
+\caption{Error rates and overheads in shuttering\vspace{-0.25in}}
+\label{fig:overheads_precise_shuttering}
+\end{minipage}
+\end{figure}
+
+Although this is a very simple and straightforward technique, it suffers from low accuracy in estimating the solo performance of applications. The top part of Figure~\ref{fig:overheads_precise_shuttering} shows the error of estimating solo performance of applications. The baseline is CPI of each application without any co-runners. Each bar is normalized to the baseline when using the shuttering technique. The error rate is not negligible and increases to around 40\% in \texttt{bzip2} and \texttt{xalancbmk}. The main reason is that the pausing time (3.2ms) used in prior work is not be enough to capture solo performance of an application. This is because the shared cache would not be warmed up to be containing the entire working set of the application which is to be measured. As a result, the measured application would spend most of its pausing time filling in the shared cache, giving much less time to observe how the application performs when it monopolizes computing resources. Moreover, as the number of co-runners increases, the shared cache becomes much more polluted due to the contention among the multiple co-runners. The effective time of precisely estimating solo performance of applications becomes much lower.
+
+In addition, the bottom of Figure~\ref{fig:overheads_precise_shuttering} shows the increased execution time for estimation of performance degradation as the number of co-runners increases. The source of the increased overhead is that the cache blocks belonging to the paused VMs would be eventually evicted at the end of the pausing time. As a result, when the paused VMs are resumed, they would pay an additional cost to warm up the cache. Moreover, as the number of co-running VMs increases, the overhead effects due to the prior is technique aggravated.
+
+
+%The overheads consist of two parts. Firstly, the direct cost occurs due to the pausing time. This increases the overall execution time of the VMs. Secondly, the indirect cost occurs due to the contention of architectural shared resources. When we resume the execution of the paused VMs, each VM would pay an additional cost to warm up the cache because the data belonging to the paused VMs would have been evicted during their pausing time.
+
+%In addition to this, as the number of co-runners increases, the number of pausing VMs is also increasing because precise shuttering needs to measure performance for each VM when running alone. As a result, it will cause performance overheads which increase the execution time of the applications. This overheads consist of two parts. Firstly, the direct cost occurs due to the pausing time. This increases the overall execution time of the VMs. Secondly, the indirect cost occurs due to the contention of architectural shared resources. When we resume the execution of the paused VMs, each VM would pay an additional cost to warm up the cache because the data belonging to the paused VMs would have been evicted during their pausing time. To figure out the overheads, we measured how the execution time of each application would increase as we increase the number of co-runners.
+\section{Fair Pricing Runtime Engine}
+\label{sec:FairPricingRuntimeEngine}
+
+In this section, we introduce an efficient and scalable technique, called \textit{snapshot}, to precisely identify unintended performance degradation in public clouds. To enable \textit{snapshot}, we propose a phase detection mechanism based on selected performance monitoring units (PMUs). Our Fair Pricing Runtime Engine is based on \textit{snapshot} technique on top of the phase detection mechanism.
+\subsection{Snapshot technique}
+\label{subsec:Snapshottechnique}
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=snapshot_shuttering, width=1\columnwidth}
+\caption{Snapshot technique}
+\label{fig:snapshot_shuttering}
+\end{minipage}
+\end{figure}
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=mcfl1dastar, width=0.9\columnwidth}
+\caption{mcf with L1-d cache load misses}
+\label{fig:mcfl1dastar}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=milcl1dastar, width=0.9\columnwidth}
+\caption{milc with L1-d cache load misses}
+\label{fig:milcl1dastar}
+\end{subfigure}
+\hfill\\
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=mcfllcastar, width=0.9\columnwidth}
+\caption{mcf with LLC store misses}
+\label{fig:mcfllcastar}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=milcllcastar, width=0.9\columnwidth}
+\caption{milc with LLC store misses}
+\label{fig:milcllcastar}
+\end{subfigure}
+\caption{Detecting phase changes when running with 3 instances of \texttt{astar}}
+\label{fig:PMUtypephase}
+\end{figure*}
+
+Our goal is to achieve high accuracy with low overhead in estimating unintended performance degradation on public clouds. We exploit two key observations which lead to our \textit{snapshot} technique.  Firstly, the execution behavior of applications does not drastically change within a steady phase. In other words, the CPI of a particular phase of the application remains fairly constant. Hence, we do not need to periodically estimate performance degradation during a steady phases. When a phase changes occur, we only have to take a snapshot once to investigate performance degradation during that steady phase. Secondly, the number of phase changes is not significant in many applications. It gives us an opportunity to optimize our snapshot technique for common cases where applications have few phase changes. In addition, even if applications have irregular behavior during its runtime, our snapshot technique has an ability to trace the performance degradation more accurately than prior approach. Therefore, if we accurately detect phase changes under the contentious environments, we can significantly reduce the overhead and achieve high accuracy for estimating performance degradation.
+
+Moreover, since we take a snapshot only at phase changes, it enables us to snapshot for a longer time so as to accurately measure performance degradation of applications. If the measurement time is long enough to evict the cache blocks belonging to the co-running VMs and to bring the working set of the VM (which is to be measured) in the cache, we could achieve high accuracy. In addition, even as the number of co-runners increases, our \textit{snapshot} technique is less susceptible to overhead issues as phase changes rarely occur.
+
+Figure \ref{fig:snapshot_shuttering} shows how our \textit{snapshot} technique estimates performance degradation by taking snapshot only when one of the applications undergoes phase changes. During the snapshot, we can easily estimate solo performance (CPI) of the application. By using this information, we will be able to estimate CPI of solo execution by using the following equation.
+
+\begin{equation} \label{solo_equation}
+\small CPI_{(solo)} = \dfrac{CPI_{(1)} \times T_{(1)} + CPI_{(2)} \times T_{(2)} + . . . . + CPI_{(n)} \times T_{(n)}}{T_{1} + T_{2} . . . . + T_{n}}
+\end{equation}
+\begin{itemize}
+\item $CPI_{(solo)}$ is estimated CPI of solo execution of an application.
+\vspace{-0.1in}
+\item $CPI_{(i)}$ is estimated CPI of solo execution of the application during phase $i$.
+\vspace{-0.1in}
+\item $T_{(i)}$ is time for which the application remains in phase $i$.
+\vspace{-0.1in}
+\item $n$ is total number of phase changes for the application.
+\end{itemize}
+
+The $CPI_{(co-location)}$ is directly measured when the application is running with the co-runners.  From the values of $CPI_{(co-location)}$ and $CPI_{(solo)}$, we estimate the degradation using the the following equation. 
+\begin{equation} \label{eq:degradation_equation}
+PerfDeg = \dfrac{CPI_{(co-location)}}{CPI_{(solo)}}
+\end{equation}
+
+Thus, accurately detecting phase changes is very important to make \textit{snapshot} technique viable. We will discuss this in the next section.
+\subsection{Phase Detecting Mechanism}
+\label{subsec:PhaseDetectingMechanism}
+
+In this section, we introduce our phase detecting mechanism to enable \textit{snapshot} technique in public clouds. 
+If there are no co-runners, we could easily detect phase changes by capturing CPI changes during solo execution of an application. However, public clouds, which allow the co-location of VMs on a single server, make it difficult to precisely estimate phase changes. This is due to the fact that CPI of an application could be highly affected by other applications running in co-located VMs. As a result, there is a possibility of falsely detecting phase changes due to the interference from co-runners. To make our \textit{snapshot} technique more effective, we need to minimize the number of falsely detecting phases because if we frequently detect wrong phase changes due to the interference, the number of unnecessary shuttering would increase. As a result, it would increase the overhead of our \textit{snapshot} technique. 
+
+To efficiently detect true phase changes, which are inherent phase changes of applications, while avoiding falsely detecting phases, we need additional information apart from CPI. For this purpose, we observed usage patterns of architectural resources over time. Our hypothesis is that true phase changes of applications can be clearly identified by observing architectural resource usages. We took advantage of performance monitoring units (PMUs) to observe various architectural events. PMUs are well known for its low overheads and easily deployable into real systems.
+
+Figure \ref{fig:PMUtypephase} shows that each application requires different types of PMU to precisely detect phase changes for two applications. The x-axis indicates the cumulative number of instructions executed as time progresses. The left y-axis and green line show CPI of the applications when running alone and the right y-axis and the blue line show estimating phase changes by a selected performance counter for the application when running with three instances of \texttt{astar} as co-runners. From Figure \ref{fig:mcfl1dastar}, we find out that the performance counter, \textit{L1-d cache load misses}, can effectively detect inherent phase changes of \texttt{mcf} in co-located environments whereas Figure \ref{fig:milcl1dastar} shows that the same type of PMU is unable to detect inherent phase changes of \texttt{milc}. On the other hand, \textit{LLC store misses} is able to detect inherent phase changes for the \texttt{milc} as shown in Figure \ref{fig:milcllcastar} whereas the same type of PMU is unable to detect inherent phase changes of \texttt{mcf} as shown in Figure \ref{fig:mcfllcastar}. These results motivate us to need multiple types of PMU to capture phase changes across applications.
+\subsubsection{Finding Representative Types of PMU for Phase Detection}
+\label{subsubsec:FindingRepresentativeTypesofPMUforPhaseDetection}
+
+To capture a wide range of execution behavior across applications, we monitor a set of 6 different types of PMU, \textit{CPI, L1-D cache load miss, L1-D cache load access, LLC store misses, LLC store access}, and \textit{branch instructions}. We select eight training SPEC 2006 applications which are known to have varying phase changes. We investigate which types of event can capture phase changes for those eight applications. In this experiment, we used a quad-core machine and 3 instances of \texttt{astar} as co-runners.
+\begin{table}[bt!]
+\begin{footnotesize}
+\begin{tabular}{|l|lll|}
+\hline
+\multicolumn{1}{|l|}{App.} & \multicolumn{3}{|c|}{PMC Types} \\ \hline
+astar & \textbf{CPI} & branch & L1-d load miss  \\
+bzip2 & \textbf{LLC store miss} & CPI & L1-d load miss  \\
+cactus.& \textbf{L1-d load miss} & L1-d load & CPI  \\
+dealII & \textbf{CPI} & L1-d load & branch  \\
+mcf & \textbf{L1-d load miss} & CPI & LLC load \\
+milc & \textbf{LLC store miss} & L1-d load & branch\\
+xalan. & \textbf{LLC store miss} & LLC load & L1-d load \\
+tonto & \textbf{L1-d load miss} & branch & CPI  \\ \hline
+\end{tabular}
+\caption{PMU types ordered by their effectiveness in detecting phase changes. }
+\vspace{-0.2in}
+\label{table:pmctype}
+\end{footnotesize}
+\end{table}
+
+We first identify the best type of PMU for each application individually. This is identified based on two criteria. Firstly, the best type of PMU should detect all inherent phase changes present in solo execution of the application. Secondly, it should minimize falsely detecting phase changes due to the interference from co-runners. In other words, among the six types of PMU, which can detect all inherent phases present in solo execution of the application, the best type of PMU is the one which has the lowest number of falsely detected phase changes. The reason behind this is that minimizing the number of falsely detecting phase changes will reduce the overheads of pausing the VMs unnecessarily. Based on the best type of PMU obtained for the training applications, we can select a subset of PMU types to detect phase changes. 
+
+
+Table \ref{table:pmctype} shows the preferred types of PMU for eight applications ordered by the effectiveness in which they are able to detect phase changes. Due to the space limit, the table shows only three types of PMU among six types. Based on this order, we can choose a common subset of PMU types which can detect phase changes effectively across the training set of applications. Using this method, we obtain three types of PMU, \textit{CPI, LLC store miss} and \textit{L1-d cache load miss}, to capture phase changes for the eight training SPEC applications.
+\subsubsection{Eliminating Spikes to Avoid False Phase Detection}
+\label{subsubsec:EliminatingSpikestoAvoidFalsePhaseDetection}
+
+While observing phase changes of the training applications, we notice that there are spikes in the reported PMU measurements. These spikes occasionally occur during a short interval of time and show significant variations in the execution behavior. 
+In such a case, our phase detection methodology should not treat spikes as phase changes.
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=noise_elimination, width=1\columnwidth}
+\caption{Differentiating spikes and phase changes\vspace{-0.3in}}
+\label{fig:noise_elimination}
+\end{minipage}
+\end{figure}
+\begin{figure*}
+\centering
+\begin{minipage}[t]{2\columnwidth}
+\centering
+\epsfig{figure=detect_phases, width=1\columnwidth}
+\caption{Process of detecting phases}
+\label{fig:detect_phases}
+\end{minipage}
+\end{figure*}
+
+To distinguish between spikes and true phase changes, we employ a binary classification technique. We maintain a queue per each type of event. Each queue contains $k$ latest values that have been measured by a type of PMU. The value of $k$ is empirically determined by repeating experiments with different $k$ values and optimizing for value which is enough to differentiate phase changes and spikes. We know that whenever there is a phase change associated with an application, subsequent PMU measurements fall under a different range which corresponds to a completely new phase. On the other hand, whenever there is a spike, the PMU measurements show drastic changes for one or two values and the rest falling under the same range. In order to eliminate such drastic changes due to spikes, we declare a phase change only when a significant number of the values present in the queue belongs to a new range. In this way, we are able to eliminate incorrectly detecting phase changes due to spikes.
+
+Figure~\ref{fig:noise_elimination} shows an example differentiating spikes and phase changes. During $T_{1}$ in Figure~\ref{fig:noise_elimination}, the range of a significant number of elements changes to 3.0 compared to a previous phase which is around 1.0. In such a case, we consider this as a phase change where we take a \textit{snapshot} of the new phase by pausing all co-runners. On the other hand, during $T_{2}$, the CPI of every element in the queue is closely around 3 except for one which is around 6.5. This change is considered as a spike and is not classified as a new phase. 
+%The pictorial phase diagram gives a visual difference distinguishing phase changes and spikes.
+\subsubsection{Detecting Phase Changes}
+\label{subsubsec:DetectingPhaseChanges}
+
+In the previous sections, we discussed how to select three types of event to detect phase changes and how to eliminate spikes while detecting phase changes. In this section, we introduce how we can incorporate these two techniques to identify unintended performance degradation in public clouds.
+
+Figure \ref{fig:detect_phases} describes the process of the phase detection taking place in the Fair Pricing Runtime engine. Our runtime engine collects three types of events every second as shown in Figure \ref{fig:detect_phases}(a). It inspects whether there is a significant change in the range of the measured events by comparing it to the corresponding PMU measurements at the most recent phase change. In this process, it also discards spikes associated with PMU measurements as shown in Figure \ref{fig:detect_phases}(b). To avoid missing true phase changes, we use a conservative approach to call for a phase change even if one of the PMU types out of the three detects a phase change. If we do not detect true phase changes, it will significantly reduce the accuracy in estimating CPI of solo execution. On the other hand, mispredicting phase changes causes only negligible overhead if the frequency of such events is low. Once a new phase is detected, the runtime engine then pauses co-running VMs so as to estimate solo performance of the applications. In the example as shown in Figure \ref{fig:detect_phases}(c), CPI:co-run, L1D:co-run and LLC:co-run indicate the PMU measurements for CPI, L1 d-cache load misses and LLC-store misses, respectively. From this figure, we are able to see that \texttt{LLC store misses} is able to detect the phase changes present in the application whereas CPI and L1 d-cache are unable to detect phase changes in runtime.
+\subsection{Pricing for Fairness}
+\label{subsec:PricingforFairness}
+\begin{algorithm}[!t]
+\caption{Fair Pricing Runtime }
+\label{alg:fpalgo}
+\begin{algorithmic}
+\begin{small}
+\State $perfScoreVM_{i}$ = <CPI, LLC, L1D >\;\Comment{A queue of performance counters per VM}
+\State $perfDegVM_{i}$ = <$VM_{1}$, ...., $VM_{n}$> 
+%\State $ perfDeg_{List} = < VM_{1}, ..., VM_{n} > $
+\Comment{Performance degradation for each VM}
+\State
+\State /* \textbf{Step 1:} Obtaining PMU measurements for all VMs */
+\For{each $VM_{i}$ in $1$ ... $n$ }
+\State $perfScoreVM_{i}$[CPI] <= gather\_CPI($VM_{i}$) 
+\State $perfScoreVM_{i}$[LLC] <= gather\_LLC\_store\_miss($VM_{i}$)
+\State $perfScoreVM_{i}$[L1D] <= gather\_L1d\_cache\_miss($VM_{i}$)
+\EndFor 
+\State
+\State /* \textbf{Step 2:} Detecting phase changes by PMU types */
+\For{each $VM_{i}$ in $1$ ... $n$}
+\For{each $PMUtype_{j}$ in $1$ ... $m$}
+\If{check\_phase\_change ($VM_{i}$[j]) == true}
+\State pausing all co-running VMs except for itself;
+\State $perfDegVM_{i}$ <= difference(gather\_CPI($VM_{i}$) - $perfScoreVM_{i}$[CPI])
+\State resuming all paused VMs
+\EndIf
+\EndFor 
+\EndFor 
+\State
+\State /* \textbf{Step 3:} Calculating price based on estimated degradation */
+\For{each $VM_{i}$ in $1$ ... $n$}
+\If{check\_perfDeg\_vm($VM_{i}$) == true}
+\State reflect the unintended performance degradation in its bill
+\EndIf
+\EndFor 
+\end{small}
+\end{algorithmic}
+\end{algorithm}
+
+In this section, we will see how we use the proposed \textit{snapshot} technique for enabling fair pricing in public clouds. Pricing in public clouds is based on an hourly basis which could create a biased scenario in co-located environments. We need a mechanism to charge each user based on how individual applications perform when they were running alone. 
+%This method would not be influenced by the nature of co-runner.
+
+With the help of \textit{snapshot}, we are able to accurately estimate the performance degradation in co-located environments with a very low overhead. This can in turn be used to price individual users based on the amount of time by which they have been degraded. From the estimated performance degradation, the price of each user can be calculated by the following equation. 
+\vspace{-0.05in}
+\begin{equation} \label{price}
+P_{i} = BasePrice/PerfDeg_{i}
+\vspace{-0.05in}
+\end{equation}
+
+\begin{itemize}
+\item $P_{i}$: price paid by user $i$.
+\vspace{-0.08in}
+\item $PerfDeg_{i}$: degradation suffered by user $i$ from equation \ref{eq:degradation_equation}.
+\end{itemize}
+
+
+The $BasePrice$ in this equation is the share of price which each user would pay without taking into account the performance degradation due to co-running applications. The division of the base price with $PerfDeg_{i}$ charges each user $i$ with a price proportional to the performance degradation. This is due to the amount of degradation that the application has been subjected to due to its co-runners.
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=accuracylibquantum, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{libquantum}}
+\label{fig:accuracylibquantum}
+\end{subfigure}
+\hfill\\
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=accuracymcf, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{mcf}}
+\label{fig:accuracymcf}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=accuracymilc, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{milc}}
+\label{fig:accuracymilc}
+\end{subfigure}
+\caption{Accuracy of snapshot VS. shuttering in estimating performance degradation}
+\label{fig:Accuracy}
+\end{figure*}
+
+Algorithm \ref{alg:fpalgo} summarizes each step incurred by our Fair Pricing Runtime engine. The runtime consists of three functions. In step 1, it measures three types of PMUs every second for each VM. Step 2 of the algorithm tries to detect phase changes based on the PMU measurements. If there is a phase change, then it pauses all other co-running VMs to measure CPI of solo execution for the application. Finally, we can calculate the price by reflecting the estimated performance degradation on the equation.
+\section{Evaluation}
+\label{sec:Evaluation}
+
+In this section, we evaluate the effectiveness of our \textit{snapshot} technique. Firstly, we look into how the \textit{snapshot} technique can achieve the high accuracy to estimate performance degradation for each VM in co-located environments. In addition, we examine how our phase detection mechanism effectively works capturing phase changes at runtime.  Secondly, we show the runtime overheads increasing execution time. In the experiments, we also compare our technique with the prior work and show that we achieve a high accuracy in estimating performance degradation with less overhead in most cases.
+\subsection{Experimental Setup}
+\label{subsec:ExperimentalSetup}
+
+We evaluate our Fair Pricing Runtime engine on a Intel Xeon E5-2407 v2 (4-cores). We use \textit{SPEC 2006} with \texttt{ref} inputs. 
+To mimic IaaS public clouds, we take advantage of Linux KVM as the hypervisor and run applications on virtual machines~\cite{Qumranet2007}. In this evaluation, we leverage the hardware assisted virtual machine. Each virtual machine has 1 virtual CPU, 4GB main memory, and 16GB disk. We use Ubuntu 12.04 as guest operating systems with Linux kernel 3.11.0. We use the \texttt{perf} tool to measure hardware events~\cite{denew}. 
+
+Table \ref{table:parameters} shows the experimental parameters that we have taken into consideration while building the runtime system.
+\begin{table}[!ht]
+\resizebox{8cm}{!} {
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Parameter}                                                       & \textbf{\begin{tabular}[c]{@{}l@{}} Shuttering\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Snapshot\end{tabular}}                                       \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Mesurement \\ frequency\end{tabular}} & 200ms                                                                 & \begin{tabular}[c]{@{}l@{}}1s (Checking phase changes is also \\ performed at the same frequency.)\end{tabular} \\ \hline
+\textbf{Pausing time}                                                  & 3.2ms                                                                  & \begin{tabular}[c]{@{}l@{}}75ms (measurementtime) \\ + 5ms (cache warm up time)\end{tabular}                    \\ \hline
+\end{tabular}
+}
+\caption{Parameters for the runtime engine}
+\label{table:parameters}
+\end{table}
+\subsection{Experimental Results}
+\label{subsec:ExperimentalResults}
+In this section, we evaluate the effectiveness of \textit{snapshot} in terms of accuracy and overhead.
+\subsubsection{Accuracy of Fair Pricing Runtime Engine}
+\label{subsubsec:AccuracyofFairPricingRuntimeEngine}
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=astarsnapshotlib, width=1\columnwidth}
+\caption{Snapshot (error 1.31\%)}
+\label{fig:astarsnapshotlib}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=astarpriorlib, width=1\columnwidth}
+\caption{Shuttering (error 15.06\%)}
+\label{fig:astarpriorlib}
+\end{subfigure}
+\caption{Phase level behavior of snapshot and shuttering for \texttt{astar}}
+\label{fig:astarcompare}
+\end{figure*}
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=mcfsnapshotlib, width=1\columnwidth}
+\caption{mcf (error 0.51\%)}
+\label{fig:mcfsnapshotlib}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=milcsnapshotlib, width=1\columnwidth}
+\caption{milc (error 1.23\%)}
+\label{fig:milcsnapshotlib}
+\end{subfigure}
+\caption{Phase detection by snapshot for \texttt{mcf} and \texttt{milc} when running with 3 \texttt{libquantum} co-runners \vspace{-0.25in}}
+\label{fig:mcfphase}
+\end{figure*}
+
+In this sub-section, we evaluate the accuracy of our \textit{snapshot} technique in estimating the degradation. To make a scenario similar to that present in public clouds, we run four virtual machines, where each virtual machine has 1 virtual CPU, on a quad-core machine and run SPEC applications on each VM. In this experiments, we measure the accuracy for a single SPEC application when running with three contentious co-runners. The reason why we choose contentious co-runners is that estimating performance degradation is very difficult due to their heavy impact on the shared last level cache and memory bandwidth.
+
+Figure \ref{fig:Accuracy} shows the accuracy of shuttering and \textit{snapshot} techniques in co-located environment. The x-axis shows SPEC 2006 applications and the y-axis presents the error in estimating performance degradation. To see the effectiveness of our technique, we ran SPEC applications with 3 instantiations of the same co-running application. We perform the same experiments for the three different co-runners, \texttt{libquantum}, \texttt{mcf}, and \texttt{milc}, respectively. From many prior studies, these applications are well known to highly incur resource contention in shared  architectural resources. The black bar indicates the prior work, and the gray bar represents our \textit{snapshot} technique. We calculate the error for each technique by comparing the estimated performance degradation using both the runtime systems with the actual performance degradation. We run each benchmark three times and take the mean to minimize minor variability that exits while running SPEC applications. The legend in figures shows the mean error rate of all applications.
+
+Through these experiments, we can see that the estimation error is much lower for \textit{snapshot} technique than shuttering. When running with three instances of \texttt{libquantum} in Figure~\ref{fig:accuracylibquantum}, the mean error of prior technique is 14.5\%. On the other hand, our \textit{snapshotting} technique shows the estimation error of 4.5\%. For \texttt{perlbench}, \texttt{bzip2}, \texttt{sphinx3}, \texttt{xalancbmk}, and \texttt{omnetpp}, the improvements are remarkable. When co-locating three instances of mcf and milc the error due to \textit{snapshot} technique is 4.38\% and 4.75\%, respectively as shown by Figures ~\ref{fig:accuracymcf} and ~\ref{fig:accuracymilc} .
+
+It is challenging to estimate the performance degradation when running with contentious co-runners as they quickly pollute the shared last level cache and excessively use the shared memory bandwidth. Such cases require more pausing time to bring its working set into the cache. If there is not enough time to warm up the architectural resources especially the cache, estimating solo performance of the application would be less accurate. We already know that the pausing time used in prior technique is not enough. Since they pause at regular time intervals, increasing the pausing time will cause significant execution time overheads of applications. On the other hand, our \textit{snapshot} technique could increase the pausing time because it pauses the co-runners only at phase changes instead  at regular intervals as being done by the prior technique.
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=mcfsnapshotmcf, width=1\columnwidth}
+\caption{mcf (error 3.41\%)}
+\label{fig:mcfsnapshotmcf}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{1\columnwidth}
+\centering
+\epsfig{figure=milcsnapshotmcf, width=1\columnwidth}
+\caption{milc (error 2.52\%)}
+\label{fig:milcsnapshotmcf}
+\end{subfigure}
+\caption{Phase detection by snapshotfor \texttt{mcf} and \texttt{milc} when running with 3 \texttt{mcf} co-runners\vspace{-0.1in}}
+\label{fig:milcphase}
+\end{figure*}
+\subsubsection{Phase Level Evaluation for Accuracy}
+\label{subsubsec:PhaseLevelEvaluationforAccuracy}
+
+To see the behavior of \textit{snapshot} in more details, we evaluate our technique phase by phase. As a case study, we choose \texttt{astar} as a target application and run 3 instances of \texttt{libquantum} as co-runners. Figure~\ref{fig:astarsnapshotlib} and \ref{fig:astarpriorlib} present how \textit{snapshot} and shuttering estimate the solo execution of \texttt{astar}, respectively. The green line depicts the phase of CPI for \texttt{astar} when running without any co-runners and the red line shows how each technique estimates the phase of CPI when running with 3 instances of \texttt{libquantum}. The closer the red line is to the green line, the lesser the error. Figure~\ref{fig:astarsnapshotlib} shows that \textit{snapshot} not only detects phase changes accurately, but also traces steady state periods of solo execution while minimizing the false positives. On the other hand,  shuttering shows high error rate even within steady states because the pausing time is not enough to accurately estimate the solo execution. This is can be observed from the high variation during estimation as shown in Figure \ref{fig:astarpriorlib}.
+
+Figure~\ref{fig:mcfphase} and  ~\ref{fig:milcphase} shows how \textit{snapshot} techinque efficiently traces the phase changes for \texttt{mcf} and \texttt{milc}. When running with \texttt{libquantum}, Figure~\ref{fig:mcfsnapshotlib} and~\ref{fig:milcsnapshotlib} show that the red line shadows the green line. The error rates are 0.51\% and 1.23\%, respectively. We also run same application with \texttt{mcf} as a co-runner. Figure~\ref{fig:mcfsnapshotmcf} and ~\ref{fig:milcsnapshotmcf} exhibit that \textit{snapshot} efficiently detects phase changes with low error rate when having \texttt{mcf} as a co-runner.
+\subsubsection{Overhead of Fair Pricing Runtime Engine}
+\label{subsubsec:OverheadofFairPricingRuntimeEngine}
+
+In this section, we evaluate the execution time overhead incurred by our runtime system. Figure~\ref{fig:Overhead} compares the overhead estimating performance degradation in co-located environments when using shuttering and \textit{snapshots}. Each sub figure indicates the different co-runners, \texttt{libquantum}, \texttt{mcf}, and \texttt{milc}, respectively. We can see that the overhead of our \textit{snapshot} technique is negligible. Even with \texttt{libquantum}, which is known to be highly contentious, the average across all applications is 0.45\%. Even though shuttering has low overhead for quite a few applications, some of them such as \texttt{mcf}, \texttt{lbm}, \texttt{cactusADM}, \texttt{GemsFDTD}, and \texttt{omnetpp} exhibit high execution time overhead. The reason why the overhead is high in shuttering is that the number of cache misses increases due to the frequent pausing of co-runners. When running with \texttt{mcf} or \texttt{milc}, which is known to be less cache contentious than \texttt{libquantum}, Figure~\ref{fig:overheadmcf} and ~\ref{fig:overheadmilc} show the decreased overhead of shuttering.
+
+
+%In this section, we evaluate the overhead in execution time due to our runtime system when it tries to estimate performance degradation in co-located environments. Figure \ref{fig:Overhead} shows the overhead in the execution time while estimating degradation in to co-located environments due to our runtime system. We are able to clearly see that the overhead here is negligible. The overhead due to our mechanism is much lesser in most of the cases compared to the prior technique. In \textit{precise shuttering}, the average overhead when the applications are co-located with libquantum is 3.62\%. This is 7x more than the average overhead due to snapshot shuttering technique with the same co-runner. Most of this overhead is due to the cache misses incurred due to the frequent pausing of co-runners. This can be clearly seen from Figures \ref{fig:overheadlibquantum} and \ref{fig:overheadmcf}. As mcf is much less cache contentious than libquantum the overheads of \textit{precise shuttering} is much lesser for mcf than for libquantum.
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=overheadlibquantum, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{libquantum}}
+\label{fig:overheadlibquantum}
+\end{subfigure}
+\hfill\\
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=overheadmcf, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{mcf}}
+\label{fig:overheadmcf}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=overheadmilc, width=1\columnwidth}
+\caption{co-running with 3 instances of \texttt{milc}}
+\label{fig:overheadmilc}
+\end{subfigure}
+\caption{Overheads of snapshot VS. shuttering while estimating performance degradation}
+\label{fig:Overhead}
+\end{figure*}
+\begin{figure}
+\centering
+\begin{minipage}[t]{1\columnwidth}
+\centering
+\epsfig{figure=lbmsnapshotlib, width=1\columnwidth}
+\caption{Phase behavior of \texttt{lbm} (error 2.59\%) \vspace{-0.1in}}
+\label{fig:lbmsnapshotlib}
+\end{minipage}
+\end{figure}
+
+On the other hand, the overhead of \textit{snapshot} is slightly higher than the overhead of shuttering when running with \texttt{mcf}. This is due to the fact that \texttt{mcf} has a lot of inherent phase changes. As a result, three instances of \texttt{mcf} as co-runners will lead towards frequently pausing the co-runners. We also observe that for applications such as \texttt{calculix} and \texttt{dealII}, the overhead of \textit{snapshot} is slightly higher than other applications. The reason behind this is the fact that both applications exhibit highly irregular phases and the number of false positives is high.
+
+When running with \texttt{libquantum} and \texttt{milc}, most applications show the overhead less than 0.5\% because these applications have a single phase throughout their execution. Therefore, the total pausing time while executing these applications is negligible.  Figure~\ref{fig:lbmsnapshotlib} shows that \texttt{lbm} has a single phase. Our runtime only pauses the co-runners at its initial execution period to obtain solo CPI of \texttt{lbm}. There is no subsequent shuttering because of the absence of phase changes. Such a case incurs an extremely low overhead of around 0.1\%.
+\begin{figure*}
+\centering
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=accuracymix, width=1\columnwidth}
+\caption{Accuracy}
+\label{fig:accuracymix}
+\end{subfigure}
+\hfill\\
+\begin{subfigure}[t]{2\columnwidth}
+\centering
+\epsfig{figure=overheadmix, width=1\columnwidth}
+\caption{Overheads}
+\label{fig:overheadmix}
+\end{subfigure}
+\caption{Accuracy and overheads of snapshot when running with co-runners libquantum, mcf and milc}
+\label{fig:mixcorunners}
+\end{figure*}
+\subsubsection{Accuracy and Overheads of Different Types of Multiple Co-runners}
+\label{subsubsec:AccuracyandOverheadsofDifferentTypesofMultipleCo-runners}
+
+To see the effectiveness when running with multiple different co-runners, we evaluate the accuracy and overheads of every individual application present in SPEC when running along with 3 different co-runners \texttt{libquantum, milc and mcf respectively} in 3 different VMs on the same server. These 3 co-runners are selected based on covering a range of properties like contentiousness and sensitivity towards the last level cache and the number of inherent phase changes present in the co-running applications. Figure~\ref{fig:mixcorunners} shows the accuracy and overheads of SPEC applications when running with multiple different co-runners. Even with three different co-runners, we can see that our \textit{snapshot} achieves high accuracy with negligible overhead.
+\section{Related Work}
+\label{sec:RelatedWork}
+
+There have been many prior studies to minimize performance interference in a variety aspects of architectural resources. We categorize the prior work into two broad types. We look into the system and OS level approaches and then address the architectural supports for minimizing the interference.
+
+{\bf System/OS  approaches: } There are many efforts introducing software frameworks and proposing the new designs of operating systems~\cite{Govindan:2011:CQE:2038916.2038938,bubbleup,Yang:2013:BPO:2485922.2485974,Tang:2013:RRS:2451116.2451126,Nathuji:2010:QMP:1755913.1755938, Park:2013:RCH:2451116.2451137, Liu:2014:GVM:2665671.2665698}. 
+Q-Cloud measures the resource capacity for satisfying QoS in a dedicated server called staging server and then decides the placement which server will be profitable to minimize the interference. Nevertheless, the QoS could be violated by allowing co-location. To avoid this situation, the system provides additional resources from head-room by reserving presubscribed amount of resources. If the placement meets the target QoS, the head-room would be utilized in a best-effort manner~\cite{Nathuji:2010:QMP:1755913.1755938}. To  precisely estimate the performance interferences without profiling on a dedicated server, Bubble-up~\cite{bubbleup} and Cuanta~\cite{Govindan:2011:CQE:2038916.2038938} designed the synthetic workloads to understand the degree of interference when co-locating applications. Bubble-up probes the interference by using synthetic workloads and determines whether to allow co-location or not so as to meet the QoS of latency critical applications running on datacenters. POPPA~\cite{fairpricing} and QualityTime~\cite{6844481} proposed similar runtime approaches to measure performance of each application in co-located environment. The most accurate way of measuring performance for an individual application is to observe its solo execution. They perceived this concept by pausing other co-runners during a small amount of time. Then, the target application can monopolize resources without any interference. Meanwhile, Soares et al. studied the concept of pollute buffer in shared last level caches to prevent filling the shared caches as non-reusable data. It focused on improving the utilization of shared caches through OS-level page allocation~\cite{Soares:2008:RHE:1521747.1521800}. Zhuravlev et al. extended the CPU scheduler to alleviate the degree of interferences in a native system. The goal of this work is to schedule the threads by evenly distributing the load intensity to caches~\cite{Zhuravlev:2010:ASR:1736020.1736036}. Blagodurov et al. proposed that the scheduler needs to consider the effects of NUMA~\cite{Blagodurov:2011:CNC:2002181.2002182}. Also, there are many prior studies to solve the contention problems such as shared last level cache and NUMA by scheduling virtual machines~\cite{Ahn:2012:DVM:2342763.2342782,6522328,Liu:2014:OVM:2665671.2665720}.
+
+{\bf Architectural Supports: } There are various approaches mitigating performance interference and guaranteeing fairness in shared caches, memory controller and bandwidth. 
+Nesbit et al. employed the network fair queuing model in the memory scheduler to meet the fairness~\cite{Nesbit:2006:FQM}. Mutlu and Moscibroda focused on DRAM specific architectures such as row buffers and multi banks~\cite{stfm}. They pointed out that modern DRAM controllers only consider maximizing throughputs instead of fairness. To alleviate the problem, they introduced the memory scheduling technique to ensure the fairness between threads. Ebrahimi et al. extended the fairness problem in memory subsystems by including shared last level cache and memory bandwidth~\cite{fst}. This work focused on the source incurring performance interference and proposed throttling mechanism by controlling injection rates of requests to alleviate the contention of shared resources. 
+Suh et al. firstly discussed the cache partitioning scheme to efficiently use the shared resources~\cite{Suh:2002:NMM:874076.876484}. Qureshi et al. proposed utility based cache partitioning technique to achieve high performance~\cite{Qureshi:2006:UCP:1194816.1194855}. They developed utility monitors to track the efficiency of caches for each application and then decided the degree of cache partitioning to minimize the total cache misses from all applications. Rafique et al. studied the cache and bandwidth managements by cooperating operating system and hardware~\cite{Rafique:2006:ASO:1152154.1152160,Rafique:2007:EMD:1299042.1299052 }. To prevent the replacement from other applications, the pinning way in cache was introduced~\cite{Srikantaiah:2008:ASP:1346281.1346299}. Recently, to minimize the effects of cache pollutions, virtualization-aware prefetching techniques are introduced~\cite{Daly,ReCap,Ahn:2014:MVP:2742155.2742195}.
+\section{Conclusion}
+\label{sec:Conclusion}
+
+In public clouds, the application performance of users can be easily affected by other applications belonging to different users. 
+Nevertheless, public cloud providers do not control the unintended performance degradation. It leads to a biased pricing scenario. 
+This work presented Fair Pricing Runtime, a novel approach to estimate performance degradation of each application in co-located environments and then we reflect the amount of unintended performance degradation on their price. 
+Fair Pricing Runtime has negligible performance overhead and operates without any special hardware or programmer supports. Using this mechanism, we could estimate performance degradation with 4\% mean absolute error with a very low overhead of around 1\%.
+\bibliographystyle{ieeetr}
+%\singlespacing
+%\scriptsize
+\balance
+\bibliography{bib}
+\end{document}

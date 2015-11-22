@@ -1,0 +1,312 @@
+colocating with mcf
+gmm
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+256.62user 1.13system 6:10.51elapsed 69%CPU (0avgtext+0avgdata 171664maxresident)k
+210440inputs+264outputs (0major+10804minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gmm
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+258.59user 0.68system 6:12.23elapsed 69%CPU (0avgtext+0avgdata 171664maxresident)k
+0inputs+256outputs (0major+10804minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gmm
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+257.61user 0.62system 6:09.87elapsed 69%CPU (0avgtext+0avgdata 171648maxresident)k
+0inputs+256outputs (0major+10805minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dnn_asr
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+603.30user 3.17system 14:32.96elapsed 69%CPU (0avgtext+0avgdata 1738928maxresident)k
+405960inputs+8outputs (10major+174792minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dnn_asr
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+603.62user 2.19system 14:34.05elapsed 69%CPU (0avgtext+0avgdata 1738912maxresident)k
+0inputs+8outputs (0major+174803minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dnn_asr
+********* Setting
+ up benchmark gmm
+********* Running benchmark as ./dnn_asr
+598.47user 2.25system 14:22.84elapsed 69%CPU (0avgtext+0avgdata 1738912maxresident)k
+0inputs+8outputs (0major+174801minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fe
+********* Setting
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+288.89user 0.46system 6:53.48elapsed 69%CPU (0avgtext+0avgdata 52992maxresident)k
+37496inputs+8outputs (131major+3359minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fe
+********* Setting
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+288.97user 0.44system 6:54.15elapsed 69%CPU (0avgtext+0avgdata 52976maxresident)k
+0inputs+8outputs (0major+3489minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fe
+********* Setting
+ up benchmark fe
+********* Running benchmark as ./surf-fe
+289.52user 0.46system 6:55.09elapsed 69%CPU (0avgtext+0avgdata 52976maxresident)k
+0inputs+8outputs (0major+3489minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fd
+********* Setting
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+333.42user 0.53system 7:57.51elapsed 69%CPU (0avgtext+0avgdata 52944maxresident)k
+2752inputs+8outputs (1major+3492minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fd
+********* Setting
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+333.07user 0.45system 7:56.26elapsed 70%CPU (0avgtext+0avgdata 52944maxresident)k
+0inputs+8outputs (0major+3493minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+surf-fd
+********* Setting
+ up benchmark fd
+********* Running benchmark as ./surf-fd
+333.23user 0.50system 7:56.68elapsed 70%CPU (0avgtext+0avgdata 52944maxresident)k
+0inputs+8outputs (0major+3494minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+stem
+********* Setting
+ up benchmark stemmer
+********* Running benchmark as ./surf-fd
+327.85user 0.67system 7:52.69elapsed 69%CPU (0avgtext+0avgdata 21632maxresident)k
+552inputs+8outputs (1major+1388minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+stem
+********* Setting
+ up benchmark stemmer
+********* Running benchmark as ./surf-fd
+327.71user 0.73system 7:52.89elapsed 69%CPU (0avgtext+0avgdata 21632maxresident)k
+0inputs+8outputs (0major+1390minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+stem
+********* Setting
+ up benchmark stemmer
+********* Running benchmark as ./surf-fd
+327.16user 0.72system 7:52.12elapsed 69%CPU (0avgtext+0avgdata 21632maxresident)k
+0inputs+8outputs (0major+1389minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+regex
+********* Setting
+ up benchmark regex
+********* Running benchmark as ./surf-fd
+363.06user 0.53system 8:40.05elapsed 69%CPU (0avgtext+0avgdata 14112maxresident)k
+104inputs+8outputs (1major+927minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+regex
+********* Setting
+ up benchmark regex
+********* Running benchmark as ./surf-fd
+362.57user 0.43system 8:37.92elapsed 70%CPU (0avgtext+0avgdata 14096maxresident)k
+0inputs+8outputs (0major+927minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+regex
+********* Setting
+ up benchmark regex
+********* Running benchmark as ./surf-fd
+363.03user 0.53system 8:39.40elapsed 69%CPU (0avgtext+0avgdata 14112maxresident)k
+0inputs+8outputs (0major+929minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+crf
+********* Setting
+ up benchmark crf
+********* Running benchmark as ./surf-fd
+420.89user 1.10system 10:08.90elapsed 69%CPU (0avgtext+0avgdata 387520maxresident)k
+40432inputs+8outputs (1major+28829minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+crf
+********* Setting
+ up benchmark crf
+********* Running benchmark as ./surf-fd
+418.94user 1.12system 10:05.82elapsed 69%CPU (0avgtext+0avgdata 387520maxresident)k
+0inputs+8outputs (0major+28830minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+crf
+********* Setting
+ up benchmark crf
+********* Running benchmark as ./surf-fd
+419.86user 0.85system 10:04.03elapsed 69%CPU (0avgtext+0avgdata 387536maxresident)k
+0inputs+8outputs (0major+28831minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-imc
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+423.00user 2.22system 10:10.13elapsed 69%CPU (0avgtext+0avgdata 2216480maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-imc
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+422.67user 1.75system 10:08.88elapsed 69%CPU (0avgtext+0avgdata 2216512maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-imc
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-imc
+422.91user 1.72system 10:09.20elapsed 69%CPU (0avgtext+0avgdata 2216496maxresident)k
+0inputs+8outputs (0major+217372minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-dig
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+500.22user 1.25system 11:57.79elapsed 69%CPU (0avgtext+0avgdata 177712maxresident)k
+4072inputs+8outputs (2major+11939minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-dig
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+500.81user 1.32system 11:59.99elapsed 69%CPU (0avgtext+0avgdata 177696maxresident)k
+0inputs+8outputs (0major+11941minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-dig
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-dig
+501.07user 1.25system 12:00.71elapsed 69%CPU (0avgtext+0avgdata 177712maxresident)k
+0inputs+8outputs (0major+11939minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-face
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+386.10user 4.05system 9:18.55elapsed 69%CPU (0avgtext+0avgdata 3592720maxresident)k
+817840inputs+8outputs (16major+342247minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-face
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+385.92user 2.06system 9:14.36elapsed 69%CPU (0avgtext+0avgdata 3593488maxresident)k
+0inputs+8outputs (0major+342262minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+img-face
+********* Setting
+ up benchmark img
+********* Running benchmark as ./tonic-img-face
+384.08user 2.47system 9:13.56elapsed 69%CPU (0avgtext+0avgdata 3593488maxresident)k
+0inputs+8outputs (0major+342261minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-pos
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+98.98user 9.99system 2:37.52elapsed 69%CPU (0avgtext+0avgdata 15389664maxresident)k
+182912inputs+0outputs (88major+1202063minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-pos
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+99.42user 8.08system 2:36.09elapsed 68%CPU (0avgtext+0avgdata 15502672maxresident)k
+188696inputs+0outputs (89major+1218274minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-pos
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-pos
+99.97user 7.68system 2:36.04elapsed 68%CPU (0avgtext+0avgdata 15468304maxresident)k
+182816inputs+0outputs (65major+1216248minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-chk
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+93.92user 7.51system 2:26.76elapsed 69%CPU (0avgtext+0avgdata 15465728maxresident)k
+184872inputs+0outputs (64major+1216001minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-chk
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+93.59user 7.38system 2:24.67elapsed 69%CPU (0avgtext+0avgdata 15433632maxresident)k
+183488inputs+0outputs (61major+1212740minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-chk
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-chk
+93.92user 7.16system 2:26.98elapsed 68%CPU (0avgtext+0avgdata 15421888maxresident)k
+192120inputs+0outputs (95major+1212900minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-ner
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+72.55user 7.89system 1:58.57elapsed 67%CPU (0avgtext+0avgdata 15447168maxresident)k
+773936inputs+0outputs (2444major+1215409minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-ner
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+72.21user 7.20system 1:57.00elapsed 67%CPU (0avgtext+0avgdata 15479696maxresident)k
+361176inputs+0outputs (767major+1213932minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+nlp-ner
+********* Setting
+ up benchmark nlp
+********* Running benchmark as ./tonic-nlp-ner
+72.16user 7.26system 1:54.40elapsed 69%CPU (0avgtext+0avgdata 15446624maxresident)k
+182704inputs+0outputs (62major+1214755minor)pagefaults 0swaps
+---------------------------------------------------------

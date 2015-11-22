@@ -1,0 +1,672 @@
+colocating with mcf
+gcc
+********* Preparing to run benchmark set {gcc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 403.gcc
+********* Running benchmark as ./gcc_base.amd64-m64-gcc46-static
+38.57user 0.45system 0:54.12elapsed 72%CPU (0avgtext+0avgdata 941216maxresident)k
+8936inputs+2360outputs (37major+200679minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gcc
+********* Preparing to run benchmark set {gcc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 403.gcc
+********* Running benchmark as ./gcc_base.amd64-m64-gcc46-static
+38.63user 0.47system 0:54.25elapsed 72%CPU (0avgtext+0avgdata 941264maxresident)k
+8936inputs+2360outputs (37major+202156minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gcc
+********* Preparing to run benchmark set {gcc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 403.gcc
+********* Running benchmark as ./gcc_base.amd64-m64-gcc46-static
+38.56user 0.47system 0:53.85elapsed 72%CPU (0avgtext+0avgdata 941184maxresident)k
+8936inputs+2360outputs (37major+200662minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+53.61user 0.78system 1:17.53elapsed 70%CPU (0avgtext+0avgdata 835664maxresident)k
+83120inputs+2280outputs (19major+52345minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+54.12user 0.78system 1:18.50elapsed 69%CPU (0avgtext+0avgdata 835648maxresident)k
+83120inputs+2280outputs (19major+52345minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+perlbench
+********* Preparing to run benchmark set {perlbench} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 400.perlbench
+********* Running benchmark as ./perlbench_base.amd64-m64-gcc46-static
+53.70user 0.67system 1:17.65elapsed 70%CPU (0avgtext+0avgdata 835648maxresident)k
+83120inputs+2280outputs (19major+52345minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+mcf
+********* Preparing to run benchmark set {mcf} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 429.mcf
+********* Running benchmark as ./mcf_base.amd64-m64-gcc46-static
+772.91user 1.58system 17:53.79elapsed 72%CPU (0avgtext+0avgdata 6866560maxresident)k
+8088inputs+472outputs (7major+429186minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+mcf
+********* Preparing to run benchmark set {mcf} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 429.mcf
+********* Running benchmark as ./mcf_base.amd64-m64-gcc46-static
+768.62user 1.60system 17:47.84elapsed 72%CPU (0avgtext+0avgdata 6866544maxresident)k
+8088inputs+472outputs (7major+429185minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+mcf
+********* Preparing to run benchmark set {mcf} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 429.mcf
+********* Running benchmark as ./mcf_base.amd64-m64-gcc46-static
+772.28user 1.72system 17:53.02elapsed 72%CPU (0avgtext+0avgdata 6866560maxresident)k
+8088inputs+472outputs (7major+429186minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+leslie3d
+********* Preparing to run benchmark set {leslie3d} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 437.leslie3d
+********* Running benchmark as ./leslie3d_base.amd64-m64-gcc46-static
+478.74user 0.22system 10:59.89elapsed 72%CPU (0avgtext+0avgdata 502816maxresident)k
+2872inputs+192outputs (12major+31672minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+leslie3d
+********* Preparing to run benchmark set {leslie3d} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 437.leslie3d
+********* Running benchmark as ./leslie3d_base.amd64-m64-gcc46-static
+479.92user 0.22system 11:04.70elapsed 72%CPU (0avgtext+0avgdata 502816maxresident)k
+2872inputs+192outputs (12major+31671minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+leslie3d
+********* Preparing to run benchmark set {leslie3d} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 437.leslie3d
+********* Running benchmark as ./leslie3d_base.amd64-m64-gcc46-static
+479.88user 0.28system 11:03.56elapsed 72%CPU (0avgtext+0avgdata 502816maxresident)k
+2872inputs+192outputs (12major+31671minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+povray
+********* Preparing to run benchmark set {povray} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 453.povray
+********* Running benchmark as ./povray_base.amd64-m64-gcc46-static
+224.87user 0.16system 5:15.22elapsed 71%CPU (0avgtext+0avgdata 16464maxresident)k
+6088inputs+10816outputs (24major+1065minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+povray
+********* Preparing to run benchmark set {povray} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 453.povray
+********* Running benchmark as ./povray_base.amd64-m64-gcc46-static
+224.93user 0.16system 5:15.18elapsed 71%CPU (0avgtext+0avgdata 16480maxresident)k
+6088inputs+10808outputs (24major+1066minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+povray
+********* Preparing to run benchmark set {povray} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 453.povray
+********* Running benchmark as ./povray_base.amd64-m64-gcc46-static
+226.77user 0.20system 5:17.72elapsed 71%CPU (0avgtext+0avgdata 16464maxresident)k
+6088inputs+10832outputs (24major+1065minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+libquantum
+********* Preparing to run benchmark set {libquantum} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 462.libquantum
+********* Running benchmark as ./libquantum_base.amd64-m64-gcc46-static
+555.76user 0.60system 12:51.19elapsed 72%CPU (0avgtext+0avgdata 394880maxresident)k
+2144inputs+8outputs (10major+228429minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+libquantum
+********* Preparing to run benchmark set {libquantum} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 462.libquantum
+********* Running benchmark as ./libquantum_base.amd64-m64-gcc46-static
+562.97user 0.79system 13:01.24elapsed 72%CPU (0avgtext+0avgdata 394880maxresident)k
+2144inputs+8outputs (10major+228430minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+libquantum
+********* Preparing to run benchmark set {libquantum} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 462.libquantum
+********* Running benchmark as ./libquantum_base.amd64-m64-gcc46-static
+563.30user 0.73system 13:00.86elapsed 72%CPU (0avgtext+0avgdata 394864maxresident)k
+2144inputs+8outputs (10major+228429minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+astar
+********* Preparing to run benchmark set {astar} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 473.astar
+********* Running benchmark as ./astar_base.amd64-m64-gcc46-static
+282.59user 0.66system 6:30.70elapsed 72%CPU (0avgtext+0avgdata 1330224maxresident)k
+10256inputs+8outputs (11major+160588minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+astar
+********* Preparing to run benchmark set {astar} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 473.astar
+********* Running benchmark as ./astar_base.amd64-m64-gcc46-static
+284.50user 0.56system 6:34.47elapsed 72%CPU (0avgtext+0avgdata 1330224maxresident)k
+10256inputs+8outputs (11major+160587minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+astar
+********* Preparing to run benchmark set {astar} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 473.astar
+********* Running benchmark as ./astar_base.amd64-m64-gcc46-static
+283.78user 0.52system 6:32.98elapsed 72%CPU (0avgtext+0avgdata 1330224maxresident)k
+10256inputs+8outputs (11major+160587minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+169.47user 0.60system 3:54.17elapsed 72%CPU (0avgtext+0avgdata 3478528maxresident)k
+102856inputs+8outputs (8major+220057minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+168.88user 0.62system 3:53.44elapsed 72%CPU (0avgtext+0avgdata 3478528maxresident)k
+102856inputs+8outputs (8major+220057minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bzip2
+********* Preparing to run benchmark set {bzip2} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 401.bzip2
+********* Running benchmark as ./bzip2_base.amd64-m64-gcc46-static
+167.30user 0.64system 3:49.50elapsed 73%CPU (0avgtext+0avgdata 3478528maxresident)k
+102856inputs+8outputs (8major+220057minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+milc
+********* Preparing to run benchmark set {milc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 433.milc
+********* Running benchmark as ./milc_base.amd64-m64-gcc46-static
+661.74user 20.86system 15:44.30elapsed 72%CPU (0avgtext+0avgdata 2782256maxresident)k
+2104inputs+48outputs (10major+9867092minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+milc
+********* Preparing to run benchmark set {milc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 433.milc
+********* Running benchmark as ./milc_base.amd64-m64-gcc46-static
+657.80user 20.86system 15:37.56elapsed 72%CPU (0avgtext+0avgdata 2782272maxresident)k
+2104inputs+48outputs (10major+9867094minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+milc
+********* Preparing to run benchmark set {milc} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 433.milc
+********* Running benchmark as ./milc_base.amd64-m64-gcc46-static
+661.07user 21.31system 15:47.10elapsed 72%CPU (0avgtext+0avgdata 2782272maxresident)k
+2104inputs+48outputs (10major+9867093minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+namd
+********* Preparing to run benchmark set {namd} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 444.namd
+********* Running benchmark as ./namd_base.amd64-m64-gcc46-static
+534.56user 0.26system 12:16.29elapsed 72%CPU (0avgtext+0avgdata 185312maxresident)k
+17584inputs+200outputs (13major+11665minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+namd
+********* Preparing to run benchmark set {namd} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 444.namd
+********* Running benchmark as ./namd_base.amd64-m64-gcc46-static
+534.92user 0.20system 12:18.18elapsed 72%CPU (0avgtext+0avgdata 185328maxresident)k
+17584inputs+200outputs (13major+11667minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+namd
+********* Preparing to run benchmark set {namd} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 444.namd
+********* Running benchmark as ./namd_base.amd64-m64-gcc46-static
+535.02user 0.30system 12:17.50elapsed 72%CPU (0avgtext+0avgdata 185328maxresident)k
+17584inputs+200outputs (13major+11667minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+calculix
+********* Preparing to run benchmark set {calculix} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 454.calculix
+********* Running benchmark as ./calculix_base.amd64-m64-gcc46-static
+1033.64user 6.05system 24:00.53elapsed 72%CPU (0avgtext+0avgdata 470304maxresident)k
+7416inputs+17264outputs (29major+2514027minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+calculix
+********* Preparing to run benchmark set {calculix} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 454.calculix
+********* Running benchmark as ./calculix_base.amd64-m64-gcc46-static
+1031.32user 5.95system 23:55.60elapsed 72%CPU (0avgtext+0avgdata 470288maxresident)k
+7416inputs+17272outputs (29major+2514026minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+calculix
+********* Preparing to run benchmark set {calculix} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 454.calculix
+********* Running benchmark as ./calculix_base.amd64-m64-gcc46-static
+1031.06user 6.13system 23:55.05elapsed 72%CPU (0avgtext+0avgdata 470304maxresident)k
+7416inputs+17272outputs (29major+2514027minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+68.42user 0.04system 1:36.96elapsed 70%CPU (0avgtext+0avgdata 72448maxresident)k
+12784inputs+40outputs (14major+5812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+68.43user 0.07system 1:37.43elapsed 70%CPU (0avgtext+0avgdata 72432maxresident)k
+12784inputs+40outputs (14major+5812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+h264ref
+********* Preparing to run benchmark set {h264ref} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 464.h264ref
+********* Running benchmark as ./h264ref_base.amd64-m64-gcc46-static
+68.89user 0.08system 1:37.17elapsed 70%CPU (0avgtext+0avgdata 72464maxresident)k
+12784inputs+40outputs (14major+5814minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+zeusmp
+********* Preparing to run benchmark set {zeusmp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 434.zeusmp
+********* Running benchmark as ./zeusmp_base.amd64-m64-gcc46-static
+663.64user 0.56system 15:18.70elapsed 72%CPU (0avgtext+0avgdata 2054688maxresident)k
+2864inputs+32outputs (13major+128611minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+zeusmp
+********* Preparing to run benchmark set {zeusmp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 434.zeusmp
+********* Running benchmark as ./zeusmp_base.amd64-m64-gcc46-static
+659.08user 0.47system 15:14.84elapsed 72%CPU (0avgtext+0avgdata 2054688maxresident)k
+2864inputs+32outputs (13major+128611minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+zeusmp
+********* Preparing to run benchmark set {zeusmp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 434.zeusmp
+********* Running benchmark as ./zeusmp_base.amd64-m64-gcc46-static
+660.33user 0.64system 15:13.76elapsed 72%CPU (0avgtext+0avgdata 2054688maxresident)k
+2864inputs+32outputs (13major+128611minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gobmk
+********* Preparing to run benchmark set {gobmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 445.gobmk
+********* Running benchmark as ./gobmk_base.amd64-m64-gcc46-static
+93.78user 0.10system 2:12.89elapsed 70%CPU (0avgtext+0avgdata 113952maxresident)k
+9080inputs+136outputs (28major+7399minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gobmk
+********* Preparing to run benchmark set {gobmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 445.gobmk
+********* Running benchmark as ./gobmk_base.amd64-m64-gcc46-static
+93.80user 0.09system 2:12.53elapsed 70%CPU (0avgtext+0avgdata 113952maxresident)k
+9080inputs+144outputs (28major+7399minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gobmk
+********* Preparing to run benchmark set {gobmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 445.gobmk
+********* Running benchmark as ./gobmk_base.amd64-m64-gcc46-static
+93.81user 0.08system 2:12.71elapsed 70%CPU (0avgtext+0avgdata 113936maxresident)k
+9080inputs+136outputs (28major+7399minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+hmmer
+********* Preparing to run benchmark set {hmmer} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 456.hmmer
+********* Running benchmark as ./hmmer_base.amd64-m64-gcc46-static
+193.61user 0.46system 4:30.82elapsed 71%CPU (0avgtext+0avgdata 101600maxresident)k
+109704inputs+8outputs (12major+6388minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+hmmer
+********* Preparing to run benchmark set {hmmer} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 456.hmmer
+********* Running benchmark as ./hmmer_base.amd64-m64-gcc46-static
+193.99user 0.48system 4:31.20elapsed 71%CPU (0avgtext+0avgdata 101616maxresident)k
+109704inputs+8outputs (12major+6388minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+hmmer
+********* Preparing to run benchmark set {hmmer} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 456.hmmer
+********* Running benchmark as ./hmmer_base.amd64-m64-gcc46-static
+194.17user 0.39system 4:31.37elapsed 71%CPU (0avgtext+0avgdata 101600maxresident)k
+109704inputs+8outputs (12major+6387minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+622.85user 0.36system 14:22.97elapsed 72%CPU (0avgtext+0avgdata 139584maxresident)k
+11904inputs+3056outputs (53major+27898minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+623.36user 0.37system 14:23.68elapsed 72%CPU (0avgtext+0avgdata 139568maxresident)k
+11904inputs+3056outputs (53major+27896minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+tonto
+********* Preparing to run benchmark set {tonto} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 465.tonto
+********* Running benchmark as ./tonto_base.amd64-m64-gcc46-static
+623.87user 0.35system 14:22.95elapsed 72%CPU (0avgtext+0avgdata 139584maxresident)k
+11904inputs+3056outputs (53major+27897minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+1045.23user 0.67system 24:13.22elapsed 71%CPU (0avgtext+0avgdata 173952maxresident)k
+75800inputs+8328outputs (11major+14373minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+1058.31user 0.72system 24:26.33elapsed 72%CPU (0avgtext+0avgdata 173984maxresident)k
+75800inputs+8320outputs (11major+14374minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sphinx3
+********* Preparing to run benchmark set {sphinx3} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 482.sphinx3
+********* Running benchmark as ./sphinx_livepretend_base.amd64-m64-gcc46-static
+1041.63user 0.77system 24:09.33elapsed 71%CPU (0avgtext+0avgdata 173936maxresident)k
+75800inputs+8312outputs (11major+14371minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bwaves
+********* Preparing to run benchmark set {bwaves} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 410.bwaves
+********* Running benchmark as ./bwaves_base.amd64-m64-gcc46-static
+745.19user 3.24system 17:18.46elapsed 72%CPU (0avgtext+0avgdata 3576688maxresident)k
+2496inputs+32outputs (10major+1271905minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bwaves
+********* Preparing to run benchmark set {bwaves} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 410.bwaves
+********* Running benchmark as ./bwaves_base.amd64-m64-gcc46-static
+745.49user 2.97system 17:17.63elapsed 72%CPU (0avgtext+0avgdata 3576704maxresident)k
+2496inputs+32outputs (10major+1271905minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+bwaves
+********* Preparing to run benchmark set {bwaves} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 410.bwaves
+********* Running benchmark as ./bwaves_base.amd64-m64-gcc46-static
+744.71user 3.02system 17:15.52elapsed 72%CPU (0avgtext+0avgdata 3576688maxresident)k
+2496inputs+32outputs (10major+1271906minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gromacs
+********* Preparing to run benchmark set {gromacs} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 435.gromacs
+********* Running benchmark as ./gromacs_base.amd64-m64-gcc46-static
+531.31user 0.29system 12:14.98elapsed 72%CPU (0avgtext+0avgdata 59248maxresident)k
+11256inputs+8outputs (18major+3994minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gromacs
+********* Preparing to run benchmark set {gromacs} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 435.gromacs
+********* Running benchmark as ./gromacs_base.amd64-m64-gcc46-static
+529.56user 0.17system 12:11.94elapsed 72%CPU (0avgtext+0avgdata 59216maxresident)k
+11256inputs+8outputs (18major+3992minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gromacs
+********* Preparing to run benchmark set {gromacs} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 435.gromacs
+********* Running benchmark as ./gromacs_base.amd64-m64-gcc46-static
+527.79user 0.24system 12:08.44elapsed 72%CPU (0avgtext+0avgdata 59248maxresident)k
+11256inputs+8outputs (18major+3994minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+431.01user 4.75system 10:08.17elapsed 71%CPU (0avgtext+0avgdata 3244912maxresident)k
+9480inputs+125336outputs (41major+1812548minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+431.85user 4.55system 10:05.92elapsed 72%CPU (0avgtext+0avgdata 3244928maxresident)k
+9480inputs+125336outputs (41major+1812549minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+dealII
+********* Preparing to run benchmark set {dealII} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 447.dealII
+********* Running benchmark as ./dealII_base.amd64-m64-gcc46-static
+431.29user 4.96system 10:07.59elapsed 71%CPU (0avgtext+0avgdata 3244912maxresident)k
+9480inputs+125336outputs (41major+1812548minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sjeng
+********* Preparing to run benchmark set {sjeng} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 458.sjeng
+********* Running benchmark as ./sjeng_base.amd64-m64-gcc46-static
+808.79user 0.30system 18:40.74elapsed 72%CPU (0avgtext+0avgdata 716672maxresident)k
+1984inputs+512outputs (11major+44812minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sjeng
+********* Preparing to run benchmark set {sjeng} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 458.sjeng
+********* Running benchmark as ./sjeng_base.amd64-m64-gcc46-static
+809.28user 0.44system 18:40.85elapsed 72%CPU (0avgtext+0avgdata 716688maxresident)k
+1984inputs+520outputs (11major+44814minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+sjeng
+********* Preparing to run benchmark set {sjeng} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 458.sjeng
+********* Running benchmark as ./sjeng_base.amd64-m64-gcc46-static
+808.11user 0.47system 18:40.39elapsed 72%CPU (0avgtext+0avgdata 716624maxresident)k
+1984inputs+472outputs (11major+44809minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+lbm
+********* Preparing to run benchmark set {lbm} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 470.lbm
+********* Running benchmark as ./lbm_base.amd64-m64-gcc46-static
+656.29user 0.52system 15:08.81elapsed 72%CPU (0avgtext+0avgdata 1676224maxresident)k
+4304inputs+24outputs (8major+104793minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+lbm
+********* Preparing to run benchmark set {lbm} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 470.lbm
+********* Running benchmark as ./lbm_base.amd64-m64-gcc46-static
+656.41user 0.50system 15:10.65elapsed 72%CPU (0avgtext+0avgdata 1676224maxresident)k
+4304inputs+24outputs (8major+104793minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+lbm
+********* Preparing to run benchmark set {lbm} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 470.lbm
+********* Running benchmark as ./lbm_base.amd64-m64-gcc46-static
+660.44user 0.95system 15:17.61elapsed 72%CPU (0avgtext+0avgdata 1676224maxresident)k
+4304inputs+24outputs (8major+104793minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+473.76user 1.47system 11:07.20elapsed 71%CPU (0avgtext+0avgdata 1714992maxresident)k
+125392inputs+122464outputs (49major+125187minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+473.23user 1.42system 11:08.14elapsed 71%CPU (0avgtext+0avgdata 1714992maxresident)k
+125392inputs+122464outputs (49major+125187minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+xalancbmk
+********* Preparing to run benchmark set {xalancbmk} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 483.xalancbmk
+********* Running benchmark as ./Xalan_base.amd64-m64-gcc46-static
+474.27user 1.55system 11:08.38elapsed 71%CPU (0avgtext+0avgdata 1714992maxresident)k
+125392inputs+122464outputs (49major+125187minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gamess
+********* Preparing to run benchmark set {gamess} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 416.gamess
+********* Running benchmark as ./gamess_base.amd64-m64-gcc46-static
+206.00user 0.19system 4:45.47elapsed 72%CPU (0avgtext+0avgdata 25168maxresident)k
+16536inputs+19120outputs (58major+1591minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gamess
+********* Preparing to run benchmark set {gamess} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 416.gamess
+********* Running benchmark as ./gamess_base.amd64-m64-gcc46-static
+207.78user 0.19system 4:47.39elapsed 72%CPU (0avgtext+0avgdata 25168maxresident)k
+16536inputs+19120outputs (58major+1591minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+gamess
+********* Preparing to run benchmark set {gamess} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 416.gamess
+********* Running benchmark as ./gamess_base.amd64-m64-gcc46-static
+205.65user 0.14system 4:44.51elapsed 72%CPU (0avgtext+0avgdata 25184maxresident)k
+16536inputs+19120outputs (58major+1592minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+cactusADM
+********* Preparing to run benchmark set {cactusADM} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 436.cactusADM
+********* Running benchmark as ./cactusADM_base.amd64-m64-gcc46-static
+1513.08user 2.07system 34:53.60elapsed 72%CPU (0avgtext+0avgdata 2553312maxresident)k
+4424inputs+824outputs (19major+634256minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+cactusADM
+********* Preparing to run benchmark set {cactusADM} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 436.cactusADM
+********* Running benchmark as ./cactusADM_base.amd64-m64-gcc46-static
+1511.74user 2.10system 35:00.06elapsed 72%CPU (0avgtext+0avgdata 2553296maxresident)k
+4424inputs+824outputs (19major+634255minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+cactusADM
+********* Preparing to run benchmark set {cactusADM} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 436.cactusADM
+********* Running benchmark as ./cactusADM_base.amd64-m64-gcc46-static
+1509.01user 2.23system 34:54.12elapsed 72%CPU (0avgtext+0avgdata 2553296maxresident)k
+4424inputs+824outputs (19major+634255minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+266.13user 0.27system 6:07.93elapsed 72%CPU (0avgtext+0avgdata 488032maxresident)k
+60696inputs+24outputs (14major+32100minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+264.00user 0.33system 6:05.08elapsed 72%CPU (0avgtext+0avgdata 488032maxresident)k
+60696inputs+24outputs (14major+32100minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+soplex
+********* Preparing to run benchmark set {soplex} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 450.soplex
+********* Running benchmark as ./soplex_base.amd64-m64-gcc46-static
+267.41user 0.30system 6:10.65elapsed 72%CPU (0avgtext+0avgdata 488032maxresident)k
+60696inputs+24outputs (14major+32100minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+GemsFDTD
+********* Preparing to run benchmark set {GemsFDTD} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 459.GemsFDTD
+********* Running benchmark as ./GemsFDTD_base.amd64-m64-gcc46-static
+576.18user 0.73system 13:18.32elapsed 72%CPU (0avgtext+0avgdata 3391632maxresident)k
+4488inputs+1080outputs (15major+222299minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+GemsFDTD
+********* Preparing to run benchmark set {GemsFDTD} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 459.GemsFDTD
+********* Running benchmark as ./GemsFDTD_base.amd64-m64-gcc46-static
+570.79user 0.85system 13:11.94elapsed 72%CPU (0avgtext+0avgdata 3391632maxresident)k
+4488inputs+1080outputs (15major+222299minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+GemsFDTD
+********* Preparing to run benchmark set {GemsFDTD} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 459.GemsFDTD
+********* Running benchmark as ./GemsFDTD_base.amd64-m64-gcc46-static
+573.03user 0.75system 13:16.02elapsed 72%CPU (0avgtext+0avgdata 3391632maxresident)k
+4488inputs+1080outputs (15major+222299minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+660.67user 0.40system 15:12.15elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5200inputs+2312outputs (23major+46910minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+663.21user 0.44system 15:18.46elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5200inputs+2312outputs (23major+46909minor)pagefaults 0swaps
+---------------------------------------------------------
+colocating with mcf
+omnetpp
+********* Preparing to run benchmark set {omnetpp} with config SPEC-GCC/base.amd64-m64-gcc46-static on 1 threads
+********* Setting up benchmark 471.omnetpp
+********* Running benchmark as ./omnetpp_base.amd64-m64-gcc46-static
+673.59user 0.49system 15:31.93elapsed 72%CPU (0avgtext+0avgdata 690688maxresident)k
+5200inputs+2320outputs (23major+46909minor)pagefaults 0swaps
+---------------------------------------------------------

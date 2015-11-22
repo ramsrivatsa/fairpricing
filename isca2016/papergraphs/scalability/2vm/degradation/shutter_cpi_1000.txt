@@ -1,0 +1,84 @@
+colocating with libquantum
+tonto
+0.586864
+---------------------------------------------------------
+colocating with libquantum
+tonto
+0.584961
+---------------------------------------------------------
+colocating with libquantum
+tonto
+0.582354
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+0.606672
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+0.608552
+---------------------------------------------------------
+colocating with libquantum
+sphinx3
+0.589463
+---------------------------------------------------------
+colocating with libquantum
+dealII
+0.541732
+---------------------------------------------------------
+colocating with libquantum
+dealII
+0.542672
+---------------------------------------------------------
+colocating with libquantum
+dealII
+0.541646
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+0.937087
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+0.945821
+---------------------------------------------------------
+colocating with libquantum
+xalancbmk
+0.943933
+---------------------------------------------------------
+colocating with libquantum
+soplex
+1.337520
+---------------------------------------------------------
+colocating with libquantum
+soplex
+1.337755
+---------------------------------------------------------
+colocating with libquantum
+soplex
+1.319044
+---------------------------------------------------------
+colocating with libquantum
+omnetpp 
+2.432293
+---------------------------------------------------------
+colocating with libquantum
+omnetpp 
+2.419364
+---------------------------------------------------------
+colocating with libquantum
+omnetpp 
+2.413761
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+0.912912
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+0.907454
+---------------------------------------------------------
+colocating with libquantum
+bzip2
+0.912953
+---------------------------------------------------------
